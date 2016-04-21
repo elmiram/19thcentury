@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block links %}
+          <link href="{% static "css/style.css" %}" rel="stylesheet">
+    <link href="{% static "css/styles.css" %}" rel="stylesheet">
+  {% endblock %}
+{% block upper-row %}
+<div id="masthead">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h1 id="top">19th Century Corpus
+          </h1>
+        </div>
+          <div class="col-md-7" align="right"><h1><span  class="lead">19th Century Corpus</span></h1>
+        </div>
+      </div>
+
+  </div><!--/container-->
+</div><!--/masthead-->
+{% endblock %}
+<!--main-->
+<div class="container">
+    {% block content %}
+	<div class="row">
+      <!--left-->
+      <div class="col-md-3" id="leftCol">
+        <ul class="nav nav-stacked" id="sidebar">
+          <li><a href="#sec0">About</a></li>
+          <li><a href="#sec1">Texts</a></li>
+          <li><a href="#sec2">Authors of texts</a></li>
+          <li><a href="#sec3">Annotation</a></li>
+          <li><a href="#sec4">Corpus users</a></li>
+            <li><a href="#sec5">Team</a></li>
+            <li><a href="#sec6">Publications</a>
+            <ul>
+            <li><a href="#sec61">Projects</a></li>
+            <li><a href="#sec62">Publications</a></li>
+            <li><a href="#sec63">Presentations</a></li>
+                </ul></li>
+            <li><a href="#sec7">Links</a></li>
+            <li><a href="#top">Back to top</a></li>
+        </ul>
+      </div><!--/left-->
+
+      <!--right-->
+      <div class="col-md-9">
+          <hr id="sec0">
+        <h2 >About</h2>
+        <p>About the corpus</p>
+
+          <hr id="sec1">
+        <h2 >Types of texts</h2>
+        <p>Texts written by ...</p>
+
+        <hr id="sec2">
+
+
+        <h2 >Authors of texts</h2>
+        <p>19th Century Corpus</p>
+
+        <hr id="sec3">
+
+        <h2 >Annotation</h2>
+        <p>As in any other corpus intended for linguistic and sociological research, the texts of the Corpus are supplemented with <i>linguistic </i> and <i>metalinguistic information</i>, or <i>markup</i>. Linguistic markup includes <i>morphological markup</i> and <i>error markup</i>. Currently, the texts of the corpus contain <i>metatextual markup</i> and <i>morphological markup</i>. </p>
+<p>Below is more information about the layers of markup.</p>
+
+
+
+
+
+        <hr id="sec4">
+        <h2 >Corpus users</h2>
+       <p>The Corpus is intended for linguists - researchers, teachers and students.</p>
+
+<hr id="sec5">
+          <h2 >Team</h2>
+<p>The corpus was created by <a href='http://philology.hse.ru/ling_main' target='_blank'>the Linguistic Laboratory of Corpus Technologies of National Research University Higher School of Economics</a>:</p>
+<p><u>Chief</u>: Ekaterina Rakhilina</p>
+<p><u>Developer</u>: Elmira Mustakimova</p>
+<p><u>Team</u>: Marina Borodina
+
+          <hr id="sec6">
+          <h2 >Publications</h2>
+
+
+          <hr id="sec7">
+          <h2 >Links</h2>
+
+
+        </div><!--/right-->
+  	</div><!--/row-->
+    {% endblock content%}
+</div><!--/container-->

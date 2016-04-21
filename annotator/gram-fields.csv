@@ -1,0 +1,2046 @@
+acc norm sg
+nom norm sg
+ciph
+norm
+loc norm pl
+acc norm pl
+nom norm pl
+act indic intr ipf norm pl praet
+gen norm sg
+gen norm pl
+acc inan m norm sg
+dat f norm sg
+f gen norm sg
+f ins norm sg
+f loc norm sg
+m nom norm sg
+dat norm sg
+loc norm sg
+brev norm partcp pass pf pl praet
+3p act fut indic norm pf sg tran
+3p act indic ipf norm praes sg tran
+gen inan n norm sg
+0 norm
+acc anim m norm sg
+gen m norm sg
+gen n norm sg
+act inf intr norm pf
+
+brev n norm sg
+act inf norm pf tran
+act indic intr m norm pf praet sg
+2p act imper norm pf pl tran
+acc inan m norm plen sg
+m nom norm plen sg
+acc inan norm pl
+acc act inan intr m norm partcp pf plen praet sg
+act intr m nom norm partcp pf plen praet sg
+act inf intr ipf norm
+ins norm partcp pass pf pl plen praet tran
+ins norm pl
+3p act indic intr ipf norm praes sg
+3p acc m norm sg
+3p gen m norm sg
+3p acc n norm sg
+3p gen n norm sg
+f nom norm plen sg
+3p m nom norm sg
+ins norm pl plen
+acc norm
+gen norm
+dat norm pl
+dat m norm plen sg
+dat n norm plen sg
+dat m norm partcp pass pf plen praet sg tran
+dat n norm partcp pass pf plen praet sg tran
+brev norm pl
+3p acc norm pl
+3p gen norm pl
+acc anim m norm plen sg
+gen m norm plen sg
+gen n norm plen sg
+brev m norm sg
+acc inan n norm sg
+inan n nom norm sg
+3p act fut indic intr ipf pl
+brev ipf norm partcp pass pl praet tran
+brev norm partcp pass pf pl praet tran
+act inf ipf norm tran
+3p act fut indic intr ipf sg
+acc n norm sg
+n nom norm sg
+acc n norm plen sg
+n nom norm plen sg
+acc inan m norm partcp pass pf plen praet sg tran
+m nom norm partcp pass pf plen praet sg tran
+3p act fut indic intr norm pf sg
+acc inan norm pl plen
+nom norm pl plen
+act dat intr ipf m norm partcp plen praes sg
+act dat intr ipf n norm partcp plen praes sg
+3p act indic ipf norm pl praes tran
+act ger ipf norm praes tran
+dat m norm sg
+dat n norm sg
+ins norm sg
+act inf ipf norm
+act inf norm pf
+comp norm
+inan ins n norm sg
+inan loc n norm sg
+f nom norm sg
+3p dat m norm sg
+3p dat n norm sg
+2p act fut indic norm pf pl tran
+acc anim norm pl
+anim m nom norm sg
+acc anim norm pl plen
+gen norm pl plen
+loc norm pl plen
+3p act indic intr ipf norm pl praes
+dat norm pl plen
+ins m norm plen sg
+ins n norm plen sg
+acc inan norm partcp pass pf pl plen praet tran
+nom norm partcp pass pf pl plen praet tran
+brev f norm sg
+brev f norm partcp pass pf praet sg
+ins m norm sg
+ins n norm sg
+3p acc f norm sg
+3p f gen norm sg
+loc m norm plen sg
+loc n norm plen sg
+acc f norm plen sg
+acc anim norm partcp pass pf pl plen praet tran
+gen norm partcp pass pf pl plen praet tran
+loc norm partcp pass pf pl plen praet tran
+brev m norm partcp pass pf praet sg tran
+3p act fut indic intr norm pf pl
+3p act fut indic norm pf pl tran
+dat f norm plen sg
+f gen norm plen sg
+f ins norm plen sg
+f loc norm plen sg
+acc m norm sg
+3p act indic ipf norm praes sg
+brev m norm partcp pass pf praet sg
+loc m norm sg
+loc n norm sg
+1p acc norm sg
+1p gen norm sg
+act indic ipf n norm praet sg tran
+1p dat norm sg
+1p loc norm sg
+act indic intr ipf n norm praet sg
+act indic ipf m norm praet sg tran
+3p ins m norm sg
+3p dat norm pl
+3p ins n norm sg
+1p nom norm sg
+act f indic ipf norm praet sg tran
+3p nom norm pl
+1p act indic intr ipf norm pl praes
+1p act indic intr ipf norm praes sg
+2p act indic intr ipf norm pl praes
+2p act indic intr ipf norm praes sg
+act f ipf nom norm partcp plen praes sg tran
+anim gen m norm sg
+acc f norm sg
+act f indic norm pf praet sg
+act f indic intr ipf norm praet sg
+act indic intr n norm pf praet sg
+act f indic intr norm pf praet sg
+act indic n norm pf praet sg
+1p act indic ipf norm pl praes tran
+brev ipf m norm partcp pass praes sg tran
+dat sg
+loc sg
+0
+3p f nom norm sg
+act f indic norm pf praet sg tran
+acc f ipf norm partcp pass plen praes sg tran
+act indic intr norm pf pl praet
+act ger intr ipf norm praes
+acc ipf n norm partcp pass plen praes sg tran
+ipf n nom norm partcp pass plen praes sg tran
+dat norm
+loc norm
+act indic norm pf pl praet tran
+1p act fut indic intr norm pf sg
+ins norm
+acc n norm partcp pass pf plen praet sg tran
+n nom norm partcp pass pf plen praet sg tran
+3p loc m norm sg
+3p loc n norm sg
+acc inan m norm
+acc n norm
+m nom norm
+n nom norm
+3p act fut indic norm pf sg
+acc f norm partcp pass pf plen praet sg
+act bastard inf
+dat inan n norm sg
+dat f norm partcp pass pf plen praet sg tran
+f gen norm partcp pass pf plen praet sg tran
+f ins norm partcp pass pf plen praet sg tran
+f loc norm partcp pass pf plen praet sg tran
+anim dat m norm sg
+2p dat norm pl
+brev f norm partcp pass pf praet sg tran
+1p nom norm pl
+1p act fut indic norm pf pl
+1p act imper norm pf pl
+1p act indic ipf norm pl praes
+brev ipf m norm partcp pass praes sg
+1p act fut indic norm pf pl tran
+1p act imper norm pf pl tran
+2p act imper intr ipf sg
+1p acc norm pl
+1p gen norm pl
+1p loc norm pl
+act indic ipf norm pl praet tran
+1p dat norm pl
+acc act inan ipf norm partcp pl plen praes
+act ipf nom norm partcp pl plen praes
+act dat intr ipf norm partcp pl plen praes
+act ins intr ipf m norm partcp plen praes sg
+act ins intr ipf n norm partcp plen praes sg
+1p act fut indic intr norm pf pl
+1p act imper intr norm pf pl
+gen2 norm sg
+loc2 norm sg
+nom sg
+acc pl
+gen pl
+acc sg
+3p act indic ipf norm pl praes
+2p act imper norm pf pl
+2p act imper intr norm pf pl
+act ger intr norm pf praet
+brev f ipf norm partcp pass praes sg tran
+acc act anim intr ipf norm partcp pl plen praes
+act gen intr ipf norm partcp pl plen praes
+act intr ipf loc norm partcp pl plen praes
+dat norm partcp pass pf pl plen praet
+ins m norm partcp pass pf plen praet sg
+ins n norm partcp pass pf plen praet sg
+3p norm
+3p n nom norm sg
+2p acc norm sg
+2p gen norm sg
+2p nom norm sg
+2p act indic ipf norm praes sg tran
+anim dat m norm pl
+anim ins m norm sg
+ins ipf norm partcp pass pl plen praet tran
+act indic intr ipf m norm praet sg
+brev n norm partcp pass pf praet sg tran
+nom norm
+act dat f ipf norm partcp plen praes sg tran
+act f gen ipf norm partcp plen praes sg tran
+act f ins ipf norm partcp plen praes sg tran
+act f ipf loc norm partcp plen praes sg tran
+act indic intr ipf norm praes
+2p nom norm pl
+2p act fut indic intr norm pf pl
+dat ipf norm partcp pass pl plen praes tran
+ins ipf m norm partcp pass plen praes sg tran
+ins ipf n norm partcp pass plen praes sg tran
+2p act imper ipf norm sg tran
+acc inan norm
+2p act imper intr ipf norm sg
+1p act indic ipf norm praes sg tran
+dat norm partcp pass pf pl plen praet tran
+ins m norm partcp pass pf plen praet sg tran
+ins n norm partcp pass pf plen praet sg tran
+dat ipf norm partcp pass pl plen praet tran
+ins ipf m norm partcp pass plen praet sg tran
+ins ipf n norm partcp pass plen praet sg tran
+1p act fut indic norm pf sg tran
+3p dat f norm sg
+3p f ins norm sg
+3p f loc norm sg
+anim ins m norm pl
+bastard
+2p act bastard imper intr pf sg
+gen sg
+2p act fut indic intr norm pf sg
+2p act indic ipf norm praes sg
+act indic m norm pf praet sg tran
+bastard brev m sg
+act bastard indic intr m pf praet sg
+2p dat norm sg
+2p loc norm sg
+act bastard inf intr ipf
+act bastard inf intr pf
+act bastard inf ipf tran
+act bastard inf pf tran
+anim m nom norm pl
+acc anim bastard m plen sg
+acc anim bastard pl plen
+acc bastard f plen sg
+acc bastard inan m plen sg
+acc bastard inan pl plen
+acc bastard n plen sg
+bastard dat f plen sg
+bastard dat m plen sg
+bastard dat n plen sg
+bastard dat pl plen
+bastard f gen plen sg
+bastard f ins plen sg
+bastard f loc plen sg
+bastard f nom plen sg
+bastard gen m plen sg
+bastard gen n plen sg
+bastard gen pl plen
+bastard ins m plen sg
+bastard ins n plen sg
+bastard ins pl plen
+bastard loc m plen sg
+bastard loc n plen sg
+bastard loc pl plen
+bastard m nom plen sg
+bastard n nom plen sg
+bastard nom pl plen
+act ger ipf norm praes
+f nom norm partcp pass pf plen praet sg tran
+acc f norm pl
+acc m norm pl
+acc n norm pl
+dat f norm pl
+dat m norm pl
+dat n norm pl
+f gen norm pl
+f nom norm pl
+gen m norm pl
+gen n norm pl
+m nom norm pl
+n nom norm pl
+act dat ipf m norm partcp plen praes sg tran
+act dat ipf n norm partcp plen praes sg tran
+act indic m norm pf praet sg
+acc act inan intr ipf m norm partcp plen praes sg
+act intr ipf m nom norm partcp plen praes sg
+acc act inan intr ipf norm partcp pl plen praes
+act intr ipf nom norm partcp pl plen praes
+acc act inan ipf norm partcp pl plen praes tran
+act ipf nom norm partcp pl plen praes tran
+acc anim norm partcp pass pf pl plen praet
+gen norm partcp pass pf pl plen praet
+loc norm partcp pass pf pl plen praet
+acc act ipf n norm partcp plen praes sg tran
+act ipf n nom norm partcp plen praes sg tran
+acc f inan norm
+f nom norm
+anom nom pl
+acc act anim ipf norm partcp pl plen praes tran
+act gen ipf norm partcp pl plen praes tran
+act ipf loc norm partcp pl plen praes tran
+1p act bastard indic ipf praes sg tran
+anom gen pl
+act dat ipf m norm partcp plen praes sg
+act dat ipf n norm partcp plen praes sg
+acc act inan ipf m norm partcp plen praes sg
+act ipf m nom norm partcp plen praes sg
+acc anim ipf norm partcp pass pl plen praes tran
+gen ipf norm partcp pass pl plen praes tran
+ipf loc norm partcp pass pl plen praes tran
+nom pl
+acc anim ipf m norm partcp pass plen praes sg tran
+gen ipf m norm partcp pass plen praes sg tran
+gen ipf n norm partcp pass plen praes sg tran
+act indic n norm pf praet sg tran
+act ipf loc m norm partcp plen praes sg
+act ipf loc n norm partcp plen praes sg
+3p loc norm pl
+acc inan ipf m norm partcp pass plen praes sg tran
+ipf m nom norm partcp pass plen praes sg tran
+1p act fut indic norm pf sg
+act f ipf nom norm partcp plen praes sg
+ins norm partcp pass pf pl plen praet
+dat f norm partcp pass pf plen praet sg
+f gen norm partcp pass pf plen praet sg
+f ins norm partcp pass pf plen praet sg
+f loc norm partcp pass pf plen praet sg
+1p ins norm sg
+1p ins norm pl
+acc act intr ipf n norm partcp plen praes sg
+act intr ipf n nom norm partcp plen praes sg
+acc act anim ipf m norm partcp plen praes sg tran
+act gen ipf m norm partcp plen praes sg tran
+act gen ipf n norm partcp plen praes sg tran
+act ger intr ipf norm praet
+3p act fut indic norm pf pl
+acc anim m norm pl
+anim gen m norm pl
+anim loc m norm pl
+2p act imper intr ipf norm pl
+2p act imper ipf norm pl tran
+2p act indic ipf norm pl praes tran
+act ins intr norm partcp pf pl plen praet
+2p ins norm pl
+2p acc norm pl
+2p gen norm pl
+2p loc norm pl
+acc act inan ipf m norm partcp plen praes sg tran
+act ipf m nom norm partcp plen praes sg tran
+acc act f ipf norm partcp plen praes sg tran
+2p act bastard imper pf sg tran
+acc act inan intr ipf norm partcp pl plen praet
+act intr ipf nom norm partcp pl plen praet
+acc anim m norm partcp pass pf plen praet sg tran
+gen m norm partcp pass pf plen praet sg tran
+gen n norm partcp pass pf plen praet sg tran
+2p act imper norm pf sg tran
+3p ins norm pl
+act dat f intr ipf norm partcp plen praes sg
+act f gen intr ipf norm partcp plen praes sg
+act f ins intr ipf norm partcp plen praes sg
+act f intr ipf loc norm partcp plen praes sg
+act indic norm pf pl praet
+act ger norm pf praet tran
+act dat intr norm partcp pf pl plen praet
+act ins intr m norm partcp pf plen praet sg
+act ins intr n norm partcp pf plen praet sg
+acc anim pl plen
+gen pl plen
+loc pl plen
+loc m norm partcp pass pf plen praet sg tran
+loc n norm partcp pass pf plen praet sg tran
+act f indic ipf norm praet sg
+ins sg
+acc inan m norm partcp pass pf plen praet sg
+m nom norm partcp pass pf plen praet sg
+brev n norm partcp pass pf praet sg
+2p act fut indic norm pf sg tran
+anim loc m norm sg
+acc act f intr ipf norm partcp plen praes sg
+0 norm pl
+act indic ipf m norm praet sg
+acc f norm partcp pass pf plen praet sg tran
+nom norm patrn sg
+act ger norm pf praet
+bastard brev pl
+acc inan norm partcp pass pf pl plen praet
+nom norm partcp pass pf pl plen praet
+loc m norm partcp pass pf plen praet sg
+loc n norm partcp pass pf plen praet sg
+acc inan ipf norm partcp pass pl plen praes tran
+ipf nom norm partcp pass pl plen praes tran
+act dat ipf norm partcp pl plen praes tran
+act ins ipf m norm partcp plen praes sg tran
+act ins ipf n norm partcp plen praes sg tran
+act ins ipf norm partcp pl plen praes tran
+act indic ipf norm praes
+acc act anim intr m norm partcp pf plen praet sg
+act gen intr m norm partcp pf plen praet sg
+act gen intr n norm partcp pf plen praet sg
+acc act anim ipf norm partcp pl plen praes
+act gen ipf norm partcp pl plen praes
+act ipf loc norm partcp pl plen praes
+act dat f intr norm partcp pf plen praet sg
+act f gen intr norm partcp pf plen praet sg
+act f ins intr norm partcp pf plen praet sg
+act f intr loc norm partcp pf plen praet sg
+acc m norm
+acc act anim intr norm partcp pf pl plen praet
+act gen intr norm partcp pf pl plen praet
+act intr loc norm partcp pf pl plen praet
+acc act anim norm partcp pf pl plen praet tran
+act gen norm partcp pf pl plen praet tran
+act loc norm partcp pf pl plen praet tran
+act ins ipf norm partcp pl plen praet tran
+f nom norm partcp pass pf plen praet sg
+act indic ipf n norm praet sg
+act indic ipf norm praet
+comp2 norm
+3p act bastard fut indic intr pf sg
+act f intr ipf nom norm partcp plen praes sg
+brev f ipf norm partcp pass praet sg tran
+0 norm sg
+2p act bastard imper ipf sg tran
+2p act bastard imper pf sg
+acc bastard inan ipf partcp pass pl plen praes tran
+bastard ipf nom partcp pass pl plen praes tran
+act dat f intr ipf norm partcp plen praet sg
+act f gen intr ipf norm partcp plen praet sg
+act f ins intr ipf norm partcp plen praet sg
+act f intr ipf loc norm partcp plen praet sg
+ipf loc m norm partcp pass plen praet sg tran
+ipf loc n norm partcp pass plen praet sg tran
+2p act imper intr norm pf sg
+acc anim f norm
+acc anim m norm
+2p act fut indic norm pf sg
+act bastard dat ipf partcp pl plen praes tran
+act bastard ins ipf m partcp plen praes sg tran
+act bastard ins ipf n partcp plen praes sg tran
+2p ins norm sg
+2p act fut indic norm pf pl
+2p act imper ipf norm pl
+0 sg
+dat pl
+act bastard ger intr ipf praes
+2p act fut indic intr ipf pl
+acc anim m norm partcp pass pf plen praet sg
+gen m norm partcp pass pf plen praet sg
+gen n norm partcp pass pf plen praet sg
+1p act fut indic intr ipf pl
+1p act imper intr ipf pl
+acc norm obsc sg
+gen norm obsc sg
+nom norm obsc pl
+acc inan ipf norm partcp pass pl plen praet tran
+ipf nom norm partcp pass pl plen praet tran
+acc anim norm
+acc patrn sg
+gen patrn sg
+loc pl
+bastard brev n sg
+acc act inan intr norm partcp pf pl plen praet
+act intr nom norm partcp pf pl plen praet
+acc act f intr norm partcp pf plen praet sg
+dat f ipf norm partcp pass plen praes sg tran
+f gen ipf norm partcp pass plen praes sg tran
+f ins ipf norm partcp pass plen praes sg tran
+f ipf loc norm partcp pass plen praes sg tran
+gen norm pl WO
+ins ipf norm partcp pass pl plen praes tran
+2p acc norm pl WO
+2p gen norm pl WO
+2p loc norm pl WO
+act fut ger intr norm pf
+acc anim norm pl comparar
+gen norm pl comparar
+loc norm pl comparar
+norm WO
+acc act anim intr ipf m norm partcp plen praes sg
+act gen intr ipf m norm partcp plen praes sg
+act gen intr ipf n norm partcp plen praes sg
+act ipf loc m norm partcp plen praes sg tran
+act ipf loc n norm partcp plen praes sg tran
+gen sg WO
+act dat f norm partcp pf plen praet sg tran
+act f gen norm partcp pf plen praet sg tran
+act f ins norm partcp pf plen praet sg tran
+act f loc norm partcp pf plen praet sg tran
+2p act indic ipf norm pl praes
+brev ipf m norm partcp pass praet sg tran
+3p acc norm pl WO
+3p gen norm pl WO
+norm sg voc
+dat m norm partcp pass pf plen praet sg
+dat n norm partcp pass pf plen praet sg
+act f intr nom norm partcp pf plen praet sg
+acc norm sg styl.colloq
+nom norm sg styl.colloq
+f ipf nom norm partcp pass plen praet sg tran
+dat f norm
+acc inan norm pl plen lex.meton
+nom norm pl plen lex.meton
+acc act inan norm partcp pf pl plen praet
+act nom norm partcp pf pl plen praet
+act intr ipf loc m norm partcp plen praes sg
+act intr ipf loc n norm partcp plen praes sg
+acc act inan intr ipf m norm partcp plen praet sg
+act intr ipf m nom norm partcp plen praet sg
+f ipf nom norm partcp pass plen praes sg tran
+act ins intr ipf norm partcp pl plen praes
+acc act inan norm partcp pf pl plen praet tran
+act nom norm partcp pf pl plen praet tran
+2p act imper norm pf sg
+act bastard ger praet
+acc act anim ipf m norm partcp plen praes sg
+act gen ipf m norm partcp plen praes sg
+act gen ipf n norm partcp plen praes sg
+acc act anim m norm partcp pf plen praet sg tran
+act gen m norm partcp pf plen praet sg tran
+act gen n norm partcp pf plen praet sg tran
+acc inan ipf m norm partcp pass plen praet sg tran
+ipf m nom norm partcp pass plen praet sg tran
+act dat f ipf norm partcp plen praet sg tran
+act f gen ipf norm partcp plen praet sg tran
+act f ins ipf norm partcp plen praet sg tran
+act f ipf loc norm partcp plen praet sg tran
+1p act indic ipf norm praes sg
+ins pl
+act dat ipf norm partcp pl plen praes
+act ins ipf m norm partcp plen praes sg
+act ins ipf n norm partcp plen praes sg
+acc inan m norm sg WO
+m nom norm sg WO
+acc norm sg WO
+nom norm sg WO
+brev ipf n norm partcp pass praet sg tran
+act dat f ipf norm partcp plen praes sg
+act f gen ipf norm partcp plen praes sg
+act f ins ipf norm partcp plen praes sg
+act f ipf loc norm partcp plen praes sg
+nom patrn pl
+acc inan norm pl plen WO
+nom norm pl plen WO
+acc norm pl WO
+nom norm pl WO
+acc inan norm partcp pass pf pl plen praet tran WO
+nom norm partcp pass pf pl plen praet tran WO
+dat norm sg WO
+gen norm sg WO
+loc norm sg WO
+act inf intr norm pf WO
+act inf norm pf tran WO
+f gen norm
+f loc norm
+acc anim bastard pl
+bastard gen pl
+bastard loc pl
+3p act indic ipf norm pl praes tran WO
+1p acc norm pl WO
+1p gen norm pl WO
+1p loc norm pl WO
+acc n norm partcp pass pf plen praet sg
+n nom norm partcp pass pf plen praet sg
+brev n norm sg WO
+act inf intr ipf norm WO
+PARENTH norm
+acc anim ipf norm partcp pass pl plen praet tran
+gen ipf norm partcp pass pl plen praet tran
+ipf loc norm partcp pass pl plen praet tran
+bastard brev n partcp pass praet sg
+acc bastard inan ipf m partcp pass plen praet sg tran
+acc bastard inan m partcp pass pf plen praet sg tran
+bastard ipf m nom partcp pass plen praet sg tran
+bastard m nom partcp pass pf plen praet sg tran
+act bastard indic intr ipf m praet sg
+act bastard indic ipf m praet sg tran
+act bastard indic m pf praet sg
+act bastard indic m pf praet sg tran
+act anom ger intr med pf praet
+2p act bastard imper intr ipf sg
+acc anim m norm plen sg WO
+gen m norm plen sg WO
+gen n norm plen sg WO
+dat ipf m norm partcp pass plen praes sg tran
+dat ipf n norm partcp pass plen praes sg tran
+acc act ipf n norm partcp plen praes sg
+act ipf n nom norm partcp plen praes sg
+ipf loc m norm partcp pass plen praes sg tran
+ipf loc n norm partcp pass plen praes sg tran
+3p dat m norm sg WO
+3p dat n norm sg WO
+1p act fut indic norm pf pl tran WO
+1p act imper norm pf pl tran WO
+acc inan n norm sg WO
+inan n nom norm sg WO
+acc n norm sg WO
+n nom norm sg WO
+acc anim bastard m sg
+bastard gen m sg
+bastard gen n sg
+brev intr n norm partcp pass pf praet sg
+act f nom norm partcp pf plen praet sg
+dat f ipf norm partcp pass plen praet sg tran
+f gen ipf norm partcp pass plen praet sg tran
+f ins ipf norm partcp pass plen praet sg tran
+f ipf loc norm partcp pass plen praet sg tran
+acc act inan ipf norm partcp pl plen praet tran
+act ipf nom norm partcp pl plen praet tran
+acc inan intr m norm partcp pass pf plen praet sg
+intr m nom norm partcp pass pf plen praet sg
+acc n norm plen sg WO
+n nom norm plen sg WO
+acc anim m norm sg WO
+acc anim norm pl WO
+acc f norm pl WO
+acc f norm sg WO
+acc m norm pl WO
+acc m norm sg WO
+acc n norm pl WO
+dat f norm pl WO
+dat f norm sg WO
+dat m norm pl WO
+dat m norm sg WO
+dat n norm pl WO
+dat n norm sg WO
+dat norm pl WO
+f gen norm pl WO
+f gen norm sg WO
+f nom norm pl WO
+f nom norm sg WO
+gen m norm pl WO
+gen m norm sg WO
+gen n norm pl WO
+gen n norm sg WO
+m nom norm pl WO
+n nom norm pl WO
+3p acc f norm sg WO
+3p f gen norm sg WO
+acc anim ipf norm partcp pass pl plen praes tran WO
+gen ipf norm partcp pass pl plen praes tran WO
+ipf loc norm partcp pass pl plen praes tran WO
+act inf norm pf WO
+brev ipf n norm partcp pass praes sg tran
+3p act bastard indic praes sg
+acc act inan m norm partcp pf plen praet sg tran
+act m nom norm partcp pf plen praet sg tran
+acc anim m plen sg
+gen m plen sg
+gen n plen sg
+acc act inan m norm partcp pf plen praet sg
+act m nom norm partcp pf plen praet sg
+act indic ipf norm pl praet
+act intr ipf loc m norm partcp plen praet sg
+act intr ipf loc n norm partcp plen praet sg
+act ipf loc m norm partcp plen praet sg
+act ipf loc n norm partcp plen praet sg
+act loc m norm partcp pf plen praet sg tran
+act loc n norm partcp pf plen praet sg tran
+acc ipf n norm partcp pass plen praet sg tran
+ipf n nom norm partcp pass plen praet sg tran
+3p acc m norm sg WO
+3p gen m norm sg WO
+3p acc n norm sg WO
+3p gen n norm sg WO
+brev ipf norm partcp pass pl praes tran
+dat m plen sg
+dat n plen sg
+acc act inan ipf m norm partcp plen praet sg tran
+act ipf m nom norm partcp plen praet sg tran
+3p ins m norm sg WO
+3p dat norm pl WO
+3p ins n norm sg WO
+acc anim ipf m norm partcp pass plen praet sg tran
+gen ipf m norm partcp pass plen praet sg tran
+gen ipf n norm partcp pass plen praet sg tran
+acc act anim intr ipf norm partcp pl plen praet
+act gen intr ipf norm partcp pl plen praet
+act intr ipf loc norm partcp pl plen praet
+act ins ipf norm partcp pl plen praes
+2p act imper ipf norm sg
+act bastard dat f ipf partcp plen praes sg tran
+act bastard f gen ipf partcp plen praes sg tran
+act bastard f ins ipf partcp plen praes sg tran
+act bastard f ipf loc partcp plen praes sg tran
+acc n plen sg
+n nom plen sg
+act ger ipf norm praet tran
+brev f intr norm partcp pass pf praet sg
+bastard brev f sg
+2p act bastard imper sg
+brev intr ipf m norm partcp pass praes sg
+acc act f ipf norm partcp plen praes sg
+acc anim bastard partcp pass pl plen praet
+bastard gen partcp pass pl plen praet
+bastard loc partcp pass pl plen praet
+gen m norm
+gen n norm
+loc m norm
+loc n norm
+act dat norm partcp pf pl plen praet
+act ins m norm partcp pf plen praet sg
+act ins n norm partcp pf plen praet sg
+3p act bastard fut indic pf sg tran
+3p act bastard indic intr ipf praes sg
+3p act bastard indic ipf praes sg tran
+dat ipf norm partcp pass pl plen praet
+ins ipf m norm partcp pass plen praet sg
+ins ipf n norm partcp pass plen praet sg
+bastard dat partcp pass pl plen praet
+bastard ins m partcp pass plen praet sg
+bastard ins n partcp pass plen praet sg
+acc f ipf norm partcp pass plen praet sg tran
+adnum norm
+acc act intr n norm partcp pf plen praet sg
+act intr n nom norm partcp pf plen praet sg
+acc bastard inan partcp pass pl plen praet
+bastard nom partcp pass pl plen praet
+act dat intr ipf norm partcp pl plen praet
+act ins intr ipf m norm partcp plen praet sg
+act ins intr ipf n norm partcp plen praet sg
+acc act anim intr ipf m norm partcp plen praet sg
+act gen intr ipf m norm partcp plen praet sg
+act gen intr ipf n norm partcp plen praet sg
+3p act bastard indic pl praes
+pl
+distort
+gen norm patrn sg
+nom norm patrn pl
+ins norm patrn sg
+acc act bastard inan partcp pl plen praet
+act bastard nom partcp pl plen praet
+act intr loc m norm partcp pf plen praet sg
+act intr loc n norm partcp pf plen praet sg
+acc act anim m norm partcp pf plen praet sg
+act gen m norm partcp pf plen praet sg
+act gen n norm partcp pf plen praet sg
+acc act inan intr ipf norm partcp pl plen praes WO
+acc act inan ipf norm partcp pl plen praes tran WO
+act intr ipf nom norm partcp pl plen praes WO
+act ipf nom norm partcp pl plen praes tran WO
+act f nom norm partcp pf plen praet sg tran
+acc inan intr norm partcp pass pf pl plen praet
+intr nom norm partcp pass pf pl plen praet
+acc anim bastard ipf partcp pass pl plen praes tran
+bastard gen ipf partcp pass pl plen praes tran
+bastard ipf loc partcp pass pl plen praes tran
+2p act imper intr ipf pl
+act dat intr m norm partcp pf plen praet sg
+act dat intr n norm partcp pf plen praet sg
+dat f intr norm partcp pass pf plen praet sg
+f gen intr norm partcp pass pf plen praet sg
+f ins intr norm partcp pass pf plen praet sg
+f intr loc norm partcp pass pf plen praet sg
+acc act anim norm partcp pf pl plen praet
+act gen norm partcp pf pl plen praet
+act loc norm partcp pf pl plen praet
+act dat f norm partcp pf plen praet sg
+act f gen norm partcp pf plen praet sg
+act f ins norm partcp pf plen praet sg
+act f loc norm partcp pf plen praet sg
+acc act anim ipf norm partcp pl plen praet tran
+act gen ipf norm partcp pl plen praet tran
+act ipf loc norm partcp pl plen praet tran
+acc anim pl
+3p act indic ipf norm praes sg WO
+3p act indic intr ipf norm praes sg WO
+ins intr ipf norm partcp pass pl plen praes
+act bastard inf pf
+acc act anim bastard ipf partcp pl plen praes tran
+act bastard gen ipf partcp pl plen praes tran
+act bastard ipf loc partcp pl plen praes tran
+dat pl plen
+ins m plen sg
+ins n plen sg
+acc bastard inan partcp pass pf pl plen praet tran
+bastard nom partcp pass pf pl plen praet tran
+act fut indic intr norm pf
+2p act anom imper intr pf sg
+act bastard ger praes
+3p act bastard indic intr ipf pl praes
+acc inan intr ipf norm partcp pass pl plen praes
+intr ipf nom norm partcp pass pl plen praes
+2p act fut indic intr ipf sg
+3p act bastard indic ipf praes sg
+gen norm pl 
+ins norm pl WO
+act dat norm partcp pf pl plen praet tran
+act ins m norm partcp pf plen praet sg tran
+act ins n norm partcp pf plen praet sg tran
+brev intr norm partcp pass pf pl praet
+ins norm sg 
+dat m norm
+dat n norm
+1p act indic intr ipf norm pl praes WO
+1p act indic intr ipf norm praes sg WO
+2p act indic intr ipf norm pl praes WO
+2p act indic intr ipf norm praes sg WO
+3p act indic intr ipf norm pl praes WO
+act inf ipf norm tran WO
+bastard brev m partcp pass praet sg
+2p acc anom sg
+act bastard ger ipf praes tran
+acc norm obsc pl
+gen norm obsc pl
+acc bastard inan m partcp pass plen praes sg
+bastard m nom partcp pass plen praes sg
+acc norm patrn sg
+3p act bastard fut indic pf sg
+acc n sg
+gen n sg
+n nom sg
+act dat ipf norm partcp pl plen praet tran
+act ins ipf m norm partcp plen praet sg tran
+act ins ipf n norm partcp plen praet sg tran
+act dat m norm partcp pf plen praet sg tran
+act dat n norm partcp pf plen praet sg tran
+acc act n norm partcp pf plen praet sg tran
+act n nom norm partcp pf plen praet sg tran
+act bastard indic ipf m praet sg
+acc inan
+nom
+act bastard ger pf praet tran
+act f intr ipf nom norm partcp plen praet sg
+act f ipf nom norm partcp plen praet sg tran
+0 pl
+gen2 sg
+act bastard ger ipf praes
+anom f nom plen sg
+m plen
+n plen
+bastard comp
+bastard f nom partcp pass plen praes sg
+act bastard indic n praet sg
+sg
+acc act bastard inan intr ipf partcp pl plen praet
+acc act bastard inan intr partcp pf pl plen praet
+act bastard intr ipf nom partcp pl plen praet
+act bastard intr nom partcp pf pl plen praet
+3p act bastard fut indic intr pf pl
+acc inan pl plen
+nom pl plen
+acc act bastard n partcp plen praes sg
+act bastard n nom partcp plen praes sg
+acc bastard inan pl
+bastard nom pl
+1p act indic ipf norm obsc pl praes
+acc act anim bastard partcp pl plen praet
+act bastard gen partcp pl plen praet
+act bastard loc partcp pl plen praet
+acc act anim bastard ipf partcp pl plen praet tran
+acc act anim bastard partcp pf pl plen praet tran
+act bastard gen ipf partcp pl plen praet tran
+act bastard gen partcp pf pl plen praet tran
+act bastard ipf loc partcp pl plen praet tran
+act bastard loc partcp pf pl plen praet tran
+acc act anim bastard partcp pl plen praes
+act bastard gen partcp pl plen praes
+act bastard loc partcp pl plen praes
+act bastard f nom partcp plen praet sg
+nom patrn sg
+3p act fut indic intr norm pf sg DISCOURSE
+norm DISCOURSE
+3p act indic ipf norm praes sg tran WO
+acc n norm sg DISCOURSE
+n nom norm sg DISCOURSE
+ins m norm sg WO
+ins n norm sg WO
+act bastard indic m praet sg
+"norm lex;"
+ins norm sg WO
+act inf intr ipf norm CONSTR
+0 norm CONSTR
+norm CONSTR
+acc inan n norm sg CONSTR
+inan n nom norm sg CONSTR
+acc n norm sg CONSTR
+n nom norm sg CONSTR
+1p dat norm sg DISCOURSE
+1p loc norm sg DISCOURSE
+loc norm pl WO
+inan ins n norm sg CONSTR
+inan loc n norm sg CONSTR
+norm CONSTR COMP
+inan ins n norm sg CONSTR COMP
+inan loc n norm sg CONSTR COMP
+nom norm pl COMP
+acc inan norm pl COMP
+act f indic intr ipf norm praet sg CONSTR
+1p nom norm sg WO
+ins norm pl CONSTR
+gen norm sg CONSTR
+brev f norm sg CONSTR
+norm lex.CONSTR
+acc norm pl CONSTR
+nom norm pl CONSTR
+dat norm pl CONSTR
+act indic intr norm pf praet
+act f indic norm pf praet sg tran DISCOURSE
+acc act f intr ipf norm partcp plen praet sg
+acc
+gen
+bastard brev ipf m partcp pass praet sg tran
+bastard brev m partcp pass pf praet sg tran
+"acc norm pl phrase;infl"
+"nom norm pl phrase;infl"
+"acc inan norm pl phrase;infl"
+f nom norm plen sg styl.official
+f nom norm partcp pass pf plen praet sg tran styl.official
+inan loc n norm sg WO
+loc m norm sg WO
+loc n norm sg WO
+anim loc m norm sg WO
+1p nom norm pl ?
+acc f norm plen sg WO
+brev f norm sg WO
+"3p act indic intr ipf norm praes sg voice;constr"
+acc norm sg ?
+nom norm sg ?
+anom f ins sg
+acc act bastard inan intr ipf m partcp plen praet sg
+acc act bastard inan intr m partcp pf plen praet sg
+act bastard intr ipf m nom partcp plen praet sg
+act bastard intr m nom partcp pf plen praet sg
+acc anim bastard intr m partcp pass pf plen praet sg
+acc anim bastard ipf m partcp pass plen praet sg
+acc anim bastard ipf m partcp pass plen praet sg tran
+acc anim bastard m partcp pass pf plen praet sg
+acc anim bastard m partcp pass pf plen praet sg tran
+bastard gen intr m partcp pass pf plen praet sg
+bastard gen intr n partcp pass pf plen praet sg
+bastard gen ipf m partcp pass plen praet sg
+bastard gen ipf m partcp pass plen praet sg tran
+bastard gen ipf n partcp pass plen praet sg
+bastard gen ipf n partcp pass plen praet sg tran
+bastard gen m partcp pass pf plen praet sg
+bastard gen m partcp pass pf plen praet sg tran
+bastard gen n partcp pass pf plen praet sg
+bastard gen n partcp pass pf plen praet sg tran
+dat norm patrn sg
+acc anim bastard ipf partcp pass pl plen praet tran
+acc anim bastard partcp pass pf pl plen praet tran
+bastard gen ipf partcp pass pl plen praet tran
+bastard gen partcp pass pf pl plen praet tran
+bastard ipf loc partcp pass pl plen praet tran
+bastard loc partcp pass pf pl plen praet tran
+act ger ipf norm praet
+bastard dat m partcp pass pf plen praet sg tran
+bastard dat n partcp pass pf plen praet sg tran
+acc act intr ipf n norm partcp plen praet sg
+act intr ipf n nom norm partcp plen praet sg
+1p act bastard indic praes sg
+1p act imper intr ipf norm pl
+act bastard indic ipf n praet sg tran
+3p act bastard indic ipf pl praes
+acc bastard inan m sg
+bastard m nom sg
+3p act anom fut indic pf pl tran
+act bastard indic intr pf pl praet
+act bastard indic ipf pl praet tran
+act bastard indic pf pl praet tran
+act loc m norm partcp pf plen praet sg
+act loc n norm partcp pf plen praet sg
+acc act inan ipf norm partcp pl plen praet
+act ipf nom norm partcp pl plen praet
+bastard brev partcp pass pf pl praet
+acc act f norm partcp pf plen praet sg tran
+acc act f ipf norm partcp plen praet sg tran
+act bastard f indic pf praet sg
+act bastard f indic pf praet sg tran
+bastard dat pl
+bastard ins m sg
+bastard ins n sg
+2p act bastard imper sg tran
+dat ipf m norm partcp pass plen praet sg tran
+dat ipf n norm partcp pass plen praet sg tran
+1p act bastard fut indic pf sg tran
+acc f ipf norm partcp pass plen praes sg
+dat norm pl plen WO
+ins m norm plen sg WO
+ins n norm plen sg WO
+act f indic norm pf praet sg tran WO
+acc inan ipf norm partcp pass pl plen praes
+ipf nom norm partcp pass pl plen praes
+nom norm obsc sg
+acc anim bastard ipf m partcp pass plen praes sg tran
+bastard gen ipf m partcp pass plen praes sg tran
+bastard gen ipf n partcp pass plen praes sg tran
+act bastard ger intr pf praet
+3p act bastard indic ipf pl praes tran
+acc inan intr ipf m norm partcp pass plen praes sg
+intr ipf m nom norm partcp pass plen praes sg
+ins pl plen
+bastard brev n partcp pass pf praet sg tran
+acc inan ipf m norm partcp pass plen praes sg
+ipf m nom norm partcp pass plen praes sg
+bastard brev ipf partcp pass pl praes tran
+act dat intr ipf m norm partcp plen praet sg
+act dat intr ipf n norm partcp plen praet sg
+2p act bastard imper ipf sg
+loc2 sg
+act bastard indic intr ipf n praet sg
+act bastard indic n pf praet sg tran
+acc act bastard inan m partcp plen praes sg
+act bastard m nom partcp plen praes sg
+loc m plen sg
+loc n plen sg
+ins m norm
+ins n norm
+acc anim ipf norm partcp pass pl plen praes
+gen ipf norm partcp pass pl plen praes
+ipf loc norm partcp pass pl plen praes
+dat f intr ipf norm partcp pass plen praes sg
+f gen intr ipf norm partcp pass plen praes sg
+f ins intr ipf norm partcp pass plen praes sg
+f intr ipf loc norm partcp pass plen praes sg
+act dat ipf m norm partcp plen praet sg tran
+act dat ipf n norm partcp plen praet sg tran
+bastard brev f ipf partcp pass praes sg tran
+bastard ins partcp pass pl plen praet
+1p act bastard fut indic pf pl
+1p act bastard imper pf pl
+1p act bastard fut indic pf pl tran
+1p act bastard imper pf pl tran
+1p act bastard indic ipf pl praes tran
+bastard brev ipf m partcp pass praes sg tran
+1p act bastard fut indic intr pf sg
+bastard f ipf nom partcp pass plen praet sg tran
+bastard f nom partcp pass pf plen praet sg tran
+dat intr norm partcp pass pf pl plen praet
+ins intr m norm partcp pass pf plen praet sg
+ins intr n norm partcp pass pf plen praet sg
+0 pl sg
+norm comparar
+comp norm comparar
+acc norm sg comparar
+nom norm sg comparar
+acc n norm plen sg comparar
+n nom norm plen sg comparar
+bastard f nom sg
+loc m norm plen sg WO
+loc n norm plen sg WO
+f nom norm plen sg syl
+f nom norm partcp pass pf plen praet sg tran syl
+ins norm WO
+acc act n norm partcp pf plen praet sg
+act n nom norm partcp pf plen praet sg
+act ger ipf norm praes tran WO
+brev n norm sg comparar
+obsc
+dat f norm sg comparar
+f gen norm sg comparar
+f ins norm sg comparar
+f loc norm sg comparar
+acc inan m norm plen sg comparar
+m nom norm plen sg comparar
+acc inan m norm plen sg WO
+m nom norm plen sg WO
+ins norm sg phase
+acc f norm sg comparar
+3p nom norm pl comparar
+norm sty
+acc inan n norm sg sty
+inan n nom norm sg sty
+acc inan norm pl comparar
+nom norm pl comparar
+act inf intr norm pf deiv
+nom norm sg doscourse conector
+norm doscourse conector
+3p act anom indic intr ipf med praes sg
+f ins norm pl
+act ins norm partcp pf pl plen praet tran
+acc anim intr ipf norm partcp pass pl plen praes
+gen intr ipf norm partcp pass pl plen praes
+intr ipf loc norm partcp pass pl plen praes
+brev norm pl doscourse
+1p nom norm pl WO
+acc anim norm pl plen doscourse
+gen norm pl plen doscourse
+loc norm pl plen doscourse
+brev n norm partcp pass pf praet sg tran WO
+act f indic intr ipf norm praet sg WO
+acc,sg
+nom,sg
+f,nom,plen,sg
+nom,pl
+acc,pl
+gen,sg
+ins,n,plen,sg
+ins,m,plen,sg
+dat,pl,plen
+dat,pl
+loc,sg
+dat,f,sg
+f,gen,sg
+f,ins,sg
+f,loc,sg
+dat,sg
+gen,m,plen,sg
+acc,anim,m,plen,sg
+gen,n,plen,sg
+act,f,indic,praet,sg
+dat,n,plen,sg
+dat,m,plen,sg
+acc,n,plen,sg
+n,nom,plen,sg
+ins,sg
+gen,pl
+act,indic,m,praet,sg
+act,ins,n,partcp,plen,praet,sg
+act,ins,m,partcp,plen,praet,sg
+act,dat,partcp,pl,plen,praet
+acc,anim,pl,plen
+gen,pl,plen
+loc,pl,plen
+gen,n,partcp,pass,plen,praet,sg
+gen,m,partcp,pass,plen,praet,sg
+acc,anim,m,partcp,pass,plen,praet,sg
+ins,n,sg
+ins,m,sg
+acc,anim,pl,supr
+gen,pl,supr
+loc,pl,supr
+gen,partcp,pass,pl,plen,praet
+loc,partcp,pass,pl,plen,praet
+acc,anim,partcp,pass,pl,plen,praet
+brev,m,sg
+loc,partcp,pass,pl,plen,praes
+acc,anim,partcp,pass,pl,plen,praes
+gen,partcp,pass,pl,plen,praes
+3p,act,indic,praes,sg
+acc,inan,m,sg
+m,nom,sg
+f,ins,plen,sg
+f,gen,plen,sg
+dat,f,plen,sg
+f,loc,plen,sg
+gen,m,sg
+acc,anim,m,sg
+gen,n,sg
+anim,gen,m,sg
+nom,pl,plen
+acc,inan,pl,plen
+ins,m,partcp,pass,plen,praet,sg
+dat,partcp,pass,pl,plen,praet
+ins,n,partcp,pass,plen,praet,sg
+act,gen,partcp,pl,plen,praes
+acc,act,anim,partcp,pl,plen,praes
+act,loc,partcp,pl,plen,praes
+3p,gen,m,sg
+3p,acc,m,sg
+3p,gen,n,sg
+3p,acc,n,sg
+loc,pl
+acc,n,partcp,pass,plen,praet,sg
+n,nom,partcp,pass,plen,praet,sg
+loc,n,plen,sg
+loc,m,plen,sg
+3p,act,fut,indic,sg
+acc,inan,m,plen,sg
+m,nom,plen,sg
+0,sg
+brev,n,sg
+act,m,nom,partcp,plen,praes,sg
+acc,act,inan,m,partcp,plen,praes,sg
+brev,f,sg
+ins,pl,plen
+ins,partcp,pass,pl,plen,praet
+ins,pl
+act,ins,m,partcp,plen,praes,sg
+act,ins,n,partcp,plen,praes,sg
+act,dat,partcp,pl,plen,praes
+comp,plen
+act,indic,pl,praet
+brev,partcp,pass,pl,praet
+anim,dat,m,sg
+dat,n,sg
+dat,m,sg
+inan,n,nom,sg
+acc,inan,n,sg
+2p,act,indic,pl,praes
+3p,act,indic,pl,praes
+1p,act,indic,pl,praes
+2p,act,indic,praes,sg
+1p,act,indic,praes,sg
+act,inf
+anim,m,nom,sg
+acc,f,plen,sg
+acc,inan,partcp,pass,pl,plen,praet
+nom,partcp,pass,pl,plen,praet
+acc,anim,pl
+NONLEX
+acc,act,inan,partcp,pl,plen,praes
+act,nom,partcp,pl,plen,praes
+gen,inan,n,sg
+3p
+3p,n,nom,sg
+act,f,nom,partcp,plen,praes,sg
+act,indic,n,praet,sg
+dat,inan,n,sg
+brev,n,partcp,pass,praet,sg
+3p,ins,m,sg
+3p,dat,pl
+3p,ins,n,sg
+act,ger,praes
+acc,bastard,sg
+bastard,nom,sg
+acc,n,sg
+n,nom,sg
+inan,ins,n,sg
+acc,inan,pl
+anim,m,nom,pl
+brev,pl
+bastard,nom,pl
+bastard,gen,sg
+3p,gen,pl
+3p,acc,pl
+3p,loc,pl
+acc,act,f,partcp,plen,praes,sg
+3p,dat,m,sg
+3p,dat,n,sg
+bastard,gen,pl
+3p,m,nom,sg
+anim,dat,m,pl
+anim,ins,m,sg
+anim,loc,m,pl
+anim,gen,m,pl
+acc,anim,m,pl
+act,ins,partcp,pl,plen,praes
+3p,nom,pl
+3p,act,fut,indic,pl
+acc,act,anim,m,partcp,plen,praes,sg
+act,gen,n,partcp,plen,praes,sg
+act,gen,m,partcp,plen,praes,sg
+acc,act,n,partcp,plen,praet,sg
+act,n,nom,partcp,plen,praet,sg
+1p,nom,pl
+brev,m,partcp,pass,praes,sg
+loc,n,sg
+loc,m,sg
+act,n,nom,partcp,plen,praes,sg
+acc,act,n,partcp,plen,praes,sg
+acc,f,inan
+f,nom
+acc,f,pl
+f,nom,pl
+brev,m,partcp,pass,praet,sg
+m,nom,partcp,pass,plen,praet,sg
+acc,inan,m,partcp,pass,plen,praet,sg
+inan,loc,n,sg
+acc,inan,partcp,pass,pl,plen,praes
+nom,partcp,pass,pl,plen,praes
+acc,act,inan,partcp,pl,plen,praet
+act,nom,partcp,pl,plen,praet
+loc,n,partcp,pass,plen,praet,sg
+loc,m,partcp,pass,plen,praet,sg
+acc,f,sg
+act,dat,f,partcp,plen,praes,sg
+act,f,loc,partcp,plen,praes,sg
+act,f,ins,partcp,plen,praes,sg
+act,f,gen,partcp,plen,praes,sg
+2p,act,imper,pl
+3p,acc,f,sg
+3p,f,gen,sg
+comp
+dat,m,partcp,pass,plen,praet,sg
+dat,n,partcp,pass,plen,praet,sg
+act,gen,m,partcp,plen,praet,sg
+act,gen,n,partcp,plen,praet,sg
+acc,act,anim,m,partcp,plen,praet,sg
+gen,m,partcp,pass,plen,praes,sg
+acc,anim,m,partcp,pass,plen,praes,sg
+gen,n,partcp,pass,plen,praes,sg
+acc,n,partcp,pass,plen,praes,sg
+n,nom,partcp,pass,plen,praes,sg
+acc,f,partcp,pass,plen,praes,sg
+act,ger,praet
+3p,loc,m,sg
+3p,loc,n,sg
+3p,ins,pl
+f,ins,partcp,pass,plen,praet,sg
+f,loc,partcp,pass,plen,praet,sg
+f,gen,partcp,pass,plen,praet,sg
+dat,f,partcp,pass,plen,praet,sg
+brev,f,partcp,pass,praet,sg
+f,nom,sg
+3p,f,loc,sg
+3p,dat,f,sg
+3p,f,ins,sg
+ins
+acc,anim,f
+loc
+acc,anim,m
+m,nom,partcp,pass,plen,praes,sg
+acc,inan,m,partcp,pass,plen,praes,sg
+anim,ins,m,pl
+act,ins,partcp,pl,plen,praet
+act,gen,partcp,pl,plen,praet
+acc,act,anim,partcp,pl,plen,praet
+act,loc,partcp,pl,plen,praet
+acc,f,partcp,pass,plen,praet,sg
+dat,m
+dat,n
+gen,m
+loc,m
+loc,n
+gen,n
+acc,bastard,pl
+bastard,loc,sg
+bastard,dat,sg
+1p,act,fut,indic,sg
+acc,m,sg
+3p,f,nom,sg
+dat,m,partcp,pass,plen,praes,sg
+dat,n,partcp,pass,plen,praes,sg
+2p,act,imper,sg
+f,nom,partcp,pass,plen,praet,sg
+loc2,sg
+acc,inan
+act,dat,n,partcp,plen,praes,sg
+act,dat,m,partcp,plen,praes,sg
+0,bastard
+acc,inan,m
+m,nom
+n,nom
+acc,n
+0,pl
+gen2,sg
+bastard,ins,sg
+dat
+acc,anim
+act,m,nom,partcp,plen,praet,sg
+acc,act,inan,m,partcp,plen,praet,sg
+bastard,brev,m,sg
+anim,loc,m,sg
+acc,m,pl
+gen,m,pl
+dat,f,pl
+n,nom,pl
+m,nom,pl
+dat,n,pl
+dat,m,pl
+f,gen,pl
+acc,n,pl
+gen,n,pl
+act,loc,m,partcp,plen,praes,sg
+act,loc,n,partcp,plen,praes,sg
+f,ins,partcp,pass,plen,praes,sg
+dat,f,partcp,pass,plen,praes,sg
+f,gen,partcp,pass,plen,praes,sg
+f,loc,partcp,pass,plen,praes,sg
+dat,partcp,pass,pl,plen,praes
+ins,n,partcp,pass,plen,praes,sg
+ins,m,partcp,pass,plen,praes,sg
+ins,partcp,pass,pl,plen,praes
+bastard,nom,pl,plen
+acc,bastard,inan,pl,plen
+bastard,brev,n,sg
+3p,act,bastard,indic,praes,sg
+act,bastard,ger,praes
+bastard,f,ins,plen,sg
+bastard,f,gen,plen,sg
+bastard,dat,f,plen,sg
+bastard,f,loc,plen,sg
+1p,act,fut,indic,pl
+1p,act,imper,pl
+bastard,dat,pl
+acc,inan,m,sg,supr
+m,nom,sg,supr
+3p,act,bastard,fut,indic,sg
+2p,loc,pl
+2p,acc,pl
+2p,gen,pl
+act,f,ins,partcp,plen,praet,sg
+act,dat,f,partcp,plen,praet,sg
+act,f,loc,partcp,plen,praet,sg
+act,f,gen,partcp,plen,praet,sg
+acc,anim,bastard,pl,plen
+bastard,gen,pl,plen
+bastard,loc,pl,plen
+bastard,gen,m,plen,sg
+acc,anim,bastard,m,plen,sg
+bastard,gen,n,plen,sg
+act,bastard,inf
+loc,m,partcp,pass,plen,praes,sg
+loc,n,partcp,pass,plen,praes,sg
+act,dat,n,partcp,plen,praet,sg
+act,dat,m,partcp,plen,praet,sg
+f,nom,partcp,pass,plen,praes,sg
+bastard,loc,n,plen,sg
+bastard,loc,m,plen,sg
+dat,f
+bastard,gen2,sg
+bastard,ins,pl
+act,f,nom,partcp,plen,praet,sg
+1p,nom,sg
+0,bastard,sg
+bastard,sg
+gen,m,sg,supr
+gen,n,sg,supr
+acc,anim,m,sg,supr
+act,indic,praes
+act,loc,m,partcp,plen,praet,sg
+act,loc,n,partcp,plen,praet,sg
+bastard,ins,m,plen,sg
+bastard,ins,n,plen,sg
+bastard,dat,pl,plen
+acc,act,f,partcp,plen,praet,sg
+bastard,dat,n,plen,sg
+bastard,m,nom,plen,sg
+acc,bastard,f,plen,sg
+bastard,dat,m,plen,sg
+bastard,f,nom,plen,sg
+acc,bastard,inan,m,plen,sg
+bastard,n,nom,plen,sg
+acc,bastard,n,plen,sg
+bastard,ins,pl,plen
+f,gen,sg,supr
+dat,f,sg,supr
+f,loc,sg,supr
+f,ins,sg,supr
+1p,loc,pl
+1p,gen,pl
+1p,acc,pl
+acc,n,sg,supr
+n,nom,sg,supr
+f,gen
+f,loc
+brev,partcp,pass,pl,praes
+ins,m,sg,supr
+dat,pl,supr
+ins,n,sg,supr
+loc,n,sg,supr
+loc,m,sg,supr
+ins,pl,supr
+act,bastard,f,indic,praet,sg
+1p,ins,sg
+1p,dat,sg
+1p,loc,sg
+1p,dat,pl
+2p,nom,pl
+1p,gen,sg
+1p,acc,sg
+act,bastard,loc,partcp,pl,plen,praes
+act,bastard,gen,partcp,pl,plen,praes
+acc,act,anim,bastard,partcp,pl,plen,praes
+acc,anom,sg
+bastard,gen,n,partcp,pass,plen,praet,sg
+acc,anim,bastard,m,partcp,pass,plen,praet,sg
+bastard,gen,m,partcp,pass,plen,praet,sg
+3p,act,bastard,indic,pl,praes
+1p,ins,pl
+bastard,brev,f,sg
+bastard,loc,pl
+acc,act,anim,bastard,partcp,pl,plen,praet
+act,bastard,loc,partcp,pl,plen,praet
+act,bastard,gen,partcp,pl,plen,praet
+1p,acc,anom,pl
+bastard,comp,plen
+2p,act,bastard,imper,sg
+bastard,brev,partcp,pass,pl,praet
+bastard,brev,n,partcp,pass,praes,sg
+bastard,ins,partcp,pass,pl,plen,praet
+bastard,brev,pl
+act,bastard,indic,m,praet,sg
+1p,act,bastard,indic,praes,sg
+bastard,gen,n,partcp,pass,plen,praes,sg
+acc,anim,bastard,m,partcp,pass,plen,praes,sg
+bastard,gen,m,partcp,pass,plen,praes,sg
+bastard,brev,n,partcp,pass,praet,sg
+bastard,loc,partcp,pass,pl,plen,praes
+bastard,gen,partcp,pass,pl,plen,praes
+acc,anim,bastard,partcp,pass,pl,plen,praes
+act,bastard,ins,n,partcp,plen,praes,sg
+act,bastard,dat,partcp,pl,plen,praes
+act,bastard,ins,m,partcp,plen,praes,sg
+act,bastard,gen,n,partcp,plen,praet,sg
+act,bastard,gen,m,partcp,plen,praet,sg
+acc,act,anim,bastard,m,partcp,plen,praet,sg
+act,bastard,ins,partcp,pl,plen,praet
+acc,bastard,inan,partcp,pass,pl,plen,praet
+bastard,nom,partcp,pass,pl,plen,praet
+act,bastard,dat,f,partcp,plen,praet,sg
+act,bastard,f,loc,partcp,plen,praet,sg
+act,bastard,f,ins,partcp,plen,praet,sg
+act,bastard,f,gen,partcp,plen,praet,sg
+act,bastard,indic,n,praet,sg
+bastard,loc,partcp,pass,pl,plen,praet
+bastard,gen,partcp,pass,pl,plen,praet
+acc,anim,bastard,partcp,pass,pl,plen,praet
+act,fut,ger
+2p,act,fut,indic,pl
+act,bastard,ger,praet
+brev,f,partcp,pass,praes,sg
+2p,loc,sg
+2p,dat,sg
+act,indic,n,praet
+ins,m
+ins,n
+2p,nom,sg
+act,bastard,f,ins,partcp,plen,praes,sg
+act,bastard,f,gen,partcp,plen,praes,sg
+act,bastard,dat,f,partcp,plen,praes,sg
+act,bastard,f,loc,partcp,plen,praes,sg
+bastard,f,nom,partcp,pass,plen,praet,sg
+2p,act,fut,indic,sg
+bastard,brev,f,partcp,pass,praes,sg
+2p,acc,sg
+2p,gen,sg
+bastard,brev,m,partcp,pass,praet,sg
+1p,act,imper2,indic,pl
+dat,m,sg,supr
+dat,n,sg,supr
+2p,ins,sg
+act,bastard,indic,pl,praet
+2p,dat,pl
+acc,f,sg,supr
+2p,ins,pl
+sg,voc
+3p,act,anom,indic,praes,sg
+3p,act,bastard,fut,indic,pl
+acc,obsc,sg
+nom,obsc,pl
+gen,obsc,sg
+acc,inan,pl,supr
+nom,pl,supr
+0,bastard,pl
+f,nom,sg,supr
+act,bastard,f,nom,partcp,plen,praet,sg
+act,bastard,gen,n,partcp,plen,praes,sg
+act,bastard,gen,m,partcp,plen,praes,sg
+acc,act,anim,bastard,m,partcp,plen,praes,sg
+bastard,loc,n,sg,supr
+bastard,loc,m,sg,supr
+act,bastard,loc,n,partcp,plen,praes,sg
+act,bastard,loc,m,partcp,plen,praes,sg
+brev,n,partcp,pass,praes,sg
+acc,bastard,n,partcp,pass,plen,praes,sg
+bastard,n,nom,partcp,pass,plen,praes,sg
+act,indic,praet
+anom,nom,pl
+bastard,f,loc,partcp,pass,plen,praes,sg
+bastard,f,ins,partcp,pass,plen,praes,sg
+bastard,dat,f,partcp,pass,plen,praes,sg
+bastard,f,gen,partcp,pass,plen,praes,sg
+1p,act,imper,sg
+bastard,dat,partcp,pass,pl,plen,praet
+bastard,ins,m,partcp,pass,plen,praet,sg
+bastard,ins,n,partcp,pass,plen,praet,sg
+bastard,brev,n,sg,supr
+2p,act,imper,obsc,sg
+1p,act,bastard,fut,indic,sg
+pl,sg
+acc,bastard,inan,m,sg
+bastard,m,nom,sg
+gen,obsc,pl
+bastard,gen,m,sg
+acc,bastard,inan,partcp,pass,pl,plen,praes
+bastard,nom,partcp,pass,pl,plen,praes
+acc,bastard,inan,pl
+bastard,m,nom,partcp,pass,plen,praes,sg
+acc,bastard,inan,m,partcp,pass,plen,praes,sg
+acc,bastard,f,partcp,pass,plen,praet,sg
+bastard,f,gen,partcp,pass,plen,praet,sg
+bastard,f,ins,partcp,pass,plen,praet,sg
+bastard,dat,f,partcp,pass,plen,praet,sg
+bastard,f,loc,partcp,pass,plen,praet,sg
+nom,obsc,sg
+brev,m,nom,sg
+acc,brev,inan,m,sg
+acc,bastard,n,partcp,pass,plen,praet,sg
+bastard,n,nom,partcp,pass,plen,praet,sg
+acc,bastard,inan,m,partcp,pass,plen,praet,sg
+bastard,m,nom,partcp,pass,plen,praet,sg
+0,pl,sg
+1p,act,bastard,indic,pl,praes
+bastard,brev,m,partcp,pass,praes,sg
+acc,bastard,f,sg,supr
+act,bastard,nom,partcp,pl,plen,praes
+acc,act,bastard,inan,partcp,pl,plen,praes
+bastard,pl
+acc,m
+acc,anim,bastard,m,sg
+bastard,gen,n,sg
+2p,act,bastard,fut,indic,sg
+2p,act,bastard,indic,praes,sg
+f,ins,pl
+bastard,n,nom,sg,supr
+acc,bastard,n,sg,supr
+acc,act,bastard,n,partcp,plen,praes,sg
+act,bastard,n,nom,partcp,plen,praes,sg
+act,bastard,indic,praes
+act,bastard,f,nom,partcp,plen,praes,sg
+2p,act,bastard,imper,pl
+m
+n
+act,bastard,m,nom,partcp,plen,praet,sg
+acc,act,bastard,inan,m,partcp,plen,praet,sg
+act,bastard,nom,partcp,pl,plen,praet
+acc,act,bastard,inan,partcp,pl,plen,praet
+act,bastard,fut,ger
+bastard,brev,f,partcp,pass,praet,sg
+bastard,loc,pl,supr
+acc,anim,bastard,pl,supr
+bastard,gen,pl,supr
+act,bastard,dat,n,partcp,plen,praes,sg
+act,bastard,dat,m,partcp,plen,praes,sg
+anom,f,ins,sg
+1p,act,bastard,imper,pl
+bastard,dat,f,sg
+bastard,f,gen,sg
+bastard,f,ins,sg
+bastard,f,loc,sg
+acc,brev,f,sg
+brev,dat,m,sg
+brev,dat,n,sg
+bastard,brev,partcp,pass,pl,praes
+bastard,dat,n,sg
+bastard,dat,m,sg
+anom,gen
+2p,acc,anom,sg
+act,indic,m,obsc,praet,sg
+acc,act,bastard,f,partcp,plen,praes,sg
+1p,act,anom,indic,praes,sg
+1p,act,bastard,fut,indic,pl
+anom,loc,sg
+bastard,ins,m,partcp,pass,plen,praes,sg
+bastard,dat,partcp,pass,pl,plen,praes
+bastard,ins,n,partcp,pass,plen,praes,sg
+acc,act,bastard,inan,m,partcp,plen,praes,sg
+act,bastard,m,nom,partcp,plen,praes,sg
+bastard,loc2,sg
+acc,obsc,pl
+act,bastard,ins,partcp,pl,plen,praes
+2p,act,anom,indic,pl,praes
+act,anom,ger,praet
+comp2,plen
+comp2
+bastard,loc,m,partcp,pass,plen,praes,sg
+bastard,loc,n,partcp,pass,plen,praes,sg
+act,fut,indic
+distort,gen,inan,n
+acc,anim,bastard,pl
+bastard,dat,n,partcp,pass,plen,praet,sg
+bastard,dat,m,partcp,pass,plen,praet,sg
+bastard,m,nom,sg,supr
+acc,bastard,inan,m,sg,supr
+1p,acc,anom,sg
+2p,act,anom,indic,praes,sg
+3p,act,indic,praet,sg
+bastard,f,nom,partcp,pass,plen,praes,sg
+0,f,plen
+0,m,plen
+0,n,plen
+act,bastard,loc,n,partcp,plen,praet,sg
+act,bastard,loc,m,partcp,plen,praet,sg
+loc,obsc,sg
+anom
+anom,comp
+dat,obsc,sg
+ins,obsc,sg
+act,ger,obsc,praet
+2p,act,anom,imper,sg
+bastard brev partcp pass pf pl praet tran
+acc anim bastard partcp pass pf pl plen praet
+bastard gen partcp pass pf pl plen praet
+bastard loc partcp pass pf pl plen praet
+bastard dat ipf partcp pass pl plen praet tran
+bastard dat partcp pass pf pl plen praet tran
+bastard ins ipf m partcp pass plen praet sg tran
+bastard ins ipf n partcp pass plen praet sg tran
+bastard ins m partcp pass pf plen praet sg tran
+bastard ins n partcp pass pf plen praet sg tran
+act bastard indic intr ipf pl praet
+bastard dat f ipf partcp pass plen praet sg tran
+bastard dat f partcp pass pf plen praet sg tran
+bastard f gen ipf partcp pass plen praet sg tran
+bastard f gen partcp pass pf plen praet sg tran
+bastard f ins ipf partcp pass plen praet sg tran
+bastard f ins partcp pass pf plen praet sg tran
+bastard f ipf loc partcp pass plen praet sg tran
+bastard f loc partcp pass pf plen praet sg tran
+act bastard ins partcp pl plen praes
+bastard brev ipf partcp pass pl praet tran
+acc anim intr m norm partcp pass pf plen praet sg
+gen intr m norm partcp pass pf plen praet sg
+gen intr n norm partcp pass pf plen praet sg
+act bastard dat partcp pl plen praes
+act bastard ins m partcp plen praes sg
+act bastard ins n partcp plen praes sg
+act bastard ger ipf praet tran
+bastard f nom partcp pass plen praet sg
+acc act ipf n norm partcp plen praet sg tran
+act ipf n nom norm partcp plen praet sg tran
+acc act bastard inan ipf m partcp plen praes sg tran
+act bastard ipf m nom partcp plen praes sg tran
+3p f nom norm sg WO
+0 norm WO
+dat patrn sg
+acc bastard inan ipf partcp pass pl plen praet tran
+bastard ipf nom partcp pass pl plen praet tran
+act indic intr ipf norm pl praet WO
+brev ipf norm partcp pass pl praet tran WO
+brev norm partcp pass pf pl praet tran WO
+act bastard dat f partcp plen praet sg
+act bastard f gen partcp plen praet sg
+act bastard f ins partcp plen praet sg
+act bastard f loc partcp plen praet sg
+act bastard indic ipf pl praet
+act bastard f indic intr ipf praet sg
+act bastard f indic intr pf praet sg
+bastard loc m plen sg WO
+bastard loc n plen sg WO
+act bastard ipf loc m partcp plen praes sg
+act bastard ipf loc m partcp plen praes sg tran
+act bastard ipf loc n partcp plen praes sg
+act bastard ipf loc n partcp plen praes sg tran
+f nom norm plen sg WO
+f ins norm sg WO
+f loc norm sg WO
+anim m nom norm sg WO
+act bastard f indic praet sg
+bastard brev m partcp pass pf praet sg
+bastard ins ipf partcp pass pl plen praes tran
+act bastard indic intr n pf praet sg
+acc act bastard inan intr ipf partcp pl plen praes
+act bastard intr ipf nom partcp pl plen praes
+pl sg
+acc norm WO
+nom norm WO
+acc bastard inan partcp pass pf pl plen praet
+bastard nom partcp pass pf pl plen praet
+loc m norm partcp pass pf plen praet sg tran WO
+loc n norm partcp pass pf plen praet sg tran WO
+bastard brev ipf n partcp pass praet sg tran
+inan ins n norm sg WO
+comp norm WO
+anom,gen,pl
+bastard,loc,m,partcp,pass,plen,praet,sg
+bastard,loc,n,partcp,pass,plen,praet,sg
+3p,acc,m
+3p,gen,m
+3p,gen,n
+3p,acc,n
+act,anom,inf
+brev,f,nom,sg
+acc,bastard,f,sg
+anom,m,nom,plen,sg
+2p,act,bastard,indic,pl,praes
+bastard,ins,m,sg
+bastard,ins,n,sg
+act,anom,ger,praes
+bastard,f,nom,sg,supr
+anom,ins,sg
+f,ins
+3p,act,anom,fut,indic,sg
+bastard,ins,partcp,pass,pl,plen,praes
+f,loc,pl
+gen norm WO
+acc inan m norm partcp pass pf plen praet sg WO
+m nom norm partcp pass pf plen praet sg WO
+f intr nom norm partcp pass pf plen praet sg
+act ger ipf norm praes tran coverb
+acc anim norm pl plen WO
+gen norm pl plen WO
+loc norm pl plen WO
+act indic ipf n norm praet sg tran WO
+norm sent_agr
+acc inan n norm sg sent_agr
+inan n nom norm sg sent_agr
+acc norm sg 
+nom norm sg 
+acc n norm sg comparar
+n nom norm sg comparar
+dat f norm plen sg WO
+f gen norm plen sg WO
+f ins norm plen sg WO
+f loc norm plen sg WO
+acc intr n norm partcp pass pf plen praet sg
+intr n nom norm partcp pass pf plen praet sg
+bastard ins partcp pass pl plen praes
+3p act fut indic intr norm pf sg WO
+brev f norm sg comparar
+3p act fut indic intr norm pf pl WO
+f ins norm
+acc norm pl discourseparc
+dat norm sg discourseparc
+gen norm sg discourseparc
+loc norm sg discourseparc
+nom norm pl discourseparc
+act f ipf nom norm partcp plen praes sg tran coomplex discoord
+acc inan n norm sg comparar
+acc norm pl comparar
+inan n nom norm sg comparar
+acc norm pl laсл
+dat norm sg laсл
+gen norm sg laсл
+loc norm sg laсл
+nom norm pl laсл
+dat pl type
+ins sg type
+bastard dat pl plen type
+bastard ins m plen sg type
+bastard ins n plen sg type
+gen norm pl styl.colloq
+act indic intr ipf n norm praet sg WO
+ins patrn sg
+act bastard inf ipf
+bastard brev intr ipf m partcp pass praet sg
+bastard brev intr m partcp pass pf praet sg
+norm cord
+"3p act fut indic intr ipf sg word;discourse"
+acc norm pl word?
+gen norm sg word?
+nom norm pl word?
+act dat f ipf norm partcp plen praes sg tran WO
+act f gen ipf norm partcp plen praes sg tran WO
+act f ins ipf norm partcp plen praes sg tran WO
+act f ipf loc norm partcp plen praes sg tran WO
+acc act anim bastard intr ipf partcp pl plen praes
+act bastard gen intr ipf partcp pl plen praes
+act bastard intr ipf loc partcp pl plen praes
+bastard brev f ipf partcp pass praet sg tran
+bastard brev f partcp pass pf praet sg
+bastard brev f partcp pass pf praet sg tran
+acc f plen sg
+acc act anim bastard ipf partcp pl plen praes
+act bastard gen ipf partcp pl plen praes
+act bastard ipf loc partcp pl plen praes
+acc act bastard inan partcp pl plen praes
+act bastard nom partcp pl plen praes
+3p act bastard fut indic pf pl
+3p act bastard fut indic pf pl tran
+acc n norm plen sg dis_cooord
+n nom norm plen sg dis_cooord
+3p act anom indic ipf praes sg tran
+3p act fut indic norm pf sg tran WO
+dat f plen sg
+f gen plen sg
+f ins plen sg
+f loc plen sg
+acc act anim ipf m norm partcp plen praet sg tran
+act gen ipf m norm partcp plen praet sg tran
+act gen ipf n norm partcp plen praet sg tran
+dat norm sg diacourse
+gen norm sg diacourse
+ins norm sg diacourse
+loc norm sg diacourse
+acc inan m norm plen sg diacourse
+dat f norm plen sg diacourse
+f gen norm plen sg diacourse
+f ins norm plen sg diacourse
+f loc norm plen sg diacourse
+m nom norm plen sg diacourse
+nom norm sg diacourse
+f nom norm plen sg stil
+f nom norm partcp pass pf plen praet sg tran stil
+dat intr ipf norm partcp pass pl plen praes
+ins intr ipf m norm partcp pass plen praes sg
+ins intr ipf n norm partcp pass plen praes sg
+acc act anim bastard intr partcp pf pl plen praet
+act bastard gen intr partcp pf pl plen praet
+act bastard intr loc partcp pf pl plen praet
+3p norm WO
+3p n nom norm sg WO
+acc act bastard n partcp plen praet sg
+act bastard n nom partcp plen praet sg
+acc act anim bastard m partcp plen praet sg
+act bastard gen m partcp plen praet sg
+act bastard gen n partcp plen praet sg
+act indic n norm pf praet sg tran WO
+norm giscourse WO
+3p acc norm pl giscourse WO
+3p gen norm pl giscourse WO
+1p act indic intr ipf med norm pl praes
+norm discoutse
+norm phrase?
+acc norm pl phrase?
+dat norm sg phrase?
+gen norm sg phrase?
+loc norm sg phrase?
+nom norm pl phrase?
+3p act indic ipf norm praes sg tran cause:typo
+acc norm sg cause:contamn
+nom norm sg cause:contamn
+acc norm pl cause:typo
+gen norm pl cause:typo
+act ins norm partcp pf pl plen praet
+acc norm sg cause:typo
+norm cause:typo
+brev n norm sg cause:typo
+acc anom sg
+nom norm sg cause:typo
+nom norm pl cause:typo
+gen norm sg cause:typo
+f ipf nom norm partcp pass plen praet sg tran WO
+f nom norm partcp pass pf plen praet sg WO
+f nom norm partcp pass pf plen praet sg tran WO
+brev intr m norm partcp pass pf praet sg
+ins norm sg cause:typo
+act bastard dat partcp pl plen praet
+act bastard ins m partcp plen praet sg
+act bastard ins n partcp plen praet sg
+dat norm sg cause:typo
+loc norm sg cause:typo
+acc act bastard inan ipf partcp pl plen praes tran
+act bastard ipf nom partcp pl plen praes tran
+act bastard dat f partcp plen praes sg
+act bastard f gen partcp plen praes sg
+act bastard f ins partcp plen praes sg
+act bastard f loc partcp plen praes sg
+dat norm pl comparar
+ins m norm sg comparar
+ins n norm sg comparar
+f ipf nom norm partcp pass plen praes sg tran WO
+acc inan m norm sg comparar
+m nom norm sg comparar
+act ins intr ipf norm partcp pl plen praet
+acc bastard n partcp pass pf plen praet sg tran
+bastard n nom partcp pass pf plen praet sg tran
+3p act anom indic ipf pl praes tran
+loc patrn sg
+bastard brev partcp pass pl praet
+dat norm sg comparar
+loc norm sg comparar
+3p act bastard indic intr pl praes
+nom norm sg orpho
+acc norm sg orpho
+gen norm sg orpho
+acc n norm sg sent_agr
+n nom norm sg sent_agr
+2p act imper intr norm pf pl WO
+2p act imper norm pf sg tran WO
+ WO
+bastard ins partcp pass pf pl plen praet tran
+3p acc m
+3p gen m
+3p acc n
+3p gen n
+act bastard indic pl praet tran
+acc norm pl nmz?
+dat norm sg nmz?
+gen norm sg nmz?
+loc norm sg nmz?
+nom norm pl nmz?
+acc n norm sg wor
+n nom norm sg wor
+act ger ipf norm praes tran conver
+acc norm pl lack?
+dat norm sg lack?
+gen norm sg lack?
+loc norm sg lack?
+nom norm pl lack?
+dat norm sg wors
+gen norm sg wors
+loc norm sg wors
+f loc norm pl
+2p act anom imper pf tran
+bastard brev f partcp pass praet sg
+acc anim bastard m partcp pass plen praet sg
+bastard gen m partcp pass plen praet sg
+bastard gen n partcp pass plen praet sg
+acc bastard ipf n partcp pass plen praet sg tran
+bastard ipf n nom partcp pass plen praet sg tran
+act anom ger pf praet tran
+2p act anom imper ipf sg tran
+ins norm pl plen WO
+acc act anim ipf norm partcp pl plen praet
+act gen ipf norm partcp pl plen praet
+act ipf loc norm partcp pl plen praet
+acc inan ipf m norm partcp pass plen praet sg tran WO
+acc inan m norm partcp pass pf plen praet sg tran WO
+ipf m nom norm partcp pass plen praet sg tran WO
+m nom norm partcp pass pf plen praet sg tran WO
+acc anim m norm partcp pass pf plen praet sg WO
+gen m norm partcp pass pf plen praet sg WO
+gen n norm partcp pass pf plen praet sg WO
+norm sg
+act bastard loc m partcp plen praes sg
+act bastard loc n partcp plen praes sg
+act indic intr ipf m norm praet sg WO
+act indic intr n norm pf praet sg doscourse WO
+1p act indic intr ipf norm pl praes dis
+act bastard indic n pf praet sg
+acc anom f inan plen sg
+acc norm sg infl?
+nom norm sg infl?
+dat f norm plen sg ofiicial
+f gen norm plen sg ofiicial
+f ins norm plen sg ofiicial
+f loc norm plen sg ofiicial
+dat m norm plen sg WO
+dat n norm plen sg WO
+ins intr norm partcp pass pf pl plen praet
+3p nom norm pl WO
+norm dis_coord?
+norm stil
+act indic intr ipf n norm praet sg stil
+3p act indic intr ipf norm pl praes stil
+brev n norm sg discousre WO
+norm discousre WO
+brev f norm sg typo?
+acc bastard inan ipf m partcp pass plen praes sg tran
+bastard ipf m nom partcp pass plen praes sg tran
+acc norm sg dicsourse
+nom norm sg dicsourse
+acc inan norm pl plen comparar
+nom norm pl plen comparar

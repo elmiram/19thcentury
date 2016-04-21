@@ -1,0 +1,222 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block links %}
+          <link href="{% static "css/style.css" %}" rel="stylesheet">
+    <link href="{% static "css/styles.css" %}" rel="stylesheet">
+  {% endblock %}
+{% block upper-row %}
+<div id="masthead">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h1 id="top">CoRST
+          </h1>
+        </div>
+          <div class="col-md-7" align="right"><h1><span  class="lead">Corpus of Russian Student Texts</span></h1>
+        </div>
+      </div>
+
+  </div><!--/container-->
+</div><!--/masthead-->
+{% endblock %}
+<!--main-->
+<div class="container">
+    {% block content %}
+	<div class="row">
+      <!--left-->
+      <div class="col-md-3" id="leftCol">
+        <ul class="nav nav-stacked" id="sidebar">
+          <li><a href="#sec0">About</a></li>
+          <li><a href="#sec1">Types of texts</a></li>
+          <li><a href="#sec2">Authors of texts</a></li>
+          <li><a href="#sec3">Annotation</a>
+            <ul>
+            <li><a href="#sec31">Metatextual markup</a></li>
+            <li><a href="#sec32">Morphological markup</a></li>
+            <li><a href="#sec33">Error markup</a></li>
+                </ul></li>
+          <li><a href="#sec4">Corpus users</a></li>
+            <li><a href="#sec5">Team</a></li>
+            <li><a href="#sec6">Publications</a>
+            <ul>
+            <li><a href="#sec61">Projects</a></li>
+            <li><a href="#sec62">Publications</a></li>
+            <li><a href="#sec63">Presentations</a></li>
+                </ul></li>
+            <li><a href="#sec7">Links</a></li>
+            <li><a href="#top">Back to top</a></li>
+        </ul>
+      </div><!--/left-->
+
+      <!--right-->
+      <div class="col-md-9">
+          <hr id="sec0">
+        <h2 >About</h2>
+        <p>Corpus of Russian Student Texts (CoRST) is a collection of Russian texts written by students of different universities. Currently, the size of the corpus is about 2.5 million tokens. The texts are annotated in several  ways (metatextual annotation, morphological annotation and error markup), which enables users to perform many types of search in the corpus.</p>
+<p>To learn more about how to use the corpus and the search request language, please, consult the <a href="http://web-corpora.net/learner_corpus/help/" target="_blank" >help page</a>.</p>
+<p>Corpus of Russian Student Texts is a comprehensive reference system intended for researchers, teachers, students, as well as everyone interested in the problems of modern Russian grammar, current processes in lexis, morphology and syntax of modern Russian.</p>
+
+          <hr id="sec1">
+        <h2 >Types of texts</h2>
+        <p>The texts represented in the corpus have been written by students of bachelor's and master's programmes of different universities, students. The main types of texts are as follows: course papers, term papers, bachelor's and master's theses, essays, abstracts, reports, summaries, autobiographies, and paragraphs (small texts for different purposes: home assignments, answers to various questions, etc.).</p>
+<p>The corpus provides information about the academic year/ semester/ module when  each text was written and the field of knowledge which the text relates to. The field of knowledge may not coincide with the academic majors of students. For instance, if a linguist writes an essay on history, we indicate his/her major (<i>linguistics</i>) and the subject of the work (<i>history</i>).</p>
+
+        <hr id="sec2">
+
+
+        <h2 >Authors of texts</h2>
+        <p>The corpus includes  texts written by students of the following academic majors: economics, sociology, political science, law, psychology, journalistics, linguistics, history, philology, logistics, mathematics, philosophy. Generally, the corpus provides information about the gender and age of the author, and also about the academic year (1st year bachelor, 2nd year  master, etc.). Some texts are provided with the information about the region where the author lived until the age of 18 and whether the author is a bilingual speaker.</p>
+
+        <hr id="sec3">
+
+        <h2 >Annotation</h2>
+        <p>As in any other corpus intended for linguistic and sociological research, the texts of the Corpus of Russian Student Texts are supplemented with <i>linguistic </i> and <i>metalinguistic information</i>, or <i>markup</i>. Linguistic markup includes <i>morphological markup</i> and <i>error markup</i>. Currently, the texts of the corpus contain <i>metatextual markup</i> and <i>morphological markup</i>. </p>
+<p>Below is more information about the layers of markup.</p>
+          <hr id="sec31">
+        <h3 >Metatextual markup</h3>
+          <i>Metatextual markup</i> contains metalinguistic information about the text and its author. </p>
+
+           <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h4>Author-meta</h4></div>
+              <div class="panel-body">
+                  <p><b>Linguist, economist, sociologist, law student</b>, etc.</br>
+
+The student’s<i>academic major</i> is always indicated: this is an important part of sociolinguistic information, which is of value for methodological research. </p>
+
+<p><b>M, F</b></br>
+Information about <i>the gender</i> of a student is given in the majority of cases; however, sometimes it is impossible to be retrieved. For instance, if a student has signed his/her paper <i>Jakovenko M.</i>, the field «gender» is not filled in. After the metatextual data is collected, the name of the author is deleted. </p>
+
+<p><b>21, 22</b>, etc. </br>
+<i>The age</i> of the author is indicated if necessary. While creating the corpus, we did not intend to collect accurate information about the age. Most of Russian students enter the university right after leaving school; therefore, the approximate age of a student is easily retrieved from the data about <i>the year of studying</i> (see  <a href="#infotext">Metadata related to the text</a>). </p>
+
+<p><b>Ukrainian, Armenian, German</b>, etc. </br>
+This includes information about whether the author has any other mother tongue, besides Russian. Generally, this is a language which is spoken in the family or a language of the community where the author lived before entering the university.</p>
+
+<p><b>Ukraine, Armenia, Germany</b>, etc. </br>
+This includes information about the region of the author's residency before he/she entered the university. This information matters for sociolinguistic research. The region is indicated if known.</br> </br> </br> </br> </br>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h4>Text-meta</h4></div>
+              <div class="panel-body">
+                  <p><b>2003-2004, 2011-2012</b>, etc.  </br>
+Generally, metatextual markup has information about the academic year when the text was written. This information is needed for methodological research. </p>
+
+<p><b>1st year spec, 2nd year bach, 1st year mas</b>, etc. </br>
+This is information about the year of studying during which the text was created. For instance, <b>1st year spec</b> means the first of five years of specialist program, <b>2nd year bach</b> means the second of four years of bachelor's program, etc.</p>
+
+<p><b>1 semester, 2 module</b>, etc.</br>
+Information about the semester, or the module (for students with the module system), when the text was created.</p>
+
+<p><b>Course paper, barchelor's of master's thesis, abstract, essay, report, summary, autobiography, paragraph</b>, etc.</br>
+The type of an academic text is always indicated. Paragraphs are small texts for different purposes: hometasks, answers to various questions, etc.</p>
+
+<p><b>Linguistics, economics, sociology, law</b>, etc.</br>
+In the process of studying at the university a student writes texts related to his/her academic major or in other academic fields. Generally, linguists would write course papers and theses on linguistics, economists – on economics, however, even for term papers, there may be exceptions. As for the rest of the texts, the field of knowledge to which they may be related does not always coincide with the academic courses students major in. For instance, a linguist may write a paper on history, an economist – on sociology, etc. </br>
+Many short texts were written in the Academic Writing or Speech Culture courses and may not be  attributed to any particular field of knowledge. Such texts are marked with label   <b>«various topics»</b>). </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+<hr id="sec32">
+          <h3 >Morphological markup</h3>
+          <p>Morphological markup contains information about morphological forms and meanings (parts of speech, gender, number, case, mood, etc.). Morphological markup is required for searching words, word forms and constructions. </p>
+<p>For the morphological markup of the Corpus of Russian Student Texts we have used the same tag set that was integrated into the Russian National Corpus (<a href="http://www.ruscorpora.ru" target="_blank">RNC</a>).  <a href="http://ruscorpora.ru/corpora-morph.html" target='_blank'>The full list of tags</a> is available on the RNC website. The morphological markup is carried out automatically with the help of the morphological analyzer <a href="http://company.yandex.ru/technologies/mystem/" target='_blank'>MYSTEM</a>.</p>
+<hr  id="sec33">
+          <h3>Error markup</h3>
+<p>The multilayered <i>system of error markup</i> is currently being tested, after which the texts will be annotated manually. The error markup system includes:</p>
+<ol type="a">
+<li>linguistic error type (errors in lexis, grammar or discourse);</li>
+<li>cause of an error;</li></ol>
+<p><i>Linguistic error types</i> presented in (а) are divided into subtypes as follows:
+<ul>
+<li>lexical (lexical and word formation errors), </li>
+<li>stylistic (fficial style, colloquial style, other stylistic deviance), </li>
+<li>grammatical (agreement, government, coordination errors, errors in comparative constructions, in adverbial participial phrases, in complex sentences – in sentential arguments and relative clauses; errors in pronouns including anaphora and reflexives; reciprocals, nominal, verbal and adjectival inflection – errors in number, person, gender, case, verbal and adjectival inflectional forms),</li>
+<li>discursive (parcellation, topicalization, wrong use of link-words, mixing of direct and indirect speech, wrong word order, logical errors).</li> </ul>
+<p>Among the <i>causes of mistakes</i> presented in (b) one can point out contaminations of constructions and typos as the most transparent and the most common causes. In the future, the process of annotating the corpus texts may reveal other types of causes of mistakes.</p>
+<p>It is important to stress that the suggested error classification is multilayered:
+<ol><li>Firstly, for each linguistic error its linguistic type and, if possible, cause, have to be defined.</li>
+<li>Secondly, an error may be attributed to different linguistic types. For instance, an error may be both lexical and stylistic at the same time.</li></ol>
+
+        <hr id="sec4">
+        <h2 >Corpus users</h2>
+       <p>The Corpus of Russian Student Texts is intended for linguists - researchers, teachers of the literary Russian language and of the Russian academic writing, and students.</p>
+<p>To researchers, this resource is useful because it helps, on the one hand, to systematize the peculiarities of academic texts of novice authors. On the other hand, the Corpus of Russian Student Texts is an invaluable resource for the study of errors made by speakers of Russian, as well as for investigation  of grammar, lexis, stylistics, sociolinguistics, and psycholinguistics.
+</p>
+<p>To teachers of the literary Russian language and of the Russian academic writing, the resource helps  to see the main problems that a student faces while trying to master a new register of his/her first language . The methodological value of the resource is that teachers now receive an opportunity to develop various exercises and linguistic training software on its basis.
+</p>
+<p>To students of different majors, the resource offers an opportunity to familiarize themselves with typical language errors and their classification as well as an opportunity   to edit them. Such exercises are supposed to reduce such errors while writing a text of one’s own.
+</p>
+
+<hr id="sec5">
+          <h2 >Team</h2>
+<p>The corpus was created by <a href='http://philology.hse.ru/ling_main' target='_blank'>the Linguistic Laboratory of Corpus Technologies of National Research University Higher School of Economics</a>:</p>
+<p><u>Chiefs</u>: Ekaterina Rakhilina, Natalia Zevakhina, Svetlana Dzakupova</p>
+<p><u>Developers</u>: Тimofey Arkhangelskiy, Elmira Mustakimova</p>
+<p><u>Team</u>:</br>
+Yana Akhapkina</br>
+Yulia Kuvshinskaya</br>
+Mariya Kuznetsova</br>
+Anna Levinzon</br>
+Alexander Letuchiy</br>
+Anna Plissetskaya</br>
+Natalia Chukicheva</br>
+          Svetlana Puzhaeva</br>
+
+          <hr id="sec6">
+          <h2 >Publications</h2>
+          <hr id="sec61">
+          <h3>Projects</h3>
+<ul>
+<li>Natalia Zevakhina, Svetlana Dzakupova "Non-standard and standard constructions of the Russian language in typological perspective"</li>
+</ul>
+<br>
+
+<strong>&nbsp;&nbsp;&nbsp;&nbsp; Including students' course projects: </strong><br>
+
+<ul>
+<li>Svetlana Puzhaeva "Construction Blending in the Corpus of Russian Student Texts" (master, 1st year)</li>
+<li>Anna Vishenkova "Comparative constructions with double marker of comparison in non-standard Russian: a corpus study" (bachelor, 2nd year)</li>
+</ul>
+
+          <hr id="sec62">
+<h3>Publications</h3>
+<ul>
+<li>Svetlana Dzhakupova and Natalia Zevakhina. Case (non-)coincidence in elliptical coordinated constructions: Learner texts of Russian native speakers // Ahti Nikunlassi, Ekaterina Protassova (eds.) Slavica Helsingiensia 45 Instrumentarium of Linguistics: Language errors and multilingualism. Helsinki: University of Helsinki, 2014.</li>
+</ul>
+<br>
+
+          <hr id="sec63">
+<h3>Presentations</h3>
+<ul>
+<li>Natalia Zevakhina and Svetlana Dzhakupova. Russian in the mirror of the Corpus of Russian Student Texts. The Institute of Slavic Studies of the Russian Academy of Sciences, Moscow, 16.12.2014.</li>
+<li>Natalia Zevakhina and Svetlana Dzhakupova. Russian Metalinguistic Comparatives: Towards the Typology // The 11th Conference on Typology and Grammar for Young Researchers. Institute for Linguistic Studies, Russian Academy of Science, Saint-Petersburg, Russia. 27-29.11.2014.</li>
+</ul>
+
+          <hr id="sec7">
+          <h2 >Links</h2>
+          <ul>
+<li><a href='http://www.ruscorpora.ru/en/corpora-intro.html' target='_blank'>What is the Corpus?</a> - see the introduction page on the website of Russian National Corpus</li>
+<li>Learner corpora</li>
+<ul><li><a href='http://web-corpora.net/RussianLearnerCorpus/search/' target='_blank'>Russian Learner Corpus </a></li>
+
+<li><a href='http://rus-ltc.org/' target='_blank'>Russian Learner Translator Corpus</a></li>
+
+<li><a href='http://realec.org/' target='_blank'>Russian Error-Annotated Learner English Corpus </a></li></ul>
+</ul>
+
+        <hr>
+        <h4><a href="#">Some link here</a></h4>
+        <hr>
+
+        </div><!--/right-->
+  	</div><!--/row-->
+    {% endblock content%}
+</div><!--/container-->

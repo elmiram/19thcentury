@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% load annotator_tags %}
+{% block title %}{% trans 'CoRST Annotation' %}{% endblock %}
+{% block meta_content %}{% trans 'Annotation' %}{% endblock %}
+
+{% block scripts %}
+{% for i in j %}
+     <script>
+    {{ i|safe }}
+    </script>
+{% endfor %}
+{% endblock %}
+    {% block upper-row %}
+            {% endblock %}
+
+    {% block other %}
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.token').tooltip({
+    placement : 'top',
+      delay: { "show": 500, "hide": 0 },
+    trigger: 'hover',
+      html: true
+  });
+});
+</script>
+    {% endblock %}
+
+{% block content_header %}{% trans 'Annotate texts' %}{% endblock content_header %}
+{% block content %}
+    <div class="col-md-12">
+    {% for doc, sents in data %}
+    <div class="row">
+      <div class="col-md-6">
+          <h2>
+        <span class="lead">{% trans 'Annotation of text:' %}</span> <strong>{{doc}}</strong>
+    </h2>
+      </div>
+      <div class="col-md-6">
+      <div class="row">
+          <h2 align="right">
+          <div class="col-md-6">
+              {% if doc.annotated %}
+                  {% if request.user|has_group:"STAFF"%}
+              {% if not doc.checked %}
+                  <form action="mark" method="POST">
+                  <input type="hidden" name="next" value="{{ request.get_full_path }}" />
+                <button type="submit" class="btn btn-info btn-sm" value="checked" name="mark">
+                  <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> {% trans 'Mark as checked' %}
+                </button></form>
+              {% endif %}
+                      {% if doc.checked %}
+                  <form action="mark" method="POST">
+                  <input type="hidden" name="next" value="{{ request.get_full_path }}" />
+                <button type="submit" class="btn btn-warning btn-sm" value="unchecked" name="mark">
+                  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> {% trans 'Mark as not checked' %}
+                </button></form>
+              {% endif %}
+                  {% endif %}
+          {% endif %}
+          </div>
+          <div class="col-md-6">
+              {% if not doc.annotated %}
+              <form action="mark" method="POST">
+              <input type="hidden" name="next" value="{{ request.get_full_path }}" />
+                 <button type="submit" class="btn btn-info btn-sm" value="annotated" name="mark">
+                  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> {% trans 'Mark as annotated' %}
+                </button>
+              </form></h2>
+      {% endif %}
+      {% if doc.annotated %}
+              <form action="mark" method="POST">
+              <input type="hidden" name="next" value="{{ request.get_full_path }}" />
+                 <button type="submit" class="btn btn-danger btn-sm" value="unannotated" name="mark">
+                  <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> {% trans 'Mark as not annotated' %}
+                </button>
+              </form></h2>
+      {% endif %}
+      </div>
+
+      </div>
+      </div>
+
+	<div class="row">
+		{% for sent in sents %}
+            <span id="{{ sent.id }}" contenteditable="false"> <!-- onmouseup="snapSelectionToWord() -->
+                {{sent.tagged|safe|linebreaksbr}}
+            </span>
+		{% endfor %}
+
+
+        {% if sents.paginator.num_pages > 1 %}
+
+    <nav>
+  <ul class="pagination pagination-sm">
+       {% if sents.has_previous %}
+           <li>
+      <a href="/19thcentury{{ path }}&page={{ result.previous_page_number }}" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+            {% endif %}
+{% for i in sents.paginator.page_range %}
+    <li
+    {% if sents.number == i %}
+            class="active"
+            {% endif %}
+    ><a href="/19thcentury{{ path }}&page={{ i }}">{{ i }}</a></li>
+        {% endfor %}
+  {% if sents.has_next %}
+      <li>
+      <a href="/19thcentury{{ path }}&page={{ sents.next_page_number }}" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+            {% endif %}
+
+  </ul>
+</nav>
+        {% endif %}
+        </div>
+
+    {% endfor %}
+    </div>
+
+{% endblock %}
+

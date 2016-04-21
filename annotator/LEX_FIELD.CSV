@@ -1,0 +1,92 @@
+S inan n
+NUM
+PR
+S inan m
+PART
+V
+S f inan
+S anim f persn
+S anim m persn
+S anim famn m
+S anim f famn
+S anim m
+CONJ
+INTJ
+APRO
+SPRO
+ADV
+bastard
+A
+PRAEDIC
+S inan
+
+NONLEX
+ADVPRO
+PARENTH
+S anim famn
+norm
+S anim
+S
+S anim f
+ANUM
+S anim n
+S bastard f inan
+S anim bastard f
+S anim bastard m persn
+S anim bastard f persn
+S bastard inan m
+S anim bastard
+S anim bastard f famn
+S anim bastard famn m
+S anim bastard m
+S bastard inan n
+S anim bastard famn
+S bastard
+S n
+S anim bastard persn
+S bastard inan
+S anim bastard n
+S anim persn
+S bastard n
+S m
+S bastard m
+S m persn
+S f
+S,inan,n
+S,f,inan
+S,anim,m
+S,inan,m
+V,pf
+V,intr,pf
+S,anim,f,persn
+V,pf,tran
+V,ipf,tran
+V,intr,ipf
+S,anim,n
+V,ipf
+ADV,PARENTH
+ADV,PRAEDIC
+S,anim,m,persn
+S,inan
+S,anim
+S,anim,f
+S,anim,famn,m
+S,anim,f,famn
+S,anim,m,patrn
+S,n
+CONJ,PARENTH
+S,anim,famn
+S,anim,persn
+S,anim,f,patrn
+PART,PARENTH
+S,m,persn
+S,inan,m,persn
+V,intr
+S,f,famn
+V,intr,ipf,med
+S,f
+S,m
+ADVPRO,PARENTH
+S,famn,m
+V,intr,med,pf
+V,tran

@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{% block title %}
+    My amazing corpus Annotation
+
+{% endblock %}
+{% block meta_content %}
+    Annotation
+{% endblock %}
+
+{% block content_header %}
+    Annotation
+{% endblock content_header %}
+
+{% block other %}
+
+{% endblock %}
+{% block content %}
+<p>As in any other corpus intended for linguistic and sociological research, the texts of the Corpus of Russian Student Texts are supplemented with <i>linguistic </i> and <i>metalinguistic information</i>, or <i>markup</i>. Linguistic markup includes <i>morphological markup</i> and <i>error markup</i>. Currently, the texts of the corpus contain <i>metatextual markup</i> and <i>morphological markup</i>. </p>
+<p>Below is more information about the layers of markup:</p>
+
+<div class="panel-group" id="accordion" role="tablist">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Metatextual markup
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+       <p>
+<i>Metatextual markup</i> contains metalinguistic information about the text and its author. </p>
+
+<ul><li><b><u>Metatextual information about the author</u></b>
+
+<p><b>Linguist, economist, sociologist, law student</b>, etc.</br>
+
+The student’s<i>academic major</i> is always indicated: this is an important part of sociolinguistic information, which is of value for methodological research. </p>
+
+<p><b>M, F</b></br>
+Information about <i>the gender</i> of a student is given in the majority of cases; however, sometimes it is impossible to be retrieved. For instance, if a student has signed his/her paper <i>Jakovenko M.</i>, the field «gender» is not filled in. After the metatextual data is collected, the name of the author is deleted. </p>
+
+<p><b>21, 22</b>, etc. </br>
+<i>The age</i> of the author is indicated if necessary. While creating the corpus, we did not intend to collect accurate information about the age. Most of Russian students enter the university right after leaving school; therefore, the approximate age of a student is easily retrieved from the data about <i>the year of studying</i> (see  <a href="#infotext">Metadata related to the text</a>). </p>
+
+<p><b>Ukrainian, Armenian, German</b>, etc. </br>
+This includes information about whether the author has any other mother tongue, besides Russian. Generally, this is a language which is spoken in the family or a language of the community where the author lived before entering the university.</p>
+
+<p><b>Ukraine, Armenia, Germany</b>, etc. </br>
+This includes information about the region of the author's residency before he/she entered the university. This information matters for sociolinguistic research. The region is indicated if known.</br>
+</li>
+
+
+
+<li id="infotext"><b><u>Metatextual information about a text</u></b>
+
+
+
+<p><b>2003-2004, 2011-2012</b>, etc.  </br>
+Generally, metatextual markup has information about the academic year when the text was written. This information is needed for methodological research. </p>
+
+<p><b>1st year spec, 2nd year bach, 1st year mas</b>, etc. </br>
+This is information about the year of studying during which the text was created. For instance, <b>1st year spec</b> means the first of five years of specialist program, <b>2nd year bach</b> means the second of four years of bachelor's program, etc.</p>
+
+<p><b>1 semester, 2 module</b>, etc.</br>
+Information about the semester, or the module (for students with the module system), when the text was created.</p>
+
+<p><b>Course paper, barchelor's of master's thesis, abstract, essay, report, summary, autobiography, paragraph</b>, etc.</br>
+The type of an academic text is always indicated. Paragraphs are small texts for different purposes: hometasks, answers to various questions, etc.</p>
+
+<p><b>Linguistics, economics, sociology, law</b>, etc.</br>
+In the process of studying at the university a student writes texts related to his/her academic major or in other academic fields. Generally, linguists would write course papers and theses on linguistics, economists – on economics, however, even for term papers, there may be exceptions. As for the rest of the texts, the field of knowledge to which they may be related does not always coincide with the academic courses students major in. For instance, a linguist may write a paper on history, an economist – on sociology, etc. </br>
+Many short texts were written in the Academic Writing or Speech Culture courses and may not be  attributed to any particular field of knowledge. Such texts are marked with label   <b>«various topics»</b>). </p>
+
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Morphological markup
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <p>Morphological markup contains information about morphological forms and meanings (parts of speech, gender, number, case, mood, etc.). Morphological markup is required for searching words, word forms and constructions. </p>
+<p>For the morphological markup of the Corpus of Russian Student Texts we have used the same tag set that was integrated into the Russian National Corpus (<a href="http://www.ruscorpora.ru" target="_blank">RNC</a>).  <a href="http://ruscorpora.ru/corpora-morph.html" target='_blank'>The full list of tags</a> is available on the RNC website. The morphological markup is carried out automatically with the help of the morphological analyzer <a href="http://company.yandex.ru/technologies/mystem/" target='_blank'>MYSTEM</a>.</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Error markup
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+       <p>The multilayered <i>system of error markup</i> is currently being tested, after which the texts will be annotated manually. The error markup system includes:</p>
+<ol type="a">
+<li>linguistic error type (errors in lexis, grammar or discourse);</li>
+<li>cause of an error;</li></ol>
+<p><i>Linguistic error types</i> presented in (а) are divided into subtypes as follows:
+<ul>
+<li>lexical (lexical and word formation errors), </li>
+<li>stylistic (fficial style, colloquial style, other stylistic deviance), </li>
+<li>grammatical (agreement, government, coordination errors, errors in comparative constructions, in adverbial participial phrases, in complex sentences – in sentential arguments and relative clauses; errors in pronouns including anaphora and reflexives; reciprocals, nominal, verbal and adjectival inflection – errors in number, person, gender, case, verbal and adjectival inflectional forms),</li>
+<li>discursive (parcellation, topicalization, wrong use of link-words, mixing of direct and indirect speech, wrong word order, logical errors).</li> </ul></p>
+<p>Among the <i>causes of mistakes</i> presented in (b) one can point out contaminations of constructions and typos as the most transparent and the most common causes. In the future, the process of annotating the corpus texts may reveal other types of causes of mistakes.</li></ul></p>
+<p>It is important to stress that the suggested error classification is multilayered:
+<ol><li>Firstly, for each linguistic error its linguistic type and, if possible, cause, have to be defined.</li>
+<li>Secondly, an error may be attributed to different linguistic types. For instance, an error may be both lexical and stylistic at the same time.</li></ol></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock content %}

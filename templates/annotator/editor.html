@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load annotator_tags %}
+{% block title %}My amazing corpus Result{% endblock %}
+{% block meta_content %}Result{% endblock %}
+
+{% block scripts %}
+{% for i in j %}
+     <script>
+    {{ i|safe }}
+    </script>
+{% endfor %}
+{% endblock %}
+    {% block upper-row %}
+            {% endblock %}
+
+    {% block other %}
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.token').tooltip({
+    placement : 'top',
+      delay: { "show": 500, "hide": 0 },
+    trigger: 'hover',
+      html: true
+  });
+});
+</script>
+    {% endblock %}
+
+{% block content_header %}Annotate text{% endblock content_header %}
+{% block content %}
+    <div class="row">
+          <h2>
+        <span class="lead">Разметка текста:</span> <strong></strong>
+    </h2>
+
+
+	<div class="row">
+		{{  document.body }}
+
+
+{% endblock %}
+

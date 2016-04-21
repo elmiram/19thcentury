@@ -1,0 +1,1863 @@
+#sentno	#wordno	#lang	#graph	#word	#indexword	#nvars	#nlems	#nvar	#lem	#trans	#trans_ru	#lex	#gram	#flex	#punctl	#punctr	#sent_pos
+#meta.docid	1970
+#meta.author	панков евгений
+#meta.title	эссе ( - , - )
+#meta.date1	2013
+#meta.date2	2014
+#meta.genre	эссе
+#meta.gender	м
+#meta.major	
+#meta.course	
+#meta.term	1
+#meta.module	1
+#meta.domain	
+#meta.level	
+#meta.time-limit	
+#meta.university-code	
+#meta.student-code	
+#meta.issue	
+#meta.words	773
+#meta.sentences	43
+#meta.date_displayed	2013–2014
+1	1		cap	Эссе		1	1	1	эссе			S inan n	0 norm				bos
+1	2			на		2	1	1	на			PART	norm				
+1	2			на		2	1	2	на			PR	norm				
+1	3			тему		2	2	1	Тема			S anim m persn	acc norm sg				
+1	3			тему		2	2	2	тема			S f inan	acc norm sg				
+1	4			:		0	0	1								 «	
+1	5		cap	Война		1	1	1	война			S f inan	nom norm sg		 «		
+1	6			-		0	0	1									
+1	7			это		5	2	1	это			PART	norm				
+1	7			это		5	2	2	это			SPRO	acc inan n norm sg				
+1	7			это		5	2	3	это			SPRO	inan n nom norm sg				
+1	7			это		5	2	4	этот			APRO	acc n norm sg				
+1	7			это		5	2	5	этот			APRO	n nom norm sg				
+1	8			всегда		1	1	1	всегда			ADVPRO	norm				
+1	9			геноцид		2	1	1	геноцид			S inan m	acc norm sg			 » 	
+1	9			геноцид		2	1	2	геноцид			S inan m	nom norm sg			 » 	
+1	10		cap	Началом		1	1	1	начало			S inan n	ins norm sg		 » 		
+1	11			цивилизованного		9	2	1	цивилизованный			A	acc anim m norm plen sg				
+1	11			цивилизованного		9	2	2	цивилизованный			A	gen m norm plen sg				
+1	11			цивилизованного		9	2	3	цивилизованный			A	gen n norm plen sg				
+1	11			цивилизованного		9	2	4	цивилизовать			V	acc anim ipf m norm partcp pass plen praet sg tran				
+1	11			цивилизованного		9	2	5	цивилизовать			V	acc anim m norm partcp pass pf plen praet sg tran				
+1	11			цивилизованного		9	2	6	цивилизовать			V	gen ipf m norm partcp pass plen praet sg tran				
+1	11			цивилизованного		9	2	7	цивилизовать			V	gen ipf n norm partcp pass plen praet sg tran				
+1	11			цивилизованного		9	2	8	цивилизовать			V	gen m norm partcp pass pf plen praet sg tran				
+1	11			цивилизованного		9	2	9	цивилизовать			V	gen n norm partcp pass pf plen praet sg tran				
+1	12			человечества		3	1	1	человечество			S inan n	acc norm pl				
+1	12			человечества		3	1	2	человечество			S inan n	gen norm sg				
+1	12			человечества		3	1	3	человечество			S inan n	nom norm pl				
+1	13			по		1	1	1	по			PR	norm				
+1	14			праву		1	1	1	право			S inan n	dat norm sg				
+1	15			считается		1	1	1	считаться			V	3p act indic intr ipf norm praes sg				
+1	16			образование		2	1	1	образование			S inan n	acc norm sg				
+1	16			образование		2	1	2	образование			S inan n	nom norm sg				
+1	17			объединённого		3	1	1	объединить			V	acc anim m norm partcp pass pf plen praet sg tran				
+1	17			объединённого		3	1	2	объединить			V	gen m norm partcp pass pf plen praet sg tran				
+1	17			объединённого		3	1	3	объединить			V	gen n norm partcp pass pf plen praet sg tran				
+1	18		cap	Египетского		3	1	1	египетский			A	acc anim m norm plen sg				
+1	18		cap	Египетского		3	1	2	египетский			A	gen m norm plen sg				
+1	18		cap	Египетского		3	1	3	египетский			A	gen n norm plen sg				
+1	19			царства		3	1	1	царство			S inan n	acc norm pl			. 	eos
+1	19			царства		3	1	2	царство			S inan n	gen norm sg			. 	eos
+1	19			царства		3	1	3	царство			S inan n	nom norm pl			. 	eos
+2	1		caps	С		1	1	1	с			PR	norm				bos
+2	2			тех		4	2	1	тех			norm					
+2	2			тех		4	2	2	тот			APRO	acc anim norm pl				
+2	2			тех		4	2	3	тот			APRO	gen norm pl				
+2	2			тех		4	2	4	тот			APRO	loc norm pl				
+2	3			пор		1	1	1	пора			S f inan	gen norm pl				
+2	4			человечество		2	1	1	человечество			S inan n	acc norm sg				
+2	4			человечество		2	1	2	человечество			S inan n	nom norm sg				
+2	5			только		3	1	1	только			ADV	norm discourse WO				
+2	5			только		3	1	2	только			CONJ	norm discourse WO				
+2	5			только		3	1	3	только			PART	norm discourse WO				
+2	6			начало		3	2	1	начало			S inan n	acc norm sg				
+2	6			начало		3	2	2	начало			S inan n	nom norm sg				
+2	6			начало		3	2	3	начать			V	act indic n norm pf praet sg tran				
+2	7			сливаться		1	1	1	сливаться			V	act inf intr ipf norm				
+2	8			в		1	1	1	в			PR	norm				
+2	9			страны		3	1	1	страна			S f inan	acc norm pl			, 	
+2	9			страны		3	1	2	страна			S f inan	gen norm sg			, 	
+2	9			страны		3	1	3	страна			S f inan	nom norm pl			, 	
+2	10			союзы		2	1	1	союз			S inan m	acc norm pl		, 	, 	
+2	10			союзы		2	1	2	союз			S inan m	nom norm pl		, 	, 	
+2	11			альянсы		2	1	1	альянс			S inan m	acc norm pl discourse tauto		, 		
+2	11			альянсы		2	1	2	альянс			S inan m	nom norm pl discourse tauto		, 		
+2	12		cap	Появление		2	1	1	появление			S inan n	acc norm sg				
+2	12		cap	Появление		2	1	2	появление			S inan n	nom norm sg				
+2	13			первых		6	2	1	первое			S inan n	acc norm pl				
+2	13			первых		6	2	2	первое			S inan n	gen norm pl				
+2	13			первых		6	2	3	первое			S inan n	loc norm pl				
+2	13			первых		6	2	4	первый			ANUM	acc anim norm pl				
+2	13			первых		6	2	5	первый			ANUM	gen norm pl				
+2	13			первых		6	2	6	первый			ANUM	loc norm pl				
+2	14			государств		1	1	1	государство			S inan n	gen norm pl				
+2	15			должно		2	2	1	должно			PRAEDIC	norm				
+2	15			должно		2	2	2	должный			A	brev n norm sg				
+2	16			было		2	2	1	было			PART	norm				
+2	16			было		2	2	2	быть			V	act indic intr ipf n norm praet sg				
+2	17			положить		1	1	1	положить			V	act inf norm pf tran				
+2	18			конец		2	1	1	конец			S inan m	acc norm sg				
+2	18			конец		2	1	2	конец			S inan m	nom norm sg				
+2	19			межплеменным		3	1	1	межплеменной			A	dat norm pl plen				
+2	19			межплеменным		3	1	2	межплеменной			A	ins m norm plen sg				
+2	19			межплеменным		3	1	3	межплеменной			A	ins n norm plen sg				
+2	20			войнам		1	1	1	война			S f inan	dat norm pl				
+2	21			и		2	1	1	и			CONJ	norm				
+2	21			и		2	1	2	и			INTJ	norm				
+2	22			распрям		1	1	1	распря			S f inan	dat norm pl			, 	
+2	23			создать		1	1	1	создать			V	act inf norm pf tran		, 		
+2	24			единое		2	1	1	единый			A	acc n norm plen sg				
+2	24			единое		2	1	2	единый			A	n nom norm plen sg				
+2	25			целое		4	2	1	целое			S inan n	acc norm sg			, 	
+2	25			целое		4	2	2	целое			S inan n	nom norm sg			, 	
+2	25			целое		4	2	3	целый			A	acc n norm plen sg			, 	
+2	25			целое		4	2	4	целый			A	n nom norm plen sg			, 	
+2	26			общее		3	1	1	общий			A	acc n norm plen sg		, 		
+2	26			общее		3	1	2	общий			A	comp norm		, 		
+2	26			общее		3	1	3	общий			A	n nom norm plen sg		, 		
+2	27			для		1	1	1	для			PR	norm				
+2	28			народов		1	1	1	народ			S inan m	gen norm pl			, 	
+2	29			открыть		1	1	1	открыть			V	act inf norm pf		, 		
+2	30			эпоху		1	1	1	эпоха			S f inan	acc norm sg				
+2	31			мира		8	5	1	Мир			S anim m persn	acc norm sg				
+2	31			мира		8	5	2	Мир			S anim m persn	gen norm sg				
+2	31			мира		8	5	3	Мира			S anim f persn	nom norm sg				
+2	31			мира		8	5	4	мир			S inan m	gen norm sg				
+2	31			мира		8	5	5	мира			S f inan	nom norm sg				
+2	31			мира		8	5	6	миро			S inan n	acc norm pl				
+2	31			мира		8	5	7	миро			S inan n	gen norm sg				
+2	31			мира		8	5	8	миро			S inan n	nom norm pl				
+2	32			и		2	1	1	и			CONJ	norm				
+2	32			и		2	1	2	и			INTJ	norm				
+2	33			процветания		3	1	1	процветание			S inan n	acc norm pl			. 	eos
+2	33			процветания		3	1	2	процветание			S inan n	gen norm sg			. 	eos
+2	33			процветания		3	1	3	процветание			S inan n	nom norm pl			. 	eos
+3	1		cap	Но		2	2	1	Но			S anim m persn	nom norm sg			, 	bos
+3	1		cap	Но		2	2	2	но			CONJ	norm			, 	bos
+3	2			похоже		2	2	1	похоже			PARENTH	norm		, 	, 	
+3	2			похоже		2	2	2	похожий			A	brev n norm sg		, 	, 	
+3	3			что		4	1	1	что			ADVPRO	norm		, 		
+3	3			что		4	1	2	что			CONJ	norm		, 		
+3	3			что		4	1	3	что			SPRO	acc inan n norm sg		, 		
+3	3			что		4	1	4	что			SPRO	inan n nom norm sg		, 		
+3	4			историки		1	1	1	историк			S anim m	nom norm pl				
+3	5			поторопились		1	1	1	поторопиться			V	act indic intr norm pf pl praet				
+3	6			назвать		1	1	1	назвать			V	act inf norm pf tran				
+3	7			наш		2	1	1	наш			APRO	acc inan m norm sg				
+3	7			наш		2	1	2	наш			APRO	m nom norm sg				
+3	8			век		4	2	1	век			ADV	norm				
+3	8			век		4	2	2	век			S inan m	acc norm sg				
+3	8			век		4	2	3	век			S inan m	nom norm sg				
+3	8			век		4	2	4	веко			S inan n	gen norm pl				
+3	9			цивилизованным		9	2	1	цивилизованный			A	dat norm pl plen			, 	
+3	9			цивилизованным		9	2	2	цивилизованный			A	ins m norm plen sg			, 	
+3	9			цивилизованным		9	2	3	цивилизованный			A	ins n norm plen sg			, 	
+3	9			цивилизованным		9	2	4	цивилизовать			V	dat ipf norm partcp pass pl plen praet tran			, 	
+3	9			цивилизованным		9	2	5	цивилизовать			V	dat norm partcp pass pf pl plen praet tran			, 	
+3	9			цивилизованным		9	2	6	цивилизовать			V	ins ipf m norm partcp pass plen praet sg tran			, 	
+3	9			цивилизованным		9	2	7	цивилизовать			V	ins ipf n norm partcp pass plen praet sg tran			, 	
+3	9			цивилизованным		9	2	8	цивилизовать			V	ins m norm partcp pass pf plen praet sg tran			, 	
+3	9			цивилизованным		9	2	9	цивилизовать			V	ins n norm partcp pass pf plen praet sg tran			, 	
+3	10			человечество		2	1	1	человечество			S inan n	acc norm sg		, 		
+3	10			человечество		2	1	2	человечество			S inan n	nom norm sg		, 		
+3	11			еще		2	1	1	еще			ADV	norm				
+3	11			еще		2	1	2	еще			PART	norm				
+3	12			к		1	1	1	к			PR	norm				
+3	13			нему		3	3	1	нема			S f inan	acc norm sg				
+3	13			нему		3	3	2	он			SPRO	3p dat m norm sg				
+3	13			нему		3	3	3	оно			SPRO	3p dat n norm sg				
+3	14			не		1	1	1	не			PART	norm				
+3	15			пришло		2	2	1	придти			V	act indic intr n norm pf praet sg				
+3	15			пришло		2	2	2	прийти			V	act indic intr n norm pf praet sg				
+3	16			до		1	1	1	до			PR	norm				
+3	17			сих		3	1	1	сей			APRO	acc anim norm pl				
+3	17			сих		3	1	2	сей			APRO	gen norm pl				
+3	17			сих		3	1	3	сей			APRO	loc norm pl				
+3	18			пор		1	1	1	пора			S f inan	gen norm pl			, 	
+3	19			ибо		1	1	1	ибо			CONJ	norm styl		, 		
+3	20			война		1	1	1	война			S f inan	nom norm sg				
+3	21			всё		9	2	1	весь			APRO	acc inan norm pl				
+3	21			всё		9	2	2	весь			APRO	acc n norm sg				
+3	21			всё		9	2	3	весь			APRO	n nom norm sg				
+3	21			всё		9	2	4	весь			APRO	nom norm pl				
+3	21			всё		9	2	5	все			ADV	norm				
+3	21			всё		9	2	6	все			SPRO	acc inan n norm sg				
+3	21			всё		9	2	7	все			SPRO	acc norm pl				
+3	21			всё		9	2	8	все			SPRO	inan n nom norm sg				
+3	21			всё		9	2	9	все			SPRO	nom norm pl				
+3	22			также		1	1	1	также			ADV	norm				
+3	23			уносит		1	1	1	уносить			V	3p act indic ipf norm praes sg tran				
+3	24			жизни		5	1	1	жизнь			S f inan	acc norm pl lack				
+3	24			жизни		5	1	2	жизнь			S f inan	dat norm sg lack				
+3	24			жизни		5	1	3	жизнь			S f inan	gen norm sg lack				
+3	24			жизни		5	1	4	жизнь			S f inan	loc norm sg lack				
+3	24			жизни		5	1	5	жизнь			S f inan	nom norm pl lack				
+3	25			и		2	1	1	и			CONJ	norm				
+3	25			и		2	1	2	и			INTJ	norm				
+3	26			губит		1	1	1	губить			V	3p act indic ipf norm praes sg tran				
+3	27			целые		4	2	1	целое			S inan n	acc norm pl				
+3	27			целые		4	2	2	целое			S inan n	nom norm pl				
+3	27			целые		4	2	3	целый			A	acc inan norm pl plen				
+3	27			целые		4	2	4	целый			A	nom norm pl plen				
+3	28			народы		2	1	1	народ			S inan m	acc norm pl			. 	eos
+3	28			народы		2	1	2	народ			S inan m	nom norm pl			. 	eos
+4	1		cap	Объединение		2	1	1	объединение			S inan n	acc norm sg				bos
+4	1		cap	Объединение		2	1	2	объединение			S inan n	nom norm sg				bos
+4	2			в		1	1	1	в			PR	norm				
+4	3			государства		3	1	1	государство			S inan n	acc norm pl				
+4	3			государства		3	1	2	государство			S inan n	gen norm sg				
+4	3			государства		3	1	3	государство			S inan n	nom norm pl				
+4	4			лишь		2	1	1	лишь			CONJ	norm				
+4	4			лишь		2	1	2	лишь			PART	norm				
+4	5			увеличило		1	1	1	увеличить			V	act indic n norm pf praet sg tran				
+4	6			масштаб		2	1	1	масштаб			S inan m	acc norm sg				
+4	6			масштаб		2	1	2	масштаб			S inan m	nom norm sg				
+4	7			войн		1	1	1	война			S f inan	gen norm pl				
+4	8			и		2	1	1	и			CONJ	norm				
+4	8			и		2	1	2	и			INTJ	norm				
+4	9			превратило		1	1	1	превратить			V	act indic n norm pf praet sg tran				
+4	10			их		3	2	1	их			APRO	norm				
+4	10			их		3	2	2	они			SPRO	3p acc norm pl				
+4	10			их		3	2	3	они			SPRO	3p gen norm pl				
+4	11			в		1	1	1	в			PR	norm				
+4	12			массовое		2	1	1	массовый			A	acc n norm plen sg				
+4	12			массовое		2	1	2	массовый			A	n nom norm plen sg				
+4	13			истребление		2	1	1	истребление			S inan n	acc norm sg				
+4	13			истребление		2	1	2	истребление			S inan n	nom norm sg				
+4	14			друг		2	1	1	друг			S anim m	nom norm sg ref pron				
+4	14			друг		2	1	2	друг			SPRO	nom norm sg ref pron				
+4	15			друга		4	1	1	друг			S anim m	acc sg			. 	eos
+4	15			друга		4	1	2	друг			S anim m	gen sg			. 	eos
+4	15			друга		4	1	3	друг			SPRO	acc sg			. 	eos
+4	15			друга		4	1	4	друг			SPRO	gen sg			. 	eos
+5	1		cap	Война		1	1	1	война			S f inan	nom norm sg				bos
+5	2			–		0	0	1									
+5	3			есть		8	2	1	быть			V	1p act indic intr ipf norm pl praes				
+5	3			есть		8	2	2	быть			V	1p act indic intr ipf norm praes sg				
+5	3			есть		8	2	3	быть			V	2p act indic intr ipf norm pl praes				
+5	3			есть		8	2	4	быть			V	2p act indic intr ipf norm praes sg				
+5	3			есть		8	2	5	быть			V	3p act indic intr ipf norm pl praes				
+5	3			есть		8	2	6	быть			V	3p act indic intr ipf norm praes sg				
+5	3			есть		8	2	7	есть			INTJ	norm				
+5	3			есть		8	2	8	есть			V	act inf ipf norm tran				
+5	4			преступление		2	1	1	преступление			S inan n	acc norm sg				
+5	4			преступление		2	1	2	преступление			S inan n	nom norm sg				
+5	5			против		2	1	1	против			PR	norm				
+5	5			против		2	1	2	против			PRAEDIC	norm				
+5	6			человечества		3	1	1	человечество			S inan n	acc norm pl			. 	eos
+5	6			человечества		3	1	2	человечество			S inan n	gen norm sg			. 	eos
+5	6			человечества		3	1	3	человечество			S inan n	nom norm pl			. 	eos
+6	1		caps	И		2	1	1	и			CONJ	norm				bos
+6	1		caps	И		2	1	2	и			INTJ	norm				bos
+6	2			преступление		2	1	1	преступление			S inan n	acc norm sg				
+6	2			преступление		2	1	2	преступление			S inan n	nom norm sg				
+6	3			это		5	2	1	это			PART	norm discourse WO				
+6	3			это		5	2	2	это			SPRO	acc inan n norm sg discourse WO				
+6	3			это		5	2	3	это			SPRO	inan n nom norm sg discourse WO				
+6	3			это		5	2	4	этот			APRO	acc n norm sg discourse WO				
+6	3			это		5	2	5	этот			APRO	n nom norm sg discourse WO				
+6	4			с		1	1	1	с			PR	norm				
+6	5			каждым		4	1	1	каждый			APRO	dat norm pl				
+6	5			каждым		4	1	2	каждый			APRO	ins m norm sg				
+6	5			каждым		4	1	3	каждый			APRO	ins n norm sg				
+6	5			каждым		4	1	4	каждый			SPRO	anim ins m norm sg				
+6	6			годом		1	1	1	год			S inan m	ins norm sg				
+6	7			набирает		1	1	1	набирать			V	3p act indic ipf norm praes sg tran				
+6	8			все		9	2	1	весь			APRO	acc inan norm pl				
+6	8			все		9	2	2	весь			APRO	acc n norm sg				
+6	8			все		9	2	3	весь			APRO	n nom norm sg				
+6	8			все		9	2	4	весь			APRO	nom norm pl				
+6	8			все		9	2	5	все			ADV	norm				
+6	8			все		9	2	6	все			SPRO	acc inan n norm sg				
+6	8			все		9	2	7	все			SPRO	acc norm pl				
+6	8			все		9	2	8	все			SPRO	inan n nom norm sg				
+6	8			все		9	2	9	все			SPRO	nom norm pl				
+6	9			новые		2	1	1	новый			A	acc inan norm pl plen				
+6	9			новые		2	1	2	новый			A	nom norm pl plen				
+6	10			обороты		2	1	1	оборот			S inan m	acc norm pl			, 	
+6	10			обороты		2	1	2	оборот			S inan m	nom norm pl			, 	
+6	11			а		0	0	1							, 		
+6	12			не		1	1	1	не			PART	norm				
+6	13			исчезает		1	1	1	исчезать			V	3p act indic intr ipf norm praes sg lex word				
+6	14			как		3	1	1	как			ADVPRO	norm				
+6	14			как		3	1	2	как			CONJ	norm				
+6	14			как		3	1	3	как			PART	norm				
+6	15			должно		2	2	1	должно			PRAEDIC	norm				
+6	15			должно		2	2	2	должный			A	brev n norm sg				
+6	16			быть		1	1	1	быть			V	act inf intr ipf norm			. 	eos
+7	1		cap	Геноцид		2	1	1	геноцид			S inan m	acc norm sg				bos
+7	1		cap	Геноцид		2	1	2	геноцид			S inan m	nom norm sg				bos
+7	2			человечества		3	1	1	человечество			S inan n	acc norm pl				
+7	2			человечества		3	1	2	человечество			S inan n	gen norm sg				
+7	2			человечества		3	1	3	человечество			S inan n	nom norm pl				
+7	3			растет		1	1	1	расти			V	3p act indic intr ipf norm praes sg				
+7	4			в		1	1	1	в			PR	norm				
+7	5			геометрической		4	1	1	геометрический			A	dat f norm plen sg				
+7	5			геометрической		4	1	2	геометрический			A	f gen norm plen sg				
+7	5			геометрической		4	1	3	геометрический			A	f ins norm plen sg				
+7	5			геометрической		4	1	4	геометрический			A	f loc norm plen sg				
+7	6			прогрессии		5	1	1	прогрессия			S f inan	acc norm pl			: 	
+7	6			прогрессии		5	1	2	прогрессия			S f inan	dat norm sg			: 	
+7	6			прогрессии		5	1	3	прогрессия			S f inan	gen norm sg			: 	
+7	6			прогрессии		5	1	4	прогрессия			S f inan	loc norm sg			: 	
+7	6			прогрессии		5	1	5	прогрессия			S f inan	nom norm pl			: 	
+7	7		cap	Отечественная		1	1	1	отечественный			A	f nom norm plen sg		: 		
+7	8			война		1	1	1	война			S f inan	nom norm sg			, 	
+7	9		cap	Первая		1	1	1	первый			ANUM	f nom norm sg		, 		
+7	10		cap	Мировая		2	2	1	мировая			S f inan	nom norm sg				
+7	10		cap	Мировая		2	2	2	мировой			A	f nom norm plen sg				
+7	11		cap	Война		1	1	1	война			S f inan	nom norm sg			, 	
+7	12		cap	Великая		1	1	1	великий			A	f nom norm plen sg		, 		
+7	13		cap	Отечественная		1	1	1	отечественный			A	f nom norm plen sg				
+7	14		cap	Война		1	1	1	война			S f inan	nom norm sg			. 	eos
+8	1		cap	Каждый		3	1	1	каждый			APRO	acc inan m norm sg				bos
+8	1		cap	Каждый		3	1	2	каждый			APRO	m nom norm sg				bos
+8	1		cap	Каждый		3	1	3	каждый			SPRO	anim m nom norm sg				bos
+8	2			новый		2	1	1	новый			A	acc inan m norm plen sg				
+8	2			новый		2	1	2	новый			A	m nom norm plen sg				
+8	3			конфликт		2	1	1	конфликт			S inan m	acc norm sg				
+8	3			конфликт		2	1	2	конфликт			S inan m	nom norm sg				
+8	4			уносит		1	1	1	уносить			V	3p act indic ipf norm praes sg tran				
+8	5			все		9	2	1	весь			APRO	acc inan norm pl				
+8	5			все		9	2	2	весь			APRO	acc n norm sg				
+8	5			все		9	2	3	весь			APRO	n nom norm sg				
+8	5			все		9	2	4	весь			APRO	nom norm pl				
+8	5			все		9	2	5	все			ADV	norm				
+8	5			все		9	2	6	все			SPRO	acc inan n norm sg				
+8	5			все		9	2	7	все			SPRO	acc norm pl				
+8	5			все		9	2	8	все			SPRO	inan n nom norm sg				
+8	5			все		9	2	9	все			SPRO	nom norm pl				
+8	6			больше		4	4	1	больше			ADV	norm				
+8	6			больше		4	4	2	больший			A	brev n norm sg				
+8	6			больше		4	4	3	большой			A	comp norm				
+8	6			больше		4	4	4	много			ADV	comp norm				
+8	7			жизней		1	1	1	жизнь			S f inan	gen norm pl			, 	
+8	8			все		9	2	1	весь			APRO	acc inan norm pl		, 		
+8	8			все		9	2	2	весь			APRO	acc n norm sg		, 		
+8	8			все		9	2	3	весь			APRO	n nom norm sg		, 		
+8	8			все		9	2	4	весь			APRO	nom norm pl		, 		
+8	8			все		9	2	5	все			ADV	norm		, 		
+8	8			все		9	2	6	все			SPRO	acc inan n norm sg		, 		
+8	8			все		9	2	7	все			SPRO	acc norm pl		, 		
+8	8			все		9	2	8	все			SPRO	inan n nom norm sg		, 		
+8	8			все		9	2	9	все			SPRO	nom norm pl		, 		
+8	9			более		2	2	1	более			ADV	norm				
+8	9			более		2	2	2	много			ADV	comp norm				
+8	10			губителен		1	1	1	губительный			A	brev m norm sg			. 	eos
+9	1		caps	А		0	0	1									bos
+9	2			в		1	1	1	в			PR	norm				
+9	3			век		4	2	1	век			ADV	norm				
+9	3			век		4	2	2	век			S inan m	acc norm sg				
+9	3			век		4	2	3	век			S inan m	nom norm sg				
+9	3			век		4	2	4	веко			S inan n	gen norm pl				
+9	4			ядерного		3	1	1	ядерный			A	acc anim m norm plen sg				
+9	4			ядерного		3	1	2	ядерный			A	gen m norm plen sg				
+9	4			ядерного		3	1	3	ядерный			A	gen n norm plen sg				
+9	5			оружия		3	1	1	оружие			S inan n	acc norm pl				
+9	5			оружия		3	1	2	оружие			S inan n	gen norm sg				
+9	5			оружия		3	1	3	оружие			S inan n	nom norm pl				
+9	6			просто		4	2	1	просто			ADV	norm styl colloq				
+9	6			просто		4	2	2	просто			PART	norm styl colloq				
+9	6			просто		4	2	3	просто			PRAEDIC	norm styl colloq				
+9	6			просто		4	2	4	простой			A	brev n norm sg styl colloq				
+9	7			представить		1	1	1	представить			V	act inf norm pf tran discourse WO				
+9	8			страшно		2	2	1	страшно			ADV	norm			, 	
+9	8			страшно		2	2	2	страшный			A	brev n norm sg			, 	
+9	9			к		1	1	1	к			PR	norm		, 		
+9	10			чему		1	1	1	что			SPRO	dat inan n norm sg				
+9	11			может		2	2	1	может			PARENTH	norm				
+9	11			может		2	2	2	мочь			V	3p act indic intr ipf norm praes sg				
+9	12			привести		1	1	1	привести			V	act inf norm pf				
+9	13			новая		1	1	1	новый			A	f nom norm plen sg				
+9	14			глобальная		1	1	1	глобальный			A	f nom norm plen sg				
+9	15			война		1	1	1	война			S f inan	nom norm sg			. 	eos
+10	1		cap	Решение		2	1	1	решение			S inan n	acc norm sg				bos
+10	1		cap	Решение		2	1	2	решение			S inan n	nom norm sg				bos
+10	2			спорных		3	1	1	спорный			A	acc anim norm pl plen				
+10	2			спорных		3	1	2	спорный			A	gen norm pl plen				
+10	2			спорных		3	1	3	спорный			A	loc norm pl plen				
+10	3			вопросов		1	1	1	вопрос			S inan m	gen norm pl				
+10	4			силой		2	2	1	Сила			S anim m persn	ins norm sg				
+10	4			силой		2	2	2	сила			S f inan	ins norm sg				
+10	5			стало		1	1	1	стать			V	act indic intr n norm pf praet sg				
+10	6			нормой		1	1	1	норма			S f inan	ins norm sg				
+10	7			для		1	1	1	для			PR	norm				
+10	8			человечества		3	1	1	человечество			S inan n	acc norm pl			, 	
+10	8			человечества		3	1	2	человечество			S inan n	gen norm sg			, 	
+10	8			человечества		3	1	3	человечество			S inan n	nom norm pl			, 	
+10	9			при		1	1	1	при			PR	norm		, 		
+10	10			том		6	4	1	Том			S anim m persn	nom norm sg			, 	
+10	10			том		6	4	2	то			SPRO	inan loc n norm sg			, 	
+10	10			том		6	4	3	том			S inan m	acc norm sg			, 	
+10	10			том		6	4	4	том			S inan m	nom norm sg			, 	
+10	10			том		6	4	5	тот			APRO	loc m norm sg			, 	
+10	10			том		6	4	6	тот			APRO	loc n norm sg			, 	
+10	11			что		4	1	1	что			ADVPRO	norm		, 		
+10	11			что		4	1	2	что			CONJ	norm		, 		
+10	11			что		4	1	3	что			SPRO	acc inan n norm sg		, 		
+10	11			что		4	1	4	что			SPRO	inan n nom norm sg		, 		
+10	12			всегда		1	1	1	всегда			ADVPRO	norm				
+10	13			можно		1	1	1	можно			PRAEDIC	norm				
+10	14			найти		1	1	1	найти			V	act inf norm pf				
+10	15			другой		7	1	1	другой			APRO	acc inan m norm sg lex phrase discourse contam				
+10	15			другой		7	1	2	другой			APRO	dat f norm sg lex phrase discourse contam				
+10	15			другой		7	1	3	другой			APRO	f gen norm sg lex phrase discourse contam				
+10	15			другой		7	1	4	другой			APRO	f ins norm sg lex phrase discourse contam				
+10	15			другой		7	1	5	другой			APRO	f loc norm sg lex phrase discourse contam				
+10	15			другой		7	1	6	другой			APRO	m nom norm sg lex phrase discourse contam				
+10	15			другой		7	1	7	другой			S anim m	nom norm sg lex phrase discourse contam				
+10	16			выход		2	1	1	выход			S inan m	acc norm sg			. 	eos
+10	16			выход		2	1	2	выход			S inan m	nom norm sg			. 	eos
+11	1		cap	Миллионы		2	1	1	миллион			S inan m	acc norm pl				bos
+11	1		cap	Миллионы		2	1	2	миллион			S inan m	nom norm pl				bos
+11	2			людей		2	1	1	человек			S anim m	acc norm pl				
+11	2			людей		2	1	2	человек			S anim m	gen norm pl				
+11	3			гибнут		1	1	1	гибнуть			V	3p act indic intr ipf norm pl praes				
+11	4			ежегодно		2	2	1	ежегодно			ADV	norm				
+11	4			ежегодно		2	2	2	ежегодный			A	brev n norm sg				
+11	5			по		1	1	1	по			PR	norm				
+11	6			естественным		3	1	1	естественный			A	dat norm pl plen				
+11	6			естественным		3	1	2	естественный			A	ins m norm plen sg				
+11	6			естественным		3	1	3	естественный			A	ins n norm plen sg				
+11	7			причинам		1	1	1	причина			S f inan	dat norm pl			, 	
+11	8			война		1	1	1	война			S f inan	nom norm sg		, 		
+11	9			же		2	1	1	же			CONJ	norm				
+11	9			же		2	1	2	же			PART	norm				
+11	10			абсолютно		2	2	1	абсолютно			ADV	norm				
+11	10			абсолютно		2	2	2	абсолютный			A	brev n norm sg				
+11	11			неестественна		1	1	1	неестественный			A	brev f norm sg			. 	eos
+12	1		cap	Война		1	1	1	война			S f inan	nom norm sg				bos
+12	2			–		0	0	1									
+12	3			воплощение		2	1	1	воплощение			S inan n	acc norm sg				
+12	3			воплощение		2	1	2	воплощение			S inan n	nom norm sg				
+12	4			всего		5	3	1	весь			APRO	acc anim m norm sg				
+12	4			всего		5	3	2	весь			APRO	gen m norm sg				
+12	4			всего		5	3	3	весь			APRO	gen n norm sg				
+12	4			всего		5	3	4	все			SPRO	gen inan n norm sg				
+12	4			всего		5	3	5	всего			ADVPRO	norm				
+12	5			зла		4	2	1	зло			S inan n	acc norm pl			, 	
+12	5			зла		4	2	2	зло			S inan n	gen norm sg			, 	
+12	5			зла		4	2	3	зло			S inan n	nom norm pl			, 	
+12	5			зла		4	2	4	злой			A	brev f norm sg			, 	
+12	6			которое		2	1	1	который			APRO	acc n norm sg		, 		
+12	6			которое		2	1	2	который			APRO	n nom norm sg		, 		
+12	7			присутствует		1	1	1	присутствовать			V	3p act indic intr ipf norm praes sg				
+12	8			в		1	1	1	в			PR	norm				
+12	9			нашем		2	1	1	наш			APRO	loc m norm sg				
+12	9			нашем		2	1	2	наш			APRO	loc n norm sg				
+12	10			мире		7	5	1	Мир			S anim m persn	loc norm sg			. 	eos
+12	10			мире		7	5	2	Мира			S anim f persn	dat norm sg			. 	eos
+12	10			мире		7	5	3	Мира			S anim f persn	loc norm sg			. 	eos
+12	10			мире		7	5	4	мир			S inan m	loc norm sg			. 	eos
+12	10			мире		7	5	5	мира			S f inan	dat norm sg			. 	eos
+12	10			мире		7	5	6	мира			S f inan	loc norm sg			. 	eos
+12	10			мире		7	5	7	миро			S inan n	loc norm sg			. 	eos
+13	1		cap	Многих		9	2	1	многие			S anim	acc norm pl				bos
+13	1		cap	Многих		9	2	2	многие			S anim	gen norm pl				bos
+13	1		cap	Многих		9	2	3	многие			S anim	loc norm pl				bos
+13	1		cap	Многих		9	2	4	многие			SPRO	acc norm pl				bos
+13	1		cap	Многих		9	2	5	многие			SPRO	gen norm pl				bos
+13	1		cap	Многих		9	2	6	многие			SPRO	loc norm pl				bos
+13	1		cap	Многих		9	2	7	многий			APRO	acc anim norm pl				bos
+13	1		cap	Многих		9	2	8	многий			APRO	gen norm pl				bos
+13	1		cap	Многих		9	2	9	многий			APRO	loc norm pl				bos
+13	2			войн		1	1	1	война			S f inan	gen norm pl				
+13	3			удалось		1	1	1	удаться			V	act indic intr n norm pf praet sg				
+13	4			избежать		1	1	1	избегнуть			V	act inf intr norm pf				
+13	5			благодаря		2	2	1	благодарить			V	act ger ipf norm praes tran				
+13	5			благодаря		2	2	2	благодаря			PR	norm				
+13	6			благоразумию		1	1	1	благоразумие			S inan n	dat norm sg lack				
+13	7			и		2	1	1	и			CONJ	norm				
+13	7			и		2	1	2	и			INTJ	norm				
+13	8			пониманию		1	1	1	понимание			S inan n	dat norm sg lack				
+13	9			всей		4	1	1	весь			APRO	dat f norm sg lex word				
+13	9			всей		4	1	2	весь			APRO	f gen norm sg lex word				
+13	9			всей		4	1	3	весь			APRO	f ins norm sg lex word				
+13	9			всей		4	1	4	весь			APRO	f loc norm sg lex word				
+13	10			её		32	2	1	ее			APRO	acc anim m norm sg				
+13	10			её		32	2	2	ее			APRO	acc anim norm pl				
+13	10			её		32	2	3	ее			APRO	acc f norm pl				
+13	10			её		32	2	4	ее			APRO	acc f norm sg				
+13	10			её		32	2	5	ее			APRO	acc inan m norm sg				
+13	10			её		32	2	6	ее			APRO	acc m norm pl				
+13	10			её		32	2	7	ее			APRO	acc m norm sg				
+13	10			её		32	2	8	ее			APRO	acc n norm pl				
+13	10			её		32	2	9	ее			APRO	acc n norm sg				
+13	10			её		32	2	10	ее			APRO	dat f norm pl				
+13	10			её		32	2	11	ее			APRO	dat f norm sg				
+13	10			её		32	2	12	ее			APRO	dat m norm pl				
+13	10			её		32	2	13	ее			APRO	dat m norm sg				
+13	10			её		32	2	14	ее			APRO	dat n norm pl				
+13	10			её		32	2	15	ее			APRO	dat n norm sg				
+13	10			её		32	2	16	ее			APRO	dat norm pl				
+13	10			её		32	2	17	ее			APRO	f gen norm pl				
+13	10			её		32	2	18	ее			APRO	f gen norm sg				
+13	10			её		32	2	19	ее			APRO	f nom norm pl				
+13	10			её		32	2	20	ее			APRO	f nom norm sg				
+13	10			её		32	2	21	ее			APRO	gen m norm pl				
+13	10			её		32	2	22	ее			APRO	gen m norm sg				
+13	10			её		32	2	23	ее			APRO	gen n norm pl				
+13	10			её		32	2	24	ее			APRO	gen n norm sg				
+13	10			её		32	2	25	ее			APRO	gen norm pl				
+13	10			её		32	2	26	ее			APRO	m nom norm pl				
+13	10			её		32	2	27	ее			APRO	m nom norm sg				
+13	10			её		32	2	28	ее			APRO	n nom norm pl				
+13	10			её		32	2	29	ее			APRO	n nom norm sg				
+13	10			её		32	2	30	ее			APRO	nom norm pl				
+13	10			её		32	2	31	она			SPRO	3p acc f norm sg				
+13	10			её		32	2	32	она			SPRO	3p f gen norm sg				
+13	11			недопустимости		5	1	1	недопустимость			S f inan	acc norm pl			. 	eos
+13	11			недопустимости		5	1	2	недопустимость			S f inan	dat norm sg			. 	eos
+13	11			недопустимости		5	1	3	недопустимость			S f inan	gen norm sg			. 	eos
+13	11			недопустимости		5	1	4	недопустимость			S f inan	loc norm sg			. 	eos
+13	11			недопустимости		5	1	5	недопустимость			S f inan	nom norm pl			. 	eos
+14	1		cap	Так		3	1	1	так			ADVPRO	norm			, 	bos
+14	1		cap	Так		3	1	2	так			CONJ	norm			, 	bos
+14	1		cap	Так		3	1	3	так			PART	norm			, 	bos
+14	2			например		1	1	1	например			PARENTH	norm		, 	, 	
+14	3			и		2	1	1	и			CONJ	norm		, 		
+14	3			и		2	1	2	и			INTJ	norm		, 		
+14	4			случилось		1	1	1	случиться			V	act indic intr n norm pf praet sg				
+14	5			во		2	1	1	во			PART	norm				
+14	5			во		2	1	2	во			PR	norm				
+14	6			время		2	1	1	время			S inan n	acc norm sg				
+14	6			время		2	1	2	время			S inan n	nom norm sg				
+14	7		cap	Карибского		3	1	1	карибский			A	acc anim m norm plen sg				
+14	7		cap	Карибского		3	1	2	карибский			A	gen m norm plen sg				
+14	7		cap	Карибского		3	1	3	карибский			A	gen n norm plen sg				
+14	8			кризиса		1	1	1	кризис			S inan m	gen norm sg				
+14	9	digit		1962		0	0	1									
+14	10			года		3	1	1	год			S inan m	acc norm pl				
+14	10			года		3	1	2	год			S inan m	gen norm sg				
+14	10			года		3	1	3	год			S inan m	nom norm pl				
+14	11			и		2	1	1	и			CONJ	norm				
+14	11			и		2	1	2	и			INTJ	norm				
+14	12		cap	Европейского		3	1	1	европейский			A	acc anim m norm plen sg				
+14	12		cap	Европейского		3	1	2	европейский			A	gen m norm plen sg				
+14	12		cap	Европейского		3	1	3	европейский			A	gen n norm plen sg				
+14	13			конгресса		1	1	1	конгресс			S inan m	gen norm sg				
+14	14			по		1	1	1	по			PR	norm				
+14	15			балканским		3	1	1	балканский			A	dat norm pl plen				
+14	15			балканским		3	1	2	балканский			A	ins m norm plen sg				
+14	15			балканским		3	1	3	балканский			A	ins n norm plen sg				
+14	16			странам		1	1	1	страна			S f inan	dat norm pl				
+14	17	digit		1877		0	0	1									
+14	18			года		3	1	1	год			S inan m	acc norm pl			. 	eos
+14	18			года		3	1	2	год			S inan m	gen norm sg			. 	eos
+14	18			года		3	1	3	год			S inan m	nom norm pl			. 	eos
+15	1		cap	Война		1	1	1	война			S f inan	nom norm sg				bos
+15	2			является		1	1	1	являться			V	3p act indic intr ipf norm praes sg				
+15	3			прямой		10	2	1	прямая			S f inan	dat norm sg				
+15	3			прямой		10	2	2	прямая			S f inan	gen norm sg				
+15	3			прямой		10	2	3	прямая			S f inan	ins norm sg				
+15	3			прямой		10	2	4	прямая			S f inan	loc norm sg				
+15	3			прямой		10	2	5	прямой			A	acc inan m norm plen sg				
+15	3			прямой		10	2	6	прямой			A	dat f norm plen sg				
+15	3			прямой		10	2	7	прямой			A	f gen norm plen sg				
+15	3			прямой		10	2	8	прямой			A	f ins norm plen sg				
+15	3			прямой		10	2	9	прямой			A	f loc norm plen sg				
+15	3			прямой		10	2	10	прямой			A	m nom norm plen sg				
+15	4			противоположностью		1	1	1	противоположность			S f inan	ins norm sg				
+15	5			главной		4	1	1	главный			A	dat f norm plen sg				
+15	5			главной		4	1	2	главный			A	f gen norm plen sg				
+15	5			главной		4	1	3	главный			A	f ins norm plen sg				
+15	5			главной		4	1	4	главный			A	f loc norm plen sg				
+15	6			людской		10	2	1	людская			S f inan	dat norm sg				
+15	6			людской		10	2	2	людская			S f inan	gen norm sg				
+15	6			людской		10	2	3	людская			S f inan	ins norm sg				
+15	6			людской		10	2	4	людская			S f inan	loc norm sg				
+15	6			людской		10	2	5	людской			A	acc inan m norm plen sg				
+15	6			людской		10	2	6	людской			A	dat f norm plen sg				
+15	6			людской		10	2	7	людской			A	f gen norm plen sg				
+15	6			людской		10	2	8	людской			A	f ins norm plen sg				
+15	6			людской		10	2	9	людской			A	f loc norm plen sg				
+15	6			людской		10	2	10	людской			A	m nom norm plen sg				
+15	7			добродетели		5	1	1	добродетель			S f inan	acc norm pl				
+15	7			добродетели		5	1	2	добродетель			S f inan	dat norm sg				
+15	7			добродетели		5	1	3	добродетель			S f inan	gen norm sg				
+15	7			добродетели		5	1	4	добродетель			S f inan	loc norm sg				
+15	7			добродетели		5	1	5	добродетель			S f inan	nom norm pl				
+15	8			-		0	0	1									
+15	9			любви		5	1	1	любовь			S f inan	acc norm pl			. 	eos
+15	9			любви		5	1	2	любовь			S f inan	dat norm sg			. 	eos
+15	9			любви		5	1	3	любовь			S f inan	gen norm sg			. 	eos
+15	9			любви		5	1	4	любовь			S f inan	loc norm sg			. 	eos
+15	9			любви		5	1	5	любовь			S f inan	nom norm pl			. 	eos
+16	1		cap	Потому		1	1	1	потому			ADVPRO	norm				bos
+16	2			что		4	1	1	что			ADVPRO	norm				
+16	2			что		4	1	2	что			CONJ	norm				
+16	2			что		4	1	3	что			SPRO	acc inan n norm sg				
+16	2			что		4	1	4	что			SPRO	inan n nom norm sg				
+16	3			любовь		4	2	1	Любовь			S anim f persn	acc norm sg				
+16	3			любовь		4	2	2	Любовь			S anim f persn	nom norm sg				
+16	3			любовь		4	2	3	любовь			S f inan	acc norm sg				
+16	3			любовь		4	2	4	любовь			S f inan	nom norm sg				
+16	4			созидает		1	1	1	созидать			V	3p act indic ipf norm praes sg tran			, 	
+16	5			приносит		1	1	1	приносить			V	3p act indic ipf norm praes sg tran		, 		
+16	6			счастье		3	1	1	счастье			S inan n	acc norm sg				
+16	6			счастье		3	1	2	счастье			S inan n	loc norm sg				
+16	6			счастье		3	1	3	счастье			S inan n	nom norm sg				
+16	7			и		2	1	1	и			CONJ	norm				
+16	7			и		2	1	2	и			INTJ	norm				
+16	8			радость		2	1	1	радость			S f inan	acc norm sg			, 	
+16	8			радость		2	1	2	радость			S f inan	nom norm sg			, 	
+16	9			несёт		1	1	1	нести			V	3p act indic ipf norm praes sg tran		, 		
+16	10			мир		3	2	1	Мир			S anim m persn	nom norm sg				
+16	10			мир		3	2	2	мир			S inan m	acc norm sg				
+16	10			мир		3	2	3	мир			S inan m	nom norm sg				
+16	11			и		2	1	1	и			CONJ	norm				
+16	11			и		2	1	2	и			INTJ	norm				
+16	12			добро		4	1	1	добро			ADV	norm			, 	
+16	12			добро		4	1	2	добро			PART	norm			, 	
+16	12			добро		4	1	3	добро			S inan n	acc norm sg			, 	
+16	12			добро		4	1	4	добро			S inan n	nom norm sg			, 	
+16	13			а		0	0	1							, 		
+16	14			война		1	1	1	война			S f inan	nom norm sg				
+16	15			разрушает		1	1	1	разрушать			V	3p act indic ipf norm praes sg tran			, 	
+16	16			приносит		1	1	1	приносить			V	3p act indic ipf norm praes sg tran		, 		
+16	17			горе		8	3	1	Гор			S anim famn m	loc norm sg discourse tauto				
+16	17			горе		8	3	2	Гор			S anim m persn	loc norm sg discourse tauto				
+16	17			горе		8	3	3	гора			S f inan	dat norm sg discourse tauto				
+16	17			горе		8	3	4	гора			S f inan	loc norm sg discourse tauto				
+16	17			горе		8	3	5	горе			ADV	norm discourse tauto				
+16	17			горе		8	3	6	горе			S inan n	acc norm sg discourse tauto				
+16	17			горе		8	3	7	горе			S inan n	loc norm sg discourse tauto				
+16	17			горе		8	3	8	горе			S inan n	nom norm sg discourse tauto				
+16	18			и		2	1	1	и			CONJ	norm				
+16	18			и		2	1	2	и			INTJ	norm				
+16	19			печаль		3	2	1	печалить			V	2p act imper ipf norm sg tran			, 	
+16	19			печаль		3	2	2	печаль			S f inan	acc norm sg			, 	
+16	19			печаль		3	2	3	печаль			S f inan	nom norm sg			, 	
+16	20			несёт		1	1	1	нести			V	3p act indic ipf norm praes sg tran		, 		
+16	21			разлад		2	1	1	разлад			S inan m	acc norm sg				
+16	21			разлад		2	1	2	разлад			S inan m	nom norm sg				
+16	22			и		2	1	1	и			CONJ	norm				
+16	22			и		2	1	2	и			INTJ	norm				
+16	23			зло		3	1	1	зло			ADV	norm			. 	eos
+16	23			зло		3	1	2	зло			S inan n	acc norm sg			. 	eos
+16	23			зло		3	1	3	зло			S inan n	nom norm sg			. 	eos
+17	1		cap	Значит		2	2	1	значит			PARENTH	norm				bos
+17	1		cap	Значит		2	2	2	значить			V	3p act indic ipf norm praes sg tran				bos
+17	2			любовь		4	2	1	Любовь			S anim f persn	acc norm sg				
+17	2			любовь		4	2	2	Любовь			S anim f persn	nom norm sg				
+17	2			любовь		4	2	3	любовь			S f inan	acc norm sg				
+17	2			любовь		4	2	4	любовь			S f inan	nom norm sg				
+17	3			и		2	1	1	и			CONJ	norm				
+17	3			и		2	1	2	и			INTJ	norm				
+17	4			война		1	1	1	война			S f inan	nom norm sg				
+17	5			–		0	0	1									
+17	6			это		5	2	1	это			PART	norm				
+17	6			это		5	2	2	это			SPRO	acc inan n norm sg				
+17	6			это		5	2	3	это			SPRO	inan n nom norm sg				
+17	6			это		5	2	4	этот			APRO	acc n norm sg				
+17	6			это		5	2	5	этот			APRO	n nom norm sg				
+17	7			как		3	1	1	как			ADVPRO	norm				
+17	7			как		3	1	2	как			CONJ	norm				
+17	7			как		3	1	3	как			PART	norm				
+17	8			черное		2	1	1	черный			A	acc n norm plen sg				
+17	8			черное		2	1	2	черный			A	n nom norm plen sg				
+17	9			и		2	1	1	и			CONJ	norm				
+17	9			и		2	1	2	и			INTJ	norm				
+17	10			белое		2	1	1	белый			A	acc n norm plen sg			, 	
+17	10			белое		2	1	2	белый			A	n nom norm plen sg			, 	
+17	11			как		3	1	1	как			ADVPRO	norm		, 		
+17	11			как		3	1	2	как			CONJ	norm		, 		
+17	11			как		3	1	3	как			PART	norm		, 		
+17	12			добро		4	1	1	добро			ADV	norm				
+17	12			добро		4	1	2	добро			PART	norm				
+17	12			добро		4	1	3	добро			S inan n	acc norm sg				
+17	12			добро		4	1	4	добро			S inan n	nom norm sg				
+17	13			и		2	1	1	и			CONJ	norm				
+17	13			и		2	1	2	и			INTJ	norm				
+17	14			зло		3	1	1	зло			ADV	norm			. 	eos
+17	14			зло		3	1	2	зло			S inan n	acc norm sg			. 	eos
+17	14			зло		3	1	3	зло			S inan n	nom norm sg			. 	eos
+18	1		cap	Русские		6	2	1	русская			S anim f	nom norm pl				bos
+18	1		cap	Русские		6	2	2	русская			S f inan	acc norm pl				bos
+18	1		cap	Русские		6	2	3	русская			S f inan	nom norm pl				bos
+18	1		cap	Русские		6	2	4	русский			A	acc inan norm pl plen				bos
+18	1		cap	Русские		6	2	5	русский			A	nom norm pl plen				bos
+18	1		cap	Русские		6	2	6	русский			S anim m	nom norm pl				bos
+18	2			классики		6	3	1	классик			S anim m	nom norm pl				
+18	2			классики		6	3	2	классика			S f inan	acc norm pl				
+18	2			классики		6	3	3	классика			S f inan	gen norm sg				
+18	2			классики		6	3	4	классика			S f inan	nom norm pl				
+18	2			классики		6	3	5	классики			S inan	acc norm pl				
+18	2			классики		6	3	6	классики			S inan	nom norm pl				
+18	3			однозначно		2	2	1	однозначно			ADV	norm				
+18	3			однозначно		2	2	2	однозначный			A	brev n norm sg				
+18	4			говорят		2	2	1	говорить			V	3p act indic ipf norm pl praes tran				
+18	4			говорят		2	2	2	говорят			PARENTH	norm				
+18	5			о		2	1	1	о			INTJ	norm				
+18	5			о		2	1	2	о			PR	norm				
+18	6			том		6	4	1	Том			S anim m persn	nom norm sg			, 	
+18	6			том		6	4	2	то			SPRO	inan loc n norm sg			, 	
+18	6			том		6	4	3	том			S inan m	acc norm sg			, 	
+18	6			том		6	4	4	том			S inan m	nom norm sg			, 	
+18	6			том		6	4	5	тот			APRO	loc m norm sg			, 	
+18	6			том		6	4	6	тот			APRO	loc n norm sg			, 	
+18	7			какая		1	1	1	какой			APRO	f nom norm sg		, 		
+18	8			сторона		1	1	1	сторона			S f inan	nom norm sg				
+18	9			этой		5	2	1	эта			S f inan	ins norm sg				
+18	9			этой		5	2	2	этот			APRO	dat f norm sg				
+18	9			этой		5	2	3	этот			APRO	f gen norm sg				
+18	9			этой		5	2	4	этот			APRO	f ins norm sg				
+18	9			этой		5	2	5	этот			APRO	f loc norm sg				
+18	10			медали		5	1	1	медаль			S f inan	acc norm pl				
+18	10			медали		5	1	2	медаль			S f inan	dat norm sg				
+18	10			медали		5	1	3	медаль			S f inan	gen norm sg				
+18	10			медали		5	1	4	медаль			S f inan	loc norm sg				
+18	10			медали		5	1	5	медаль			S f inan	nom norm pl				
+18	11			нужна		1	1	1	нужный			A	brev f norm sg				
+18	12			человечеству		1	1	1	человечество			S inan n	dat norm sg			. 	eos
+19	1		cap	Иван		3	2	1	Иван			S anim m persn	nom norm sg				bos
+19	1		cap	Иван		3	2	2	Ивана			S anim f persn	acc norm pl				bos
+19	1		cap	Иван		3	2	3	Ивана			S anim f persn	gen norm pl				bos
+19	2		cap	Сергеевич		1	1	1	Сергеевич			S anim m	nom norm patrn sg				
+19	3		cap	Тургенев		1	1	1	Тургенев			S anim famn m	nom norm sg				
+19	4			в		1	1	1	в			PR	norm				
+19	5			своем		4	2	1	свое			SPRO	inan loc n norm sg ref pron				
+19	5			своем		4	2	2	свой			APRO	loc m norm sg ref pron				
+19	5			своем		4	2	3	свой			APRO	loc n norm sg ref pron				
+19	5			своем		4	2	4	свой			SPRO	anim loc m norm sg ref pron				
+19	6			произведении		1	1	1	произведение			S inan n	loc norm sg			 «	
+19	7		cap	Первая		1	1	1	первый			ANUM	f nom norm sg		 «		
+19	8			любовь		4	2	1	Любовь			S anim f persn	acc norm sg			 » 	
+19	8			любовь		4	2	2	Любовь			S anim f persn	nom norm sg			 » 	
+19	8			любовь		4	2	3	любовь			S f inan	acc norm sg			 » 	
+19	8			любовь		4	2	4	любовь			S f inan	nom norm sg			 » 	
+19	9			писал		2	1	1	писать			V	act indic ipf m norm praet sg		 » 	: 	
+19	9			писал		2	1	2	писать			V	act indic ipf m norm praet sg tran		 » 	: 	
+19	10		cap	Только		3	1	1	только			ADV	norm		: 		
+19	10		cap	Только		3	1	2	только			CONJ	norm		: 		
+19	10		cap	Только		3	1	3	только			PART	norm		: 		
+19	11			ею		1	1	1	она			SPRO	3p f ins norm sg			, 	
+19	12			только		3	1	1	только			ADV	norm		, 		
+19	12			только		3	1	2	только			CONJ	norm		, 		
+19	12			только		3	1	3	только			PART	norm		, 		
+19	13			любовью		2	2	1	Любовь			S anim f persn	ins norm sg				
+19	13			любовью		2	2	2	любовь			S f inan	ins norm sg				
+19	14			держится		1	1	1	держаться			V	3p act indic intr ipf norm praes sg				
+19	15			и		2	1	1	и			CONJ	norm				
+19	15			и		2	1	2	и			INTJ	norm				
+19	16			движется		1	1	1	двигаться			V	3p act indic intr ipf norm praes sg				
+19	17			жизнь		2	1	1	жизнь			S f inan	acc norm sg cit				
+19	17			жизнь		2	1	2	жизнь			S f inan	nom norm sg cit				
+19	18		caps	А		0	0	1									
+19	19		cap	Карамзин		1	1	1	Карамзин			S anim famn m	nom norm sg				
+19	20			говорил		1	1	1	говорить			V	act indic ipf m norm praet sg tran			: 	
+19	21		cap	Любовь		4	2	1	Любовь			S anim f persn	acc norm sg		: 		
+19	21		cap	Любовь		4	2	2	Любовь			S anim f persn	nom norm sg		: 		
+19	21		cap	Любовь		4	2	3	любовь			S f inan	acc norm sg		: 		
+19	21		cap	Любовь		4	2	4	любовь			S f inan	nom norm sg		: 		
+19	22			сильнее		2	2	1	сильно			ADV	comp norm				
+19	22			сильнее		2	2	2	сильный			A	comp norm				
+19	23			всего		5	3	1	весь			APRO	acc anim m norm sg			, 	
+19	23			всего		5	3	2	весь			APRO	gen m norm sg			, 	
+19	23			всего		5	3	3	весь			APRO	gen n norm sg			, 	
+19	23			всего		5	3	4	все			SPRO	gen inan n norm sg			, 	
+19	23			всего		5	3	5	всего			ADVPRO	norm			, 	
+19	24			святее		1	1	1	святой			A	comp norm		, 		
+19	25			всего		5	3	1	весь			APRO	acc anim m norm sg			, 	
+19	25			всего		5	3	2	весь			APRO	gen m norm sg			, 	
+19	25			всего		5	3	3	весь			APRO	gen n norm sg			, 	
+19	25			всего		5	3	4	все			SPRO	gen inan n norm sg			, 	
+19	25			всего		5	3	5	всего			ADVPRO	norm			, 	
+19	26			несказаннее		1	1	1	несказанный			A	comp norm		, 		
+19	27			всего		5	3	1	весь			APRO	acc anim m norm sg cit				
+19	27			всего		5	3	2	весь			APRO	gen m norm sg cit				
+19	27			всего		5	3	3	весь			APRO	gen n norm sg cit				
+19	27			всего		5	3	4	все			SPRO	gen inan n norm sg cit				
+19	27			всего		5	3	5	всего			ADVPRO	norm cit				
+19	28		cap	Один		4	1	1	один			ANUM	acc inan m norm sg				
+19	28		cap	Один		4	1	2	один			ANUM	m nom norm sg				
+19	28		cap	Один		4	1	3	один			APRO	acc inan m norm sg				
+19	28		cap	Один		4	1	4	один			APRO	m nom norm sg				
+19	29			из		3	2	1	Иза			S anim f persn	acc norm pl				
+19	29			из		3	2	2	Иза			S anim f persn	gen norm pl				
+19	29			из		3	2	3	из			PR	norm				
+19	30			самых		3	1	1	самый			APRO	acc anim norm pl				
+19	30			самых		3	1	2	самый			APRO	gen norm pl				
+19	30			самых		3	1	3	самый			APRO	loc norm pl				
+19	31			ярких		3	1	1	яркий			A	acc anim norm pl plen				
+19	31			ярких		3	1	2	яркий			A	gen norm pl plen				
+19	31			ярких		3	1	3	яркий			A	loc norm pl plen				
+19	32			представителей		2	1	1	представитель			S anim m	acc norm pl			 «	
+19	32			представителей		2	1	2	представитель			S anim m	gen norm pl			 «	
+19	33		cap	Серебряного		3	1	1	серебряный			A	acc anim m norm plen sg		 «		
+19	33		cap	Серебряного		3	1	2	серебряный			A	gen m norm plen sg		 «		
+19	33		cap	Серебряного		3	1	3	серебряный			A	gen n norm plen sg		 «		
+19	34			века		4	2	1	век			S inan m	acc norm pl			 » 	
+19	34			века		4	2	2	век			S inan m	gen norm sg			 » 	
+19	34			века		4	2	3	век			S inan m	nom norm pl			 » 	
+19	34			века		4	2	4	веко			S inan n	gen norm sg			 » 	
+19	35			русской		12	2	1	русская			S anim f	dat norm sg		 » 		
+19	35			русской		12	2	2	русская			S anim f	gen norm sg		 » 		
+19	35			русской		12	2	3	русская			S anim f	ins norm sg		 » 		
+19	35			русской		12	2	4	русская			S anim f	loc norm sg		 » 		
+19	35			русской		12	2	5	русская			S f inan	dat norm sg		 » 		
+19	35			русской		12	2	6	русская			S f inan	gen norm sg		 » 		
+19	35			русской		12	2	7	русская			S f inan	ins norm sg		 » 		
+19	35			русской		12	2	8	русская			S f inan	loc norm sg		 » 		
+19	35			русской		12	2	9	русский			A	dat f norm plen sg		 » 		
+19	35			русской		12	2	10	русский			A	f gen norm plen sg		 » 		
+19	35			русской		12	2	11	русский			A	f ins norm plen sg		 » 		
+19	35			русской		12	2	12	русский			A	f loc norm plen sg		 » 		
+19	36			поэзии		5	1	1	поэзия			S f inan	acc norm pl			, 	
+19	36			поэзии		5	1	2	поэзия			S f inan	dat norm sg			, 	
+19	36			поэзии		5	1	3	поэзия			S f inan	gen norm sg			, 	
+19	36			поэзии		5	1	4	поэзия			S f inan	loc norm sg			, 	
+19	36			поэзии		5	1	5	поэзия			S f inan	nom norm pl			, 	
+19	37		cap	Владимир		3	2	1	Владимир			S anim m persn	nom norm sg		, 		
+19	37		cap	Владимир		3	2	2	владимир			S inan m	acc norm sg		, 		
+19	37		cap	Владимир		3	2	3	владимир			S inan m	nom norm sg		, 		
+19	38		cap	Маяковский		3	2	1	Маяковский			S anim famn m	nom norm sg			, 	
+19	38		cap	Маяковский		3	2	2	маяковский			S inan m	acc norm sg			, 	
+19	38		cap	Маяковский		3	2	3	маяковский			S inan m	nom norm sg			, 	
+19	39			обличает		1	1	1	обличать			V	3p act indic ipf norm praes sg tran		, 		
+19	40			всё		9	2	1	весь			APRO	acc inan norm pl				
+19	40			всё		9	2	2	весь			APRO	acc n norm sg				
+19	40			всё		9	2	3	весь			APRO	n nom norm sg				
+19	40			всё		9	2	4	весь			APRO	nom norm pl				
+19	40			всё		9	2	5	все			ADV	norm				
+19	40			всё		9	2	6	все			SPRO	acc inan n norm sg				
+19	40			всё		9	2	7	все			SPRO	acc norm pl				
+19	40			всё		9	2	8	все			SPRO	inan n nom norm sg				
+19	40			всё		9	2	9	все			SPRO	nom norm pl				
+19	41			нутро		2	1	1	нутро			S inan n	acc norm sg				
+19	41			нутро		2	1	2	нутро			S inan n	nom norm sg				
+19	42			войны		3	1	1	война			S f inan	acc norm pl			: 	
+19	42			войны		3	1	2	война			S f inan	gen norm sg			: 	
+19	42			войны		3	1	3	война			S f inan	nom norm pl			: 	
+19	43		cap	Война		1	1	1	война			S f inan	nom norm sg		: 		
+19	44			есть		8	2	1	быть			V	1p act indic intr ipf norm pl praes				
+19	44			есть		8	2	2	быть			V	1p act indic intr ipf norm praes sg				
+19	44			есть		8	2	3	быть			V	2p act indic intr ipf norm pl praes				
+19	44			есть		8	2	4	быть			V	2p act indic intr ipf norm praes sg				
+19	44			есть		8	2	5	быть			V	3p act indic intr ipf norm pl praes				
+19	44			есть		8	2	6	быть			V	3p act indic intr ipf norm praes sg				
+19	44			есть		8	2	7	есть			INTJ	norm				
+19	44			есть		8	2	8	есть			V	act inf ipf norm tran				
+19	45			одно		4	1	1	один			ANUM	acc n norm sg				
+19	45			одно		4	1	2	один			ANUM	n nom norm sg				
+19	45			одно		4	1	3	один			APRO	acc n norm sg				
+19	45			одно		4	1	4	один			APRO	n nom norm sg				
+19	46			из		3	2	1	Иза			S anim f persn	acc norm pl				
+19	46			из		3	2	2	Иза			S anim f persn	gen norm pl				
+19	46			из		3	2	3	из			PR	norm				
+19	47			величайших		3	1	1	величайший			A	acc anim norm pl				
+19	47			величайших		3	1	2	величайший			A	gen norm pl				
+19	47			величайших		3	1	3	величайший			A	loc norm pl				
+19	48			кощунств		1	1	1	кощунство			S inan n	gen norm pl				
+19	49			над		3	2	1	Нада			S anim f persn	acc norm pl				
+19	49			над		3	2	2	Нада			S anim f persn	gen norm pl				
+19	49			над		3	2	3	над			PR	norm				
+19	50			человеком		1	1	1	человек			S anim m	ins norm sg				
+19	51			и		2	1	1	и			CONJ	norm				
+19	51			и		2	1	2	и			INTJ	norm				
+19	52			природой		1	1	1	природа			S f inan	ins norm sg cit				
+19	53		cap	Даже		2	1	1	даже			CONJ	norm				
+19	53		cap	Даже		2	1	2	даже			PART	norm				
+19	54			древние		3	2	1	древние			S anim	nom norm pl				
+19	54			древние		3	2	2	древний			A	acc inan norm pl plen				
+19	54			древние		3	2	3	древний			A	nom norm pl plen				
+19	55			философы		1	1	1	философ			S anim m	nom norm pl				
+19	56			размышляют		1	1	1	размышлять			V	3p act indic intr ipf norm pl praes				
+19	57			над		3	2	1	Нада			S anim f persn	acc norm pl				
+19	57			над		3	2	2	Нада			S anim f persn	gen norm pl				
+19	57			над		3	2	3	над			PR	norm				
+19	58			неестественностью		1	1	1	неестественность			S f inan	ins norm sg				
+19	59			войны		3	1	1	война			S f inan	acc norm pl			: 	
+19	59			войны		3	1	2	война			S f inan	gen norm sg			: 	
+19	59			войны		3	1	3	война			S f inan	nom norm pl			: 	
+19	60		cap	Во		2	1	1	во			PART	norm		: 		
+19	60		cap	Во		2	1	2	во			PR	norm		: 		
+19	61			время		2	1	1	время			S inan n	acc norm sg				
+19	61			время		2	1	2	время			S inan n	nom norm sg				
+19	62			мира		8	5	1	Мир			S anim m persn	acc norm sg				
+19	62			мира		8	5	2	Мир			S anim m persn	gen norm sg				
+19	62			мира		8	5	3	Мира			S anim f persn	nom norm sg				
+19	62			мира		8	5	4	мир			S inan m	gen norm sg				
+19	62			мира		8	5	5	мира			S f inan	nom norm sg				
+19	62			мира		8	5	6	миро			S inan n	acc norm pl				
+19	62			мира		8	5	7	миро			S inan n	gen norm sg				
+19	62			мира		8	5	8	миро			S inan n	nom norm pl				
+19	63			сыновья		1	1	1	сын			S anim m	nom norm pl				
+19	64			хоронят		1	1	1	хоронить			V	3p act indic ipf norm pl praes tran				
+19	65			отцов		4	2	1	отец			S anim m	acc norm pl			, 	
+19	65			отцов		4	2	2	отец			S anim m	gen norm pl			, 	
+19	65			отцов		4	2	3	отцов			A	acc inan m norm plen sg			, 	
+19	65			отцов		4	2	4	отцов			A	m nom norm plen sg			, 	
+19	66			во		2	1	1	во			PART	norm		, 		
+19	66			во		2	1	2	во			PR	norm		, 		
+19	67			время		2	1	1	время			S inan n	acc norm sg				
+19	67			время		2	1	2	время			S inan n	nom norm sg				
+19	68			войны		3	1	1	война			S f inan	acc norm pl				
+19	68			войны		3	1	2	война			S f inan	gen norm sg				
+19	68			войны		3	1	3	война			S f inan	nom norm pl				
+19	69			отцы		1	1	1	отец			S anim m	nom norm pl				
+19	70			хоронят		1	1	1	хоронить			V	3p act indic ipf norm pl praes tran				
+19	71			сыновей		2	1	1	сын			S anim m	acc norm pl cit				
+19	71			сыновей		2	1	2	сын			S anim m	gen norm pl cit				
+19	72			-		0	0	1									
+19	73			говорил		1	1	1	говорить			V	act indic ipf m norm praet sg tran				
+19	74		cap	Геродот		1	1	1	Геродот			S anim m persn	nom norm sg			. 	eos
+20	1		cap	Действительно		3	2	1	действительно			PARENTH	norm			, 	bos
+20	1		cap	Действительно		3	2	2	действительно			PART	norm			, 	bos
+20	1		cap	Действительно		3	2	3	действительный			A	brev n norm sg			, 	bos
+20	2			страшнее		2	2	1	страшно			ADV	comp norm		, 		
+20	2			страшнее		2	2	2	страшный			A	comp norm		, 		
+20	3			потери		3	1	1	потеря			S f inan	acc norm pl			, 	
+20	3			потери		3	1	2	потеря			S f inan	gen norm sg			, 	
+20	3			потери		3	1	3	потеря			S f inan	nom norm pl			, 	
+20	4			чем		3	2	1	чем			CONJ	norm		, 		
+20	4			чем		3	2	2	что			SPRO	inan ins n norm sg		, 		
+20	4			чем		3	2	3	что			SPRO	inan loc n norm sg		, 		
+20	5			потеря		1	1	1	потеря			S f inan	nom norm sg				
+20	6			ребенка		2	1	1	ребенок			S anim m	acc norm sg				
+20	6			ребенка		2	1	2	ребенок			S anim m	gen norm sg				
+20	7			представить		1	1	1	представить			V	act inf norm pf tran				
+20	8			сложно		2	2	1	сложно			ADV	norm			, 	
+20	8			сложно		2	2	2	сложный			A	brev n norm sg			, 	
+20	9			единичный		2	1	1	единичный			A	acc inan m norm plen sg constr		, 		
+20	9			единичный		2	1	2	единичный			A	m nom norm plen sg constr		, 		
+20	10			случай		2	1	1	случай			S inan m	acc norm sg				
+20	10			случай		2	1	2	случай			S inan m	nom norm sg				
+20	11			такого		3	1	1	такой			APRO	acc anim m norm sg				
+20	11			такого		3	1	2	такой			APRO	gen m norm sg				
+20	11			такого		3	1	3	такой			APRO	gen n norm sg				
+20	12			ужаса		1	1	1	ужас			S inan m	gen norm sg				
+20	13			уже		4	3	1	уж			S anim m	loc norm sg				
+20	13			уже		4	3	2	уже			ADV	norm				
+20	13			уже		4	3	3	уже			PART	norm				
+20	13			уже		4	3	4	узко			ADV	comp norm				
+20	14			является		1	1	1	являться			V	3p act indic intr ipf norm praes sg				
+20	15			непоправимой		4	1	1	непоправимый			A	dat f norm plen sg				
+20	15			непоправимой		4	1	2	непоправимый			A	f gen norm plen sg				
+20	15			непоправимой		4	1	3	непоправимый			A	f ins norm plen sg				
+20	15			непоправимой		4	1	4	непоправимый			A	f loc norm plen sg				
+20	16			трагедией		1	1	1	трагедия			S f inan	ins norm sg			. 	eos
+21	1		caps	А		0	0	1									bos
+21	2			во		2	1	1	во			PART	norm				
+21	2			во		2	1	2	во			PR	norm				
+21	3			времена		2	1	1	время			S inan n	acc norm pl				
+21	3			времена		2	1	2	время			S inan n	nom norm pl				
+21	4			войн		1	1	1	война			S f inan	gen norm pl				
+21	5			это		5	2	1	это			PART	norm				
+21	5			это		5	2	2	это			SPRO	acc inan n norm sg				
+21	5			это		5	2	3	это			SPRO	inan n nom norm sg				
+21	5			это		5	2	4	этот			APRO	acc n norm sg				
+21	5			это		5	2	5	этот			APRO	n nom norm sg				
+21	6			является		1	1	1	являться			V	3p act indic intr ipf norm praes sg				
+21	7			повсеместным		3	1	1	повсеместный			A	dat norm pl plen				
+21	7			повсеместным		3	1	2	повсеместный			A	ins m norm plen sg				
+21	7			повсеместным		3	1	3	повсеместный			A	ins n norm plen sg				
+21	8			явлением		1	1	1	явление			S inan n	ins norm sg			. 	eos
+22	1		cap	Гибнут		1	1	1	гибнуть			V	3p act indic intr ipf norm pl praes				bos
+22	2			дети		2	2	1	дитя			S anim n	nom norm pl			, 	
+22	2			дети		2	2	2	ребенок			S anim m	nom norm pl			, 	
+22	3			а		0	0	1							, 		
+22	4			с		1	1	1	с			PR	norm				
+22	5			ними		1	1	1	они			SPRO	3p ins norm pl				
+22	6			гибнут		1	1	1	гибнуть			V	3p act indic intr ipf norm pl praes				
+22	7			душою		1	1	1	душа			S f inan	ins norm sg				
+22	8			их		3	2	1	их			APRO	norm				
+22	8			их		3	2	2	они			SPRO	3p acc norm pl				
+22	8			их		3	2	3	они			SPRO	3p gen norm pl				
+22	9			матери		9	3	1	материть			V	2p act imper ipf norm sg tran			. 	eos
+22	9			матери		9	3	2	матерь			S anim f	dat norm sg			. 	eos
+22	9			матери		9	3	3	матерь			S anim f	gen norm sg			. 	eos
+22	9			матери		9	3	4	матерь			S anim f	loc norm sg			. 	eos
+22	9			матери		9	3	5	матерь			S anim f	nom norm pl			. 	eos
+22	9			матери		9	3	6	мать			S anim f	dat norm sg			. 	eos
+22	9			матери		9	3	7	мать			S anim f	gen norm sg			. 	eos
+22	9			матери		9	3	8	мать			S anim f	loc norm sg			. 	eos
+22	9			матери		9	3	9	мать			S anim f	nom norm pl			. 	eos
+23	1		cap	Но		2	2	1	Но			S anim m persn	nom norm sg				bos
+23	1		cap	Но		2	2	2	но			CONJ	norm				bos
+23	2			так		3	1	1	так			ADVPRO	norm				
+23	2			так		3	1	2	так			CONJ	norm				
+23	2			так		3	1	3	так			PART	norm				
+23	3			не		1	1	1	не			PART	norm				
+23	4			должно		2	2	1	должно			PRAEDIC	norm				
+23	4			должно		2	2	2	должный			A	brev n norm sg				
+23	5			быть		1	1	1	быть			V	act inf intr ipf norm			! 	eos
+24	1		cap	Родители		2	2	1	родители			S anim	nom norm pl				bos
+24	1		cap	Родители		2	2	2	родитель			S anim m	nom norm pl				bos
+24	2			не		1	1	1	не			PART	norm				
+24	3			должны		1	1	1	должный			A	brev norm pl				
+24	4			видеть		1	1	1	видеть			V	act inf ipf norm tran				
+24	5			смерти		5	1	1	смерть			S f inan	acc norm pl infl				
+24	5			смерти		5	1	2	смерть			S f inan	dat norm sg infl				
+24	5			смерти		5	1	3	смерть			S f inan	gen norm sg infl				
+24	5			смерти		5	1	4	смерть			S f inan	loc norm sg infl				
+24	5			смерти		5	1	5	смерть			S f inan	nom norm pl infl				
+24	6			своих		6	1	1	свой			APRO	acc anim norm pl				
+24	6			своих		6	1	2	свой			APRO	gen norm pl				
+24	6			своих		6	1	3	свой			APRO	loc norm pl				
+24	6			своих		6	1	4	свой			SPRO	acc anim m norm pl				
+24	6			своих		6	1	5	свой			SPRO	anim gen m norm pl				
+24	6			своих		6	1	6	свой			SPRO	anim loc m norm pl				
+24	7			детей		4	2	1	дитя			S anim n	acc norm pl			, 	
+24	7			детей		4	2	2	дитя			S anim n	gen norm pl			, 	
+24	7			детей		4	2	3	ребенок			S anim m	acc norm pl			, 	
+24	7			детей		4	2	4	ребенок			S anim m	gen norm pl			, 	
+24	8			не		1	1	1	не			PART	norm		, 		
+24	9			должны		1	1	1	должный			A	brev norm pl				
+24	10			ждать		1	1	1	ждать			V	act inf ipf norm tran				
+24	11			с		1	1	1	с			PR	norm				
+24	12			войны		3	1	1	война			S f inan	acc norm pl				
+24	12			войны		3	1	2	война			S f inan	gen norm sg				
+24	12			войны		3	1	3	война			S f inan	nom norm pl				
+24	13			своих		6	1	1	свой			APRO	acc anim norm pl				
+24	13			своих		6	1	2	свой			APRO	gen norm pl				
+24	13			своих		6	1	3	свой			APRO	loc norm pl				
+24	13			своих		6	1	4	свой			SPRO	acc anim m norm pl				
+24	13			своих		6	1	5	свой			SPRO	anim gen m norm pl				
+24	13			своих		6	1	6	свой			SPRO	anim loc m norm pl				
+24	14			сыновей		2	1	1	сын			S anim m	acc norm pl				
+24	14			сыновей		2	1	2	сын			S anim m	gen norm pl				
+24	15			и		2	1	1	и			CONJ	norm				
+24	15			и		2	1	2	и			INTJ	norm				
+24	16			каждую		2	2	1	каждая			S anim f	acc norm sg				
+24	16			каждую		2	2	2	каждый			APRO	acc f norm sg				
+24	17			ночь		2	1	1	ночь			S f inan	acc norm sg				
+24	17			ночь		2	1	2	ночь			S f inan	nom norm sg				
+24	18			изводить		1	1	1	изводить			V	act inf ipf norm tran styl colloq				
+24	19			себя		2	1	1	себя			SPRO	acc norm				
+24	19			себя		2	1	2	себя			SPRO	gen norm				
+24	20			мыслями		1	1	1	мысль			S f inan	ins norm pl				
+24	21			о		2	1	1	о			INTJ	norm				
+24	21			о		2	1	2	о			PR	norm				
+24	22			том		6	4	1	Том			S anim m persn	nom norm sg				
+24	22			том		6	4	2	то			SPRO	inan loc n norm sg				
+24	22			том		6	4	3	том			S inan m	acc norm sg				
+24	22			том		6	4	4	том			S inan m	nom norm sg				
+24	22			том		6	4	5	тот			APRO	loc m norm sg				
+24	22			том		6	4	6	тот			APRO	loc n norm sg				
+24	23			ужасе		1	1	1	ужас			S inan m	loc norm sg			, 	
+24	24			в		1	1	1	в			PR	norm		, 		
+24	25			котором		2	1	1	который			APRO	loc m norm sg				
+24	25			котором		2	1	2	который			APRO	loc n norm sg				
+24	26			находится		2	1	1	находиться			V	3p act fut indic intr norm pf sg				
+24	26			находится		2	1	2	находиться			V	3p act indic intr ipf norm praes sg				
+24	27			их		3	2	1	их			APRO	norm				
+24	27			их		3	2	2	они			SPRO	3p acc norm pl				
+24	27			их		3	2	3	они			SPRO	3p gen norm pl				
+24	28			чадо		2	1	1	чадо			S anim n	acc norm sg styl				
+24	28			чадо		2	1	2	чадо			S anim n	nom norm sg styl				
+24	29		cap	Всё		9	2	1	весь			APRO	acc inan norm pl				
+24	29		cap	Всё		9	2	2	весь			APRO	acc n norm sg				
+24	29		cap	Всё		9	2	3	весь			APRO	n nom norm sg				
+24	29		cap	Всё		9	2	4	весь			APRO	nom norm pl				
+24	29		cap	Всё		9	2	5	все			ADV	norm				
+24	29		cap	Всё		9	2	6	все			SPRO	acc inan n norm sg				
+24	29		cap	Всё		9	2	7	все			SPRO	acc norm pl				
+24	29		cap	Всё		9	2	8	все			SPRO	inan n nom norm sg				
+24	29		cap	Всё		9	2	9	все			SPRO	nom norm pl				
+24	30			в		1	1	1	в			PR	norm				
+24	31			этом		3	2	1	это			SPRO	inan loc n norm sg				
+24	31			этом		3	2	2	этот			APRO	loc m norm sg				
+24	31			этом		3	2	3	этот			APRO	loc n norm sg				
+24	32			мире		7	5	1	Мир			S anim m persn	loc norm sg				
+24	32			мире		7	5	2	Мира			S anim f persn	dat norm sg				
+24	32			мире		7	5	3	Мира			S anim f persn	loc norm sg				
+24	32			мире		7	5	4	мир			S inan m	loc norm sg				
+24	32			мире		7	5	5	мира			S f inan	dat norm sg				
+24	32			мире		7	5	6	мира			S f inan	loc norm sg				
+24	32			мире		7	5	7	миро			S inan n	loc norm sg				
+24	33			можно		1	1	1	можно			PRAEDIC	norm				
+24	34			исправить		1	1	1	исправить			V	act inf norm pf tran			, 	
+24	35			кроме		1	1	1	кроме			PR	norm		, 		
+24	36			смерти		5	1	1	смерть			S f inan	acc norm pl cit				
+24	36			смерти		5	1	2	смерть			S f inan	dat norm sg cit				
+24	36			смерти		5	1	3	смерть			S f inan	gen norm sg cit				
+24	36			смерти		5	1	4	смерть			S f inan	loc norm sg cit				
+24	36			смерти		5	1	5	смерть			S f inan	nom norm pl cit				
+24	37			-		0	0	1									
+24	38			говорил		1	1	1	говорить			V	act indic ipf m norm praet sg tran				
+24	39		caps	М		1	1	1	м			NONLEX				. 	
+24	40		cap	Сервантес		2	1	1	Сервантес			S anim f famn	0 norm		. 	, 	
+24	40		cap	Сервантес		2	1	2	Сервантес			S anim famn m	nom norm sg		. 	, 	
+24	41			а		0	0	1							, 		
+24	42			война		1	1	1	война			S f inan	nom norm sg				
+24	43			–		0	0	1									
+24	44			это		5	2	1	это			PART	norm				
+24	44			это		5	2	2	это			SPRO	acc inan n norm sg				
+24	44			это		5	2	3	это			SPRO	inan n nom norm sg				
+24	44			это		5	2	4	этот			APRO	acc n norm sg				
+24	44			это		5	2	5	этот			APRO	n nom norm sg				
+24	45			всегда		1	1	1	всегда			ADVPRO	norm				
+24	46			смерть		2	1	1	смерть			S f inan	acc norm sg			, 	
+24	46			смерть		2	1	2	смерть			S f inan	nom norm sg			, 	
+24	47			всегда		1	1	1	всегда			ADVPRO	norm		, 		
+24	48			горе		8	3	1	Гор			S anim famn m	loc norm sg			. 	eos
+24	48			горе		8	3	2	Гор			S anim m persn	loc norm sg			. 	eos
+24	48			горе		8	3	3	гора			S f inan	dat norm sg			. 	eos
+24	48			горе		8	3	4	гора			S f inan	loc norm sg			. 	eos
+24	48			горе		8	3	5	горе			ADV	norm			. 	eos
+24	48			горе		8	3	6	горе			S inan n	acc norm sg			. 	eos
+24	48			горе		8	3	7	горе			S inan n	loc norm sg			. 	eos
+24	48			горе		8	3	8	горе			S inan n	nom norm sg			. 	eos
+25	1		cap	Мне		2	1	1	я			SPRO	1p dat norm sg			, 	bos
+25	1		cap	Мне		2	1	2	я			SPRO	1p loc norm sg			, 	bos
+25	2			наверное		1	1	1	наверное			PARENTH	norm		, 	, 	
+25	3			никогда		1	1	1	никогда			ADVPRO	norm		, 		
+25	4			не		1	1	1	не			PART	norm				
+25	5			понять		1	1	1	понять			V	act inf norm pf			, 	
+25	6			чем		3	2	1	чем			CONJ	norm		, 		
+25	6			чем		3	2	2	что			SPRO	inan ins n norm sg		, 		
+25	6			чем		3	2	3	что			SPRO	inan loc n norm sg		, 		
+25	7			можно		1	1	1	можно			PRAEDIC	norm				
+25	8			оправдать		1	1	1	оправдать			V	act inf norm pf tran				
+25	9			этот		2	1	1	этот			APRO	acc inan m norm sg				
+25	9			этот		2	1	2	этот			APRO	m nom norm sg				
+25	10			триумф		2	1	1	триумф			S inan m	acc norm sg				
+25	10			триумф		2	1	2	триумф			S inan m	nom norm sg				
+25	11			дьявола		2	1	1	дьявол			S anim m	acc norm sg				
+25	11			дьявола		2	1	2	дьявол			S anim m	gen norm sg				
+25	12			на		2	1	1	на			PART	norm				
+25	12			на		2	1	2	на			PR	norm				
+25	13		cap	Земле		2	1	1	земля			S f inan	dat norm sg			. 	eos
+25	13		cap	Земле		2	1	2	земля			S f inan	loc norm sg			. 	eos
+26	1		cap	Люди		1	1	1	человек			S anim m	nom norm pl				bos
+26	2			идут		1	1	1	идти			V	3p act indic intr ipf norm pl praes				
+26	3			друг		2	1	1	друг			S anim m	nom norm sg				
+26	3			друг		2	1	2	друг			SPRO	nom norm sg				
+26	4			на		2	1	1	на			PART	norm				
+26	4			на		2	1	2	на			PR	norm				
+26	5			друга		4	1	1	друг			S anim m	acc sg				
+26	5			друга		4	1	2	друг			S anim m	gen sg				
+26	5			друга		4	1	3	друг			SPRO	acc sg				
+26	5			друга		4	1	4	друг			SPRO	gen sg				
+26	6			с		1	1	1	с			PR	norm				
+26	7			оружием		1	1	1	оружие			S inan n	ins norm sg			, 	
+26	8			убивают		1	1	1	убивать			V	3p act indic ipf norm pl praes tran		, 		
+26	9			друг		2	1	1	друг			S anim m	nom norm sg				
+26	9			друг		2	1	2	друг			SPRO	nom norm sg				
+26	10			друга		4	1	1	друг			S anim m	acc sg			, 	
+26	10			друга		4	1	2	друг			S anim m	gen sg			, 	
+26	10			друга		4	1	3	друг			SPRO	acc sg			, 	
+26	10			друга		4	1	4	друг			SPRO	gen sg			, 	
+26	11			уничтожают		1	1	1	уничтожать			V	3p act indic ipf norm pl praes tran discourse tauto		, 		
+26	12		cap	Как		3	1	1	как			ADVPRO	norm				
+26	12		cap	Как		3	1	2	как			CONJ	norm				
+26	12		cap	Как		3	1	3	как			PART	norm				
+26	13			же		2	1	1	же			CONJ	norm				
+26	13			же		2	1	2	же			PART	norm				
+26	14			это		5	2	1	это			PART	norm				
+26	14			это		5	2	2	это			SPRO	acc inan n norm sg				
+26	14			это		5	2	3	это			SPRO	inan n nom norm sg				
+26	14			это		5	2	4	этот			APRO	acc n norm sg				
+26	14			это		5	2	5	этот			APRO	n nom norm sg				
+26	15			еще		2	1	1	еще			ADV	norm				
+26	15			еще		2	1	2	еще			PART	norm				
+26	16			можно		1	1	1	можно			PRAEDIC	norm				
+26	17			называть		1	1	1	называть			V	act inf ipf norm tran			, 	
+26	18			если		1	1	1	если			CONJ	norm		, 		
+26	19			не		1	1	1	не			PART	norm				
+26	20			геноцидом		1	1	1	геноцид			S inan m	ins norm sg			? 	eos
+27	1		cap	Причем		2	1	1	причем			ADV	norm				bos
+27	1		cap	Причем		2	1	2	причем			CONJ	norm				bos
+27	2			геноцидом		1	1	1	геноцид			S inan m	ins norm sg				
+27	3			самих		3	1	1	сам			APRO	acc anim norm pl				
+27	3			самих		3	1	2	сам			APRO	gen norm pl				
+27	3			самих		3	1	3	сам			APRO	loc norm pl				
+27	4			себя		2	1	1	себя			SPRO	acc norm			. 	eos
+27	4			себя		2	1	2	себя			SPRO	gen norm			. 	eos
+28	1		cap	Кроме		1	1	1	кроме			PR	norm				bos
+28	2			того		6	3	1	то			SPRO	gen inan n norm sg			, 	
+28	2			того		6	3	2	того			PART	norm			, 	
+28	2			того		6	3	3	того			S inan n	0 norm			, 	
+28	2			того		6	3	4	тот			APRO	acc anim m norm sg			, 	
+28	2			того		6	3	5	тот			APRO	gen m norm sg			, 	
+28	2			того		6	3	6	тот			APRO	gen n norm sg			, 	
+28	3			война		1	1	1	война			S f inan	nom norm sg		, 		
+28	4			не		1	1	1	не			PART	norm				
+28	5			только		3	1	1	только			ADV	norm				
+28	5			только		3	1	2	только			CONJ	norm				
+28	5			только		3	1	3	только			PART	norm				
+28	6			уносит		1	1	1	уносить			V	3p act indic ipf norm praes sg tran				
+28	7			миллионы		2	1	1	миллион			S inan m	acc norm pl				
+28	7			миллионы		2	1	2	миллион			S inan m	nom norm pl				
+28	8			жизней		1	1	1	жизнь			S f inan	gen norm pl			, 	
+28	9			но		2	2	1	Но			S anim m persn	nom norm sg		, 		
+28	9			но		2	2	2	но			CONJ	norm		, 		
+28	10			еще		2	1	1	еще			ADV	norm				
+28	10			еще		2	1	2	еще			PART	norm				
+28	11			и		2	1	1	и			CONJ	norm				
+28	11			и		2	1	2	и			INTJ	norm				
+28	12			ломает		1	1	1	ломать			V	3p act indic ipf norm praes sg tran				
+28	13			судьбы		3	1	1	судьба			S f inan	acc norm pl				
+28	13			судьбы		3	1	2	судьба			S f inan	gen norm sg				
+28	13			судьбы		3	1	3	судьба			S f inan	nom norm pl				
+28	14			тех		4	2	1	тех			norm				, 	
+28	14			тех		4	2	2	тот			APRO	acc anim norm pl			, 	
+28	14			тех		4	2	3	тот			APRO	gen norm pl			, 	
+28	14			тех		4	2	4	тот			APRO	loc norm pl			, 	
+28	15			кто		1	1	1	кто			SPRO	anim m nom norm sg		, 		
+28	16			на		2	1	1	на			PART	norm				
+28	16			на		2	1	2	на			PR	norm				
+28	17			ней		4	1	1	она			SPRO	3p dat f norm sg				
+28	17			ней		4	1	2	она			SPRO	3p f gen norm sg				
+28	17			ней		4	1	3	она			SPRO	3p f ins norm sg				
+28	17			ней		4	1	4	она			SPRO	3p f loc norm sg				
+28	18			выжил		1	1	1	выжить			V	act indic m norm pf praet sg tran			. 	eos
+29	1		cap	Каждый		3	1	1	каждый			APRO	acc inan m norm sg				bos
+29	1		cap	Каждый		3	1	2	каждый			APRO	m nom norm sg				bos
+29	1		cap	Каждый		3	1	3	каждый			SPRO	anim m nom norm sg				bos
+29	2			день		2	1	1	день			S inan m	acc norm sg				
+29	2			день		2	1	2	день			S inan m	nom norm sg				
+29	3			видеть		1	1	1	видеть			V	act inf ipf norm tran			, 	
+29	4			как		3	1	1	как			ADVPRO	norm		, 		
+29	4			как		3	1	2	как			CONJ	norm		, 		
+29	4			как		3	1	3	как			PART	norm		, 		
+29	5			погибают		1	1	1	погибать			V	3p act indic intr ipf norm pl praes				
+29	6			твои		2	1	1	твой			APRO	acc inan norm pl				
+29	6			твои		2	1	2	твой			APRO	nom norm pl				
+29	7			товарищи		1	1	1	товарищ			S anim m	nom norm pl			, 	
+29	8			бегать		1	1	1	бегать			V	act inf intr ipf norm		, 		
+29	9			под		1	1	1	под			PR	norm				
+29	10			пулями		1	1	1	пуля			S f inan	ins norm pl			, 	
+29	11			убивать		1	1	1	убивать			V	act inf ipf norm tran		, 		
+29	12			других		6	1	1	другой			APRO	acc anim norm pl			: 	
+29	12			других		6	1	2	другой			APRO	gen norm pl			: 	
+29	12			других		6	1	3	другой			APRO	loc norm pl			: 	
+29	12			других		6	1	4	другой			S anim m	acc norm pl			: 	
+29	12			других		6	1	5	другой			S anim m	gen norm pl			: 	
+29	12			других		6	1	6	другой			S anim m	loc norm pl			: 	
+29	13			всё		9	2	1	весь			APRO	acc inan norm pl		: 		
+29	13			всё		9	2	2	весь			APRO	acc n norm sg		: 		
+29	13			всё		9	2	3	весь			APRO	n nom norm sg		: 		
+29	13			всё		9	2	4	весь			APRO	nom norm pl		: 		
+29	13			всё		9	2	5	все			ADV	norm		: 		
+29	13			всё		9	2	6	все			SPRO	acc inan n norm sg		: 		
+29	13			всё		9	2	7	все			SPRO	acc norm pl		: 		
+29	13			всё		9	2	8	все			SPRO	inan n nom norm sg		: 		
+29	13			всё		9	2	9	все			SPRO	nom norm pl		: 		
+29	14			это		5	2	1	это			PART	norm			, 	
+29	14			это		5	2	2	это			SPRO	acc inan n norm sg			, 	
+29	14			это		5	2	3	это			SPRO	inan n nom norm sg			, 	
+29	14			это		5	2	4	этот			APRO	acc n norm sg			, 	
+29	14			это		5	2	5	этот			APRO	n nom norm sg			, 	
+29	15			несомненно		3	2	1	несомненно			PARENTH	norm		, 	, 	
+29	15			несомненно		3	2	2	несомненно			PRAEDIC	norm		, 	, 	
+29	15			несомненно		3	2	3	несомненный			A	brev n norm sg		, 	, 	
+29	16			ломает		1	1	1	ломать			V	3p act indic ipf norm praes sg tran		, 		
+29	17			психику		1	1	1	психика			S f inan	acc norm sg				
+29	18			человека		2	1	1	человек			S anim m	acc norm sg			, 	
+29	18			человека		2	1	2	человек			S anim m	gen norm sg			, 	
+29	19			и		2	1	1	и			CONJ	norm		, 		
+29	19			и		2	1	2	и			INTJ	norm		, 		
+29	20			наши		2	1	1	наш			APRO	acc inan norm pl				
+29	20			наши		2	1	2	наш			APRO	nom norm pl				
+29	21			ветераны		1	1	1	ветеран			S anim m	nom norm pl				
+29	22		caps	ВОВ		3	2	1	Вова			S anim m persn	acc norm pl				
+29	22		caps	ВОВ		3	2	2	Вова			S anim m persn	gen norm pl				
+29	22		caps	ВОВ		3	2	3	вов			S	0 norm				
+29	23			–		0	0	1									
+29	24			редкое		2	1	1	редкий			A	acc n norm plen sg				
+29	24			редкое		2	1	2	редкий			A	n nom norm plen sg				
+29	25			исключение		2	1	1	исключение			S inan n	acc norm sg			, 	
+29	25			исключение		2	1	2	исключение			S inan n	nom norm sg			, 	
+29	26			но		2	2	1	Но			S anim m persn	nom norm sg		, 		
+29	26			но		2	2	2	но			CONJ	norm		, 		
+29	27			и		2	1	1	и			CONJ	norm				
+29	27			и		2	1	2	и			INTJ	norm				
+29	28			времена		2	1	1	время			S inan n	acc norm pl				
+29	28			времена		2	1	2	время			S inan n	nom norm pl				
+29	29			тогда		1	1	1	тогда			ADVPRO	norm				
+29	30			были		6	2	1	быль			S f inan	acc norm pl				
+29	30			были		6	2	2	быль			S f inan	dat norm sg				
+29	30			были		6	2	3	быль			S f inan	gen norm sg				
+29	30			были		6	2	4	быль			S f inan	loc norm sg				
+29	30			были		6	2	5	быль			S f inan	nom norm pl				
+29	30			были		6	2	6	быть			V	act indic intr ipf norm pl praet				
+29	31			другие		3	1	1	другой			APRO	acc inan norm pl			, 	
+29	31			другие		3	1	2	другой			APRO	nom norm pl			, 	
+29	31			другие		3	1	3	другой			S anim m	nom norm pl			, 	
+29	32			любви		5	1	1	любовь			S f inan	acc norm pl		, 		
+29	32			любви		5	1	2	любовь			S f inan	dat norm sg		, 		
+29	32			любви		5	1	3	любовь			S f inan	gen norm sg		, 		
+29	32			любви		5	1	4	любовь			S f inan	loc norm sg		, 		
+29	32			любви		5	1	5	любовь			S f inan	nom norm pl		, 		
+29	33			их		3	2	1	их			APRO	norm				
+29	33			их		3	2	2	они			SPRO	3p acc norm pl				
+29	33			их		3	2	3	они			SPRO	3p gen norm pl				
+29	34			жён		2	1	1	жена			S anim f	acc norm pl				
+29	34			жён		2	1	2	жена			S anim f	gen norm pl				
+29	35			и		2	1	1	и			CONJ	norm				
+29	35			и		2	1	2	и			INTJ	norm				
+29	36			матерей		4	2	1	матерь			S anim f	acc norm pl			, 	
+29	36			матерей		4	2	2	матерь			S anim f	gen norm pl			, 	
+29	36			матерей		4	2	3	мать			S anim f	acc norm pl			, 	
+29	36			матерей		4	2	4	мать			S anim f	gen norm pl			, 	
+29	37			благодарности		5	1	1	благодарность			S f inan	acc norm pl		, 		
+29	37			благодарности		5	1	2	благодарность			S f inan	dat norm sg		, 		
+29	37			благодарности		5	1	3	благодарность			S f inan	gen norm sg		, 		
+29	37			благодарности		5	1	4	благодарность			S f inan	loc norm sg		, 		
+29	37			благодарности		5	1	5	благодарность			S f inan	nom norm pl		, 		
+29	38			народа		1	1	1	народ			S inan m	gen norm sg				
+29	39			хватило		1	1	1	хватить			V	act indic n norm pf praet sg tran			, 	
+29	40			чтобы		2	1	1	чтобы			CONJ	norm		, 		
+29	40			чтобы		2	1	2	чтобы			PART	norm		, 		
+29	41			залечить		1	1	1	залечить			V	act inf norm pf tran				
+29	42			эти		2	1	1	этот			APRO	acc inan norm pl				
+29	42			эти		2	1	2	этот			APRO	nom norm pl				
+29	43			душевные		2	1	1	душевный			A	acc inan norm pl plen				
+29	43			душевные		2	1	2	душевный			A	nom norm pl plen				
+29	44			раны		5	2	1	Рана			S anim f persn	gen norm sg			. 	eos
+29	44			раны		5	2	2	Рана			S anim f persn	nom norm pl			. 	eos
+29	44			раны		5	2	3	рана			S f inan	acc norm pl			. 	eos
+29	44			раны		5	2	4	рана			S f inan	gen norm sg			. 	eos
+29	44			раны		5	2	5	рана			S f inan	nom norm pl			. 	eos
+30	1		caps	В		1	1	1	в			PR	norm				bos
+30	2			наши		2	1	1	наш			APRO	acc inan norm pl				
+30	2			наши		2	1	2	наш			APRO	nom norm pl				
+30	3			времена		2	1	1	время			S inan n	acc norm pl				
+30	3			времена		2	1	2	время			S inan n	nom norm pl				
+30	4			люди		1	1	1	человек			S anim m	nom norm pl			, 	
+30	5			прошедшие		8	3	1	пройти			V	acc act inan intr norm partcp pf pl plen praet		, 		
+30	5			прошедшие		8	3	2	пройти			V	acc act inan norm partcp pf pl plen praet		, 		
+30	5			прошедшие		8	3	3	пройти			V	act intr nom norm partcp pf pl plen praet		, 		
+30	5			прошедшие		8	3	4	пройти			V	act nom norm partcp pf pl plen praet		, 		
+30	5			прошедшие		8	3	5	прошедшее			S inan n	acc norm pl		, 		
+30	5			прошедшие		8	3	6	прошедшее			S inan n	nom norm pl		, 		
+30	5			прошедшие		8	3	7	прошедший			A	acc inan norm pl plen		, 		
+30	5			прошедшие		8	3	8	прошедший			A	nom norm pl plen		, 		
+30	6			войну		1	1	1	война			S f inan	acc norm sg			, 	
+30	7			меняются		1	1	1	меняться			V	3p act indic intr ipf norm pl praes		, 		
+30	8			навсегда		1	1	1	навсегда			ADV	norm			. 	eos
+31	1		caps	Я		1	1	1	я			SPRO	1p nom norm sg				bos
+31	2			могу		1	1	1	мочь			V	1p act indic intr ipf norm praes sg				
+31	3			говорить		1	1	1	говорить			V	act inf ipf norm tran				
+31	4			об		1	1	1	об			PR	norm				
+31	5			этом		3	2	1	это			SPRO	inan loc n norm sg				
+31	5			этом		3	2	2	этот			APRO	loc m norm sg				
+31	5			этом		3	2	3	этот			APRO	loc n norm sg				
+31	6			с		1	1	1	с			PR	norm				
+31	7			уверенностью		1	1	1	уверенность			S f inan	ins norm sg			, 	
+31	8			так		3	1	1	так			ADVPRO	norm		, 		
+31	8			так		3	1	2	так			CONJ	norm		, 		
+31	8			так		3	1	3	так			PART	norm		, 		
+31	9			как		3	1	1	как			ADVPRO	norm				
+31	9			как		3	1	2	как			CONJ	norm				
+31	9			как		3	1	3	как			PART	norm				
+31	10			видел		1	1	1	видеть			V	act indic ipf m norm praet sg tran				
+31	11			пример		2	1	1	пример			S inan m	acc norm sg				
+31	11			пример		2	1	2	пример			S inan m	nom norm sg				
+31	12			своего		6	2	1	свое			SPRO	gen inan n norm sg				
+31	12			своего		6	2	2	свой			APRO	acc anim m norm sg				
+31	12			своего		6	2	3	свой			APRO	gen m norm sg				
+31	12			своего		6	2	4	свой			APRO	gen n norm sg				
+31	12			своего		6	2	5	свой			SPRO	acc anim m norm sg				
+31	12			своего		6	2	6	свой			SPRO	anim gen m norm sg				
+31	13			дяди		2	1	1	дядя			S anim m	gen norm sg			, 	
+31	13			дяди		2	1	2	дядя			S anim m	nom norm pl			, 	
+31	14			воевавшего		3	1	1	воевать			V	acc act anim intr ipf m norm partcp plen praet sg		, 		
+31	14			воевавшего		3	1	2	воевать			V	act gen intr ipf m norm partcp plen praet sg		, 		
+31	14			воевавшего		3	1	3	воевать			V	act gen intr ipf n norm partcp plen praet sg		, 		
+31	15			в		1	1	1	в			PR	norm				
+31	16			августе		4	3	1	Август			S anim m persn	loc norm sg				
+31	16			августе		4	3	2	Августа			S anim persn	dat norm sg				
+31	16			августе		4	3	3	Августа			S anim persn	loc norm sg				
+31	16			августе		4	3	4	август			S inan m	loc norm sg				
+31	17	digit		2008		0	0	1									
+31	18			года		3	1	1	год			S inan m	acc norm pl				
+31	18			года		3	1	2	год			S inan m	gen norm sg				
+31	18			года		3	1	3	год			S inan m	nom norm pl				
+31	19			в		1	1	1	в			PR	norm				
+31	20			рядах		1	1	1	ряд			S inan m	loc norm pl				
+31	21			спецназа		1	1	1	спецназ			S inan m	gen norm sg				
+31	22		cap	Южной		4	1	1	южный			A	dat f norm plen sg				
+31	22		cap	Южной		4	1	2	южный			A	f gen norm plen sg				
+31	22		cap	Южной		4	1	3	южный			A	f ins norm plen sg				
+31	22		cap	Южной		4	1	4	южный			A	f loc norm plen sg				
+31	23		cap	Осетии		5	1	1	осетия			S f inan	acc norm pl			. 	eos
+31	23		cap	Осетии		5	1	2	осетия			S f inan	dat norm sg			. 	eos
+31	23		cap	Осетии		5	1	3	осетия			S f inan	gen norm sg			. 	eos
+31	23		cap	Осетии		5	1	4	осетия			S f inan	loc norm sg			. 	eos
+31	23		cap	Осетии		5	1	5	осетия			S f inan	nom norm pl			. 	eos
+32	1		cap	Из		3	2	1	Иза			S anim f persn	acc norm pl				bos
+32	1		cap	Из		3	2	2	Иза			S anim f persn	gen norm pl				bos
+32	1		cap	Из		3	2	3	из			PR	norm				bos
+32	2			их		3	2	1	их			APRO	norm				
+32	2			их		3	2	2	они			SPRO	3p acc norm pl				
+32	2			их		3	2	3	они			SPRO	3p gen norm pl				
+32	3			роты		3	1	1	рота			S f inan	acc norm pl				
+32	3			роты		3	1	2	рота			S f inan	gen norm sg				
+32	3			роты		3	1	3	рота			S f inan	nom norm pl				
+32	4			выжило		1	1	1	выжить			V	act indic n norm pf praet sg tran				
+32	5			всего		5	3	1	весь			APRO	acc anim m norm sg				
+32	5			всего		5	3	2	весь			APRO	gen m norm sg				
+32	5			всего		5	3	3	весь			APRO	gen n norm sg				
+32	5			всего		5	3	4	все			SPRO	gen inan n norm sg				
+32	5			всего		5	3	5	всего			ADVPRO	norm				
+32	6	digit		12		0	0	1									
+32	7			человек		3	1	1	человек			S anim m	acc norm pl			, 	
+32	7			человек		3	1	2	человек			S anim m	gen norm pl			, 	
+32	7			человек		3	1	3	человек			S anim m	nom norm sg			, 	
+32	8			ужасы		2	1	1	ужас			S inan m	acc norm pl		, 	, 	
+32	8			ужасы		2	1	2	ужас			S inan m	nom norm pl		, 	, 	
+32	9			которые		2	1	1	который			APRO	acc inan norm pl		, 		
+32	9			которые		2	1	2	который			APRO	nom norm pl		, 		
+32	10			им		5	4	1	Има			S anim f persn	acc norm pl				
+32	10			им		5	4	2	Има			S anim f persn	gen norm pl				
+32	10			им		5	4	3	он			SPRO	3p ins m norm sg				
+32	10			им		5	4	4	они			SPRO	3p dat norm pl				
+32	10			им		5	4	5	оно			SPRO	3p ins n norm sg				
+32	11			пришлось		2	2	1	придтись			V	act indic intr n norm pf praet sg				
+32	11			пришлось		2	2	2	прийтись			V	act indic intr n norm pf praet sg				
+32	12			перенести		1	1	1	перенести			V	act inf norm pf deriv paron lex word				
+32	13			в		1	1	1	в			PR	norm				
+32	14			течение		2	1	1	течение			S inan n	acc norm sg				
+32	14			течение		2	1	2	течение			S inan n	nom norm sg				
+32	15			тех		4	2	1	тех			norm					
+32	15			тех		4	2	2	тот			APRO	acc anim norm pl				
+32	15			тех		4	2	3	тот			APRO	gen norm pl				
+32	15			тех		4	2	4	тот			APRO	loc norm pl				
+32	16			трёх		3	1	1	три			NUM	acc anim norm				
+32	16			трёх		3	1	2	три			NUM	gen norm				
+32	16			трёх		3	1	3	три			NUM	loc norm				
+32	17			страшных		3	1	1	страшный			A	acc anim norm pl plen				
+32	17			страшных		3	1	2	страшный			A	gen norm pl plen				
+32	17			страшных		3	1	3	страшный			A	loc norm pl plen				
+32	18			дней		1	1	1	день			S inan m	gen norm pl			 (	
+32	19			пока		5	2	1	Пок			S anim m persn	acc norm sg		 (		
+32	19			пока		5	2	2	Пок			S anim m persn	gen norm sg		 (		
+32	19			пока		5	2	3	пока			ADV	norm		 (		
+32	19			пока		5	2	4	пока			CONJ	norm		 (		
+32	19			пока		5	2	5	пока			PART	norm		 (		
+32	20			не		1	1	1	не			PART	norm				
+32	21			прибыли		6	2	1	прибыль			S f inan	acc norm pl				
+32	21			прибыли		6	2	2	прибыль			S f inan	dat norm sg				
+32	21			прибыли		6	2	3	прибыль			S f inan	gen norm sg				
+32	21			прибыли		6	2	4	прибыль			S f inan	loc norm sg				
+32	21			прибыли		6	2	5	прибыль			S f inan	nom norm pl				
+32	21			прибыли		6	2	6	прибыть			V	act indic intr norm pf pl praet				
+32	22			российские		2	1	1	российский			A	acc inan norm pl plen				
+32	22			российские		2	1	2	российский			A	nom norm pl plen				
+32	23			военные		3	1	1	военный			A	acc inan norm pl plen				
+32	23			военные		3	1	2	военный			A	nom norm pl plen				
+32	23			военные		3	1	3	военный			S anim m	nom norm pl				
+32	24			силы		5	2	1	Сила			S anim m persn	gen norm sg			) 	
+32	24			силы		5	2	2	Сила			S anim m persn	nom norm pl			) 	
+32	24			силы		5	2	3	сила			S f inan	acc norm pl			) 	
+32	24			силы		5	2	4	сила			S f inan	gen norm sg			) 	
+32	24			силы		5	2	5	сила			S f inan	nom norm pl			) 	
+32	25			не		1	1	1	не			PART	norm		) 		
+32	26			поддаются		1	1	1	поддаваться			V	3p act indic intr ipf norm pl praes				
+32	27			пониманию		1	1	1	понимание			S inan n	dat norm sg				
+32	28			человека		2	1	1	человек			S anim m	acc norm sg			. 	eos
+32	28			человека		2	1	2	человек			S anim m	gen norm sg			. 	eos
+33	1		cap	Три		3	2	1	тереть			V	2p act imper ipf norm sg tran				bos
+33	1		cap	Три		3	2	2	три			NUM	acc inan norm				bos
+33	1		cap	Три		3	2	3	три			NUM	nom norm				bos
+33	2			дня		1	1	1	день			S inan m	gen norm sg				
+33	3			они		1	1	1	они			SPRO	3p nom norm pl				
+33	4			не		1	1	1	не			PART	norm				
+33	5			спали		3	3	1	спалить			V	2p act imper norm pf sg tran			, 	
+33	5			спали		3	3	2	спасть			V	act indic intr norm pf pl praet			, 	
+33	5			спали		3	3	3	спать			V	act indic intr ipf norm pl praet			, 	
+33	6			не		1	1	1	не			PART	norm		, 		
+33	7			ели		6	2	1	ель			S f inan	acc norm pl			, 	
+33	7			ели		6	2	2	ель			S f inan	dat norm sg			, 	
+33	7			ели		6	2	3	ель			S f inan	gen norm sg			, 	
+33	7			ели		6	2	4	ель			S f inan	loc norm sg			, 	
+33	7			ели		6	2	5	ель			S f inan	nom norm pl			, 	
+33	7			ели		6	2	6	есть			V	act indic ipf norm pl praet tran			, 	
+33	8			и		2	1	1	и			CONJ	norm		, 		
+33	8			и		2	1	2	и			INTJ	norm		, 		
+33	9			были		6	2	1	быль			S f inan	acc norm pl lex word				
+33	9			были		6	2	2	быль			S f inan	dat norm sg lex word				
+33	9			были		6	2	3	быль			S f inan	gen norm sg lex word				
+33	9			были		6	2	4	быль			S f inan	loc norm sg lex word				
+33	9			были		6	2	5	быль			S f inan	nom norm pl lex word				
+33	9			были		6	2	6	быть			V	act indic intr ipf norm pl praet lex word				
+33	10			постоянные		4	2	1	постоянная			S f inan	acc norm pl				
+33	10			постоянные		4	2	2	постоянная			S f inan	nom norm pl				
+33	10			постоянные		4	2	3	постоянный			A	acc inan norm pl plen				
+33	10			постоянные		4	2	4	постоянный			A	nom norm pl plen				
+33	11			бои		4	2	1	Бой			S anim m persn	nom norm pl			. 	eos
+33	11			бои		4	2	2	бой			S anim m	nom norm pl			. 	eos
+33	11			бои		4	2	3	бой			S inan m	acc norm pl			. 	eos
+33	11			бои		4	2	4	бой			S inan m	nom norm pl			. 	eos
+34	1		cap	Небо		2	1	1	небо			S inan n	acc norm sg		 «		bos
+34	1		cap	Небо		2	1	2	небо			S inan n	nom norm sg		 «		bos
+34	2			было		2	2	1	было			PART	norm				
+34	2			было		2	2	2	быть			V	act indic intr ipf n norm praet sg				
+34	3			постоянно		2	2	1	постоянно			ADV	norm				
+34	3			постоянно		2	2	2	постоянный			A	brev n norm sg				
+34	4			чёрным		10	4	1	Черная			S anim f famn	dat norm pl				
+34	4			чёрным		10	4	2	Черный			S anim famn m	dat norm pl				
+34	4			чёрным		10	4	3	Черный			S anim famn m	ins norm sg				
+34	4			чёрным		10	4	4	черные			S anim	dat norm pl				
+34	4			чёрным		10	4	5	черные			S inan	dat norm pl				
+34	4			чёрным		10	4	6	черный			A	dat norm pl plen				
+34	4			чёрным		10	4	7	черный			A	ins m norm plen sg				
+34	4			чёрным		10	4	8	черный			A	ins n norm plen sg				
+34	4			чёрным		10	4	9	черный			S anim m	dat norm pl				
+34	4			чёрным		10	4	10	черный			S anim m	ins norm sg				
+34	5			от		1	1	1	от			PR	norm				
+34	6			дыма		1	1	1	дым			S inan m	gen norm sg			, 	
+34	7			и		2	1	1	и			CONJ	norm		, 		
+34	7			и		2	1	2	и			INTJ	norm		, 		
+34	8			сложно		2	2	1	сложно			ADV	norm				
+34	8			сложно		2	2	2	сложный			A	brev n norm sg				
+34	9			было		2	2	1	было			PART	norm				
+34	9			было		2	2	2	быть			V	act indic intr ipf n norm praet sg				
+34	10			сказать		1	1	1	сказать			V	act inf norm pf tran			, 	
+34	11			какое		3	2	1	какое			INTJ	norm		, 		
+34	11			какое		3	2	2	какой			APRO	acc n norm sg		, 		
+34	11			какое		3	2	3	какой			APRO	n nom norm sg		, 		
+34	12			сейчас		1	1	1	сейчас			ADV	norm				
+34	13			время		2	1	1	время			S inan n	acc norm sg			, 	
+34	13			время		2	1	2	время			S inan n	nom norm sg			, 	
+34	14			руки		3	1	1	рука			S f inan	acc norm pl		, 		
+34	14			руки		3	1	2	рука			S f inan	gen norm sg		, 		
+34	14			руки		3	1	3	рука			S f inan	nom norm pl		, 		
+34	15			постоянно		2	2	1	постоянно			ADV	norm				
+34	15			постоянно		2	2	2	постоянный			A	brev n norm sg				
+34	16			тряслись		1	1	1	трястись			V	act indic intr ipf norm pl praet			, 	
+34	17			ничего		3	2	1	ничего			ADV	norm		, 		
+34	17			ничего		3	2	2	ничего			PRAEDIC	norm		, 		
+34	17			ничего		3	2	3	ничто			SPRO	gen n norm sg		, 		
+34	18			не		1	1	1	не			PART	norm				
+34	19			было		2	2	1	было			PART	norm				
+34	19			было		2	2	2	быть			V	act indic intr ipf n norm praet sg				
+34	20			видно		3	2	1	видно			PARENTH	norm			, 	
+34	20			видно		3	2	2	видно			PRAEDIC	norm			, 	
+34	20			видно		3	2	3	видный			A	brev n norm sg			, 	
+34	21			всё		9	2	1	весь			APRO	acc inan norm pl		, 		
+34	21			всё		9	2	2	весь			APRO	acc n norm sg		, 		
+34	21			всё		9	2	3	весь			APRO	n nom norm sg		, 		
+34	21			всё		9	2	4	весь			APRO	nom norm pl		, 		
+34	21			всё		9	2	5	все			ADV	norm		, 		
+34	21			всё		9	2	6	все			SPRO	acc inan n norm sg		, 		
+34	21			всё		9	2	7	все			SPRO	acc norm pl		, 		
+34	21			всё		9	2	8	все			SPRO	inan n nom norm sg		, 		
+34	21			всё		9	2	9	все			SPRO	nom norm pl		, 		
+34	22			как		3	1	1	как			ADVPRO	norm				
+34	22			как		3	1	2	как			CONJ	norm				
+34	22			как		3	1	3	как			PART	norm				
+34	23			в		1	1	1	в			PR	norm				
+34	24			тумане		1	1	1	туман			S inan m	loc norm sg			, 	
+34	25			мы		1	1	1	мы			SPRO	1p nom norm pl		, 		
+34	26			просто		4	2	1	просто			ADV	norm				
+34	26			просто		4	2	2	просто			PART	norm				
+34	26			просто		4	2	3	просто			PRAEDIC	norm				
+34	26			просто		4	2	4	простой			A	brev n norm sg				
+34	27			шли		2	2	1	идти			V	act indic intr ipf norm pl praet				
+34	27			шли		2	2	2	слать			V	2p act imper ipf norm sg tran				
+34	28			и		2	1	1	и			CONJ	norm				
+34	28			и		2	1	2	и			INTJ	norm				
+34	29			убивали		1	1	1	убивать			V	act indic ipf norm pl praet tran			, 	
+34	30			потому		1	1	1	потому			ADVPRO	norm		, 		
+34	31			что		4	1	1	что			ADVPRO	norm				
+34	31			что		4	1	2	что			CONJ	norm				
+34	31			что		4	1	3	что			SPRO	acc inan n norm sg				
+34	31			что		4	1	4	что			SPRO	inan n nom norm sg				
+34	32			нам		1	1	1	мы			SPRO	1p dat norm pl				
+34	33			было		2	2	1	было			PART	norm				
+34	33			было		2	2	2	быть			V	act indic intr ipf n norm praet sg				
+34	34			приказано		1	1	1	приказать			V	brev n norm partcp pass pf praet sg				
+34	35			убивать		1	1	1	убивать			V	act inf ipf norm tran			…», 	
+34	36			-		0	0	1							…», 		
+34	37			говорил		1	1	1	говорить			V	act indic ipf m norm praet sg tran				
+34	38			он		1	1	1	он			SPRO	3p m nom norm sg				
+34	39			мне		2	1	1	я			SPRO	1p dat norm sg			. 	eos
+34	39			мне		2	1	2	я			SPRO	1p loc norm sg			. 	eos
+35	1		cap	После		2	1	1	после			ADV	norm				bos
+35	1		cap	После		2	1	2	после			PR	norm				bos
+35	2			возвращения		3	1	1	возвращение			S inan n	acc norm pl				
+35	2			возвращения		3	1	2	возвращение			S inan n	gen norm sg				
+35	2			возвращения		3	1	3	возвращение			S inan n	nom norm pl				
+35	3			с		1	1	1	с			PR	norm				
+35	4			войны		3	1	1	война			S f inan	acc norm pl				
+35	4			войны		3	1	2	война			S f inan	gen norm sg				
+35	4			войны		3	1	3	война			S f inan	nom norm pl				
+35	5			он		1	1	1	он			SPRO	3p m nom norm sg				
+35	6			очень		1	1	1	очень			ADV	norm				
+35	7			изменился		1	1	1	измениться			V	act indic intr m norm pf praet sg			, 	
+35	8			мы		1	1	1	мы			SPRO	1p nom norm pl		, 		
+35	9			постоянно		2	2	1	постоянно			ADV	norm				
+35	9			постоянно		2	2	2	постоянный			A	brev n norm sg				
+35	10			видим		3	2	1	видеть			V	1p act indic ipf norm pl praes tran				
+35	10			видим		3	2	2	видеть			V	brev ipf m norm partcp pass praes sg tran				
+35	10			видим		3	2	3	видимый			A	brev m norm sg				
+35	11			пустой		6	1	1	пустой			A	acc inan m norm plen sg				
+35	11			пустой		6	1	2	пустой			A	dat f norm plen sg				
+35	11			пустой		6	1	3	пустой			A	f gen norm plen sg				
+35	11			пустой		6	1	4	пустой			A	f ins norm plen sg				
+35	11			пустой		6	1	5	пустой			A	f loc norm plen sg				
+35	11			пустой		6	1	6	пустой			A	m nom norm plen sg				
+35	12			взгляд		2	1	1	взгляд			S inan m	acc norm sg				
+35	12			взгляд		2	1	2	взгляд			S inan m	nom norm sg				
+35	13			и		2	1	1	и			CONJ	norm				
+35	13			и		2	1	2	и			INTJ	norm				
+35	14			безразличие		2	1	1	безразличие			S inan n	acc norm sg				
+35	14			безразличие		2	1	2	безразличие			S inan n	nom norm sg				
+35	15			к		1	1	1	к			PR	norm				
+35	16			жизни		5	1	1	жизнь			S f inan	acc norm pl			, 	
+35	16			жизни		5	1	2	жизнь			S f inan	dat norm sg			, 	
+35	16			жизни		5	1	3	жизнь			S f inan	gen norm sg			, 	
+35	16			жизни		5	1	4	жизнь			S f inan	loc norm sg			, 	
+35	16			жизни		5	1	5	жизнь			S f inan	nom norm pl			, 	
+35	17			а		0	0	1							, 		
+35	18			когда-то		0	0	1									
+35	19			он		1	1	1	он			SPRO	3p m nom norm sg				
+35	20			был		1	1	1	быть			V	act indic intr ipf m norm praet sg				
+35	21			самым		3	1	1	самый			APRO	dat norm pl				
+35	21			самым		3	1	2	самый			APRO	ins m norm sg				
+35	21			самым		3	1	3	самый			APRO	ins n norm sg				
+35	22			жизнерадостным		3	1	1	жизнерадостный			A	dat norm pl plen				
+35	22			жизнерадостным		3	1	2	жизнерадостный			A	ins m norm plen sg				
+35	22			жизнерадостным		3	1	3	жизнерадостный			A	ins n norm plen sg				
+35	23			человеком		1	1	1	человек			S anim m	ins norm sg				
+35	24			из		3	2	1	Иза			S anim f persn	acc norm pl				
+35	24			из		3	2	2	Иза			S anim f persn	gen norm pl				
+35	24			из		3	2	3	из			PR	norm				
+35	25			всех		6	2	1	весь			APRO	acc anim norm pl			, 	
+35	25			всех		6	2	2	весь			APRO	gen norm pl			, 	
+35	25			всех		6	2	3	весь			APRO	loc norm pl			, 	
+35	25			всех		6	2	4	все			SPRO	acc norm pl			, 	
+35	25			всех		6	2	5	все			SPRO	gen norm pl			, 	
+35	25			всех		6	2	6	все			SPRO	loc norm pl			, 	
+35	26			кого		2	1	1	кто			SPRO	acc anim m norm sg		, 		
+35	26			кого		2	1	2	кто			SPRO	anim gen m norm sg		, 		
+35	27			я		1	1	1	я			SPRO	1p nom norm sg				
+35	28			знал		1	1	1	знать			V	act indic ipf m norm praet sg tran			. 	eos
+36	1		caps	У		1	1	1	у			PR	norm				bos
+36	2			войны		3	1	1	война			S f inan	acc norm pl				
+36	2			войны		3	1	2	война			S f inan	gen norm sg				
+36	2			войны		3	1	3	война			S f inan	nom norm pl				
+36	3			нет		4	1	1	нет			PART	norm				
+36	3			нет		4	1	2	нет			PRAEDIC	norm				
+36	3			нет		4	1	3	нет			S inan m	acc norm sg				
+36	3			нет		4	1	4	нет			S inan m	nom norm sg				
+36	4			рационального		3	1	1	рациональный			A	acc anim m norm plen sg				
+36	4			рационального		3	1	2	рациональный			A	gen m norm plen sg				
+36	4			рационального		3	1	3	рациональный			A	gen n norm plen sg				
+36	5			объяснения		3	1	1	объяснение			S inan n	acc norm pl			, 	
+36	5			объяснения		3	1	2	объяснение			S inan n	gen norm sg			, 	
+36	5			объяснения		3	1	3	объяснение			S inan n	nom norm pl			, 	
+36	6			ибо		1	1	1	ибо			CONJ	norm styl		, 		
+36	7			невозможно		3	2	1	невозможно			ADV	norm				
+36	7			невозможно		3	2	2	невозможно			PRAEDIC	norm				
+36	7			невозможно		3	2	3	невозможный			A	brev n norm sg				
+36	8			объяснить		1	1	1	объяснить			V	act inf norm pf tran				
+36	9			самоуничтожение		2	1	1	самоуничтожение			S inan n	acc norm sg			. 	eos
+36	9			самоуничтожение		2	1	2	самоуничтожение			S inan n	nom norm sg			. 	eos
+37	1		cap	Но		2	2	1	Но			S anim m persn	nom norm sg				bos
+37	1		cap	Но		2	2	2	но			CONJ	norm				bos
+37	2			есть		8	2	1	быть			V	1p act indic intr ipf norm pl praes				
+37	2			есть		8	2	2	быть			V	1p act indic intr ipf norm praes sg				
+37	2			есть		8	2	3	быть			V	2p act indic intr ipf norm pl praes				
+37	2			есть		8	2	4	быть			V	2p act indic intr ipf norm praes sg				
+37	2			есть		8	2	5	быть			V	3p act indic intr ipf norm pl praes				
+37	2			есть		8	2	6	быть			V	3p act indic intr ipf norm praes sg				
+37	2			есть		8	2	7	есть			INTJ	norm				
+37	2			есть		8	2	8	есть			V	act inf ipf norm tran				
+37	3			причина		1	1	1	причина			S f inan	nom norm sg			. 	eos
+38	1		cap	Люди		1	1	1	человек			S anim m	nom norm pl			, 	bos
+38	2			которые		2	1	1	который			APRO	acc inan norm pl		, 		
+38	2			которые		2	1	2	который			APRO	nom norm pl		, 		
+38	3			сидят		1	1	1	сидеть			V	3p act indic intr ipf norm pl praes				
+38	4			в		1	1	1	в			PR	norm				
+38	5			кабинетах		1	1	1	кабинет			S inan m	loc norm pl				
+38	6			на		2	1	1	на			PART	norm				
+38	6			на		2	1	2	на			PR	norm				
+38	7			мягких		3	1	1	мягкий			A	acc anim norm pl plen				
+38	7			мягких		3	1	2	мягкий			A	gen norm pl plen				
+38	7			мягких		3	1	3	мягкий			A	loc norm pl plen				
+38	8			стульях		1	1	1	стул			S inan m	loc norm pl				
+38	9			за		1	1	1	за			PR	norm				
+38	10			дубовыми		3	3	1	Дубов			S anim famn m	ins norm pl				
+38	10			дубовыми		3	3	2	Дубова			S anim f famn	ins norm pl				
+38	10			дубовыми		3	3	3	дубовый			A	ins norm pl plen				
+38	11			столами		1	1	1	стол			S inan m	ins norm pl			, 	
+38	12			отдают		1	1	1	отдавать			V	3p act indic ipf norm pl praes tran		, 		
+38	13			приказы		2	1	1	приказ			S inan m	acc norm pl			, 	
+38	13			приказы		2	1	2	приказ			S inan m	nom norm pl			, 	
+38	14			развязывают		1	1	1	развязывать			V	3p act indic ipf norm pl praes tran		, 		
+38	15			войны		3	1	1	война			S f inan	acc norm pl			, 	
+38	15			войны		3	1	2	война			S f inan	gen norm sg			, 	
+38	15			войны		3	1	3	война			S f inan	nom norm pl			, 	
+38	16			отправляют		1	1	1	отправлять			V	3p act indic ipf norm pl praes tran		, 		
+38	17			людей		2	1	1	человек			S anim m	acc norm pl				
+38	17			людей		2	1	2	человек			S anim m	gen norm pl				
+38	18			на		2	1	1	на			PART	norm				
+38	18			на		2	1	2	на			PR	norm				
+38	19			смерть		2	1	1	смерть			S f inan	acc norm sg			, 	
+38	19			смерть		2	1	2	смерть			S f inan	nom norm sg			, 	
+38	20			потому		1	1	1	потому			ADVPRO	norm		, 		
+38	21			что		4	1	1	что			ADVPRO	norm				
+38	21			что		4	1	2	что			CONJ	norm				
+38	21			что		4	1	3	что			SPRO	acc inan n norm sg				
+38	21			что		4	1	4	что			SPRO	inan n nom norm sg				
+38	22			им		5	4	1	Има			S anim f persn	acc norm pl				
+38	22			им		5	4	2	Има			S anim f persn	gen norm pl				
+38	22			им		5	4	3	он			SPRO	3p ins m norm sg				
+38	22			им		5	4	4	они			SPRO	3p dat norm pl				
+38	22			им		5	4	5	оно			SPRO	3p ins n norm sg				
+38	23			самим		4	1	1	сам			APRO	dat norm pl				
+38	23			самим		4	1	2	сам			APRO	ins m norm sg				
+38	23			самим		4	1	3	сам			APRO	ins n norm sg				
+38	23			самим		4	1	4	сам			S anim m	ins norm sg				
+38	24			не		1	1	1	не			PART	norm				
+38	25			нужно		2	2	1	нужно			PRAEDIC	norm				
+38	25			нужно		2	2	2	нужный			A	brev n norm sg				
+38	26			погибать		1	1	1	погибать			V	act inf intr ipf norm			, 	
+38	27			своих		6	1	1	свой			APRO	acc anim norm pl		, 		
+38	27			своих		6	1	2	свой			APRO	gen norm pl		, 		
+38	27			своих		6	1	3	свой			APRO	loc norm pl		, 		
+38	27			своих		6	1	4	свой			SPRO	acc anim m norm pl		, 		
+38	27			своих		6	1	5	свой			SPRO	anim gen m norm pl		, 		
+38	27			своих		6	1	6	свой			SPRO	anim loc m norm pl		, 		
+38	28			детей		4	2	1	дитя			S anim n	acc norm pl				
+38	28			детей		4	2	2	дитя			S anim n	gen norm pl				
+38	28			детей		4	2	3	ребенок			S anim m	acc norm pl				
+38	28			детей		4	2	4	ребенок			S anim m	gen norm pl				
+38	29			и		2	1	1	и			CONJ	norm				
+38	29			и		2	1	2	и			INTJ	norm				
+38	30			родных		6	2	1	родной			A	acc anim norm pl plen				
+38	30			родных		6	2	2	родной			A	gen norm pl plen				
+38	30			родных		6	2	3	родной			A	loc norm pl plen				
+38	30			родных		6	2	4	родные			S anim	acc norm pl				
+38	30			родных		6	2	5	родные			S anim	gen norm pl				
+38	30			родных		6	2	6	родные			S anim	loc norm pl				
+38	31			они		1	1	1	они			SPRO	3p nom norm pl discourse WO				
+38	32			от		1	1	1	от			PR	norm				
+38	33			войны		3	1	1	война			S f inan	acc norm pl				
+38	33			войны		3	1	2	война			S f inan	gen norm sg				
+38	33			войны		3	1	3	война			S f inan	nom norm pl				
+38	34			способны		1	1	1	способный			A	brev norm pl				
+38	35			уберечь		1	1	1	уберечь			V	act inf norm pf			, 	
+38	36			а		0	0	1							, 		
+38	37			чужие		6	3	1	чужая			S anim f	nom norm pl				
+38	37			чужие		6	3	2	чужое			S inan n	acc norm pl				
+38	37			чужие		6	3	3	чужое			S inan n	nom norm pl				
+38	37			чужие		6	3	4	чужой			A	acc inan norm pl plen				
+38	37			чужие		6	3	5	чужой			A	nom norm pl plen				
+38	37			чужие		6	3	6	чужой			S anim m	nom norm pl				
+38	38			дети		2	2	1	дитя			S anim n	nom norm pl				
+38	38			дети		2	2	2	ребенок			S anim m	nom norm pl				
+38	39			их		3	2	1	их			APRO	norm				
+38	39			их		3	2	2	они			SPRO	3p acc norm pl				
+38	39			их		3	2	3	они			SPRO	3p gen norm pl				
+38	40			совсем		1	1	1	совсем			ADV	norm				
+38	41			не		1	1	1	не			PART	norm				
+38	42			интересуют		2	1	1	интересовать			V	3p act indic intr ipf norm pl praes			. 	eos
+38	42			интересуют		2	1	2	интересовать			V	3p act indic ipf norm pl praes tran			. 	eos
+39	1		caps	Я		1	1	1	я			SPRO	1p nom norm sg				bos
+39	2			искренне		2	2	1	искренне			ADV	norm				
+39	2			искренне		2	2	2	искренний			A	brev n norm sg				
+39	3			надеюсь		1	1	1	надеяться			V	1p act indic intr ipf norm praes sg			, 	
+39	4			что		4	1	1	что			ADVPRO	norm		, 		
+39	4			что		4	1	2	что			CONJ	norm		, 		
+39	4			что		4	1	3	что			SPRO	acc inan n norm sg		, 		
+39	4			что		4	1	4	что			SPRO	inan n nom norm sg		, 		
+39	5			наступят		1	1	1	наступить			V	3p act fut indic intr norm pf pl				
+39	6			светлые		2	1	1	светлый			A	acc inan norm pl plen				
+39	6			светлые		2	1	2	светлый			A	nom norm pl plen				
+39	7			времена		2	1	1	время			S inan n	acc norm pl			, 	
+39	7			времена		2	1	2	время			S inan n	nom norm pl			, 	
+39	8			где		1	1	1	где			ADVPRO	norm comparlex rel_clause		, 		
+39	9			нет		4	1	1	нет			PART	norm infl				
+39	9			нет		4	1	2	нет			PRAEDIC	norm infl				
+39	9			нет		4	1	3	нет			S inan m	acc norm sg infl				
+39	9			нет		4	1	4	нет			S inan m	nom norm sg infl				
+39	10			войны		3	1	1	война			S f inan	acc norm pl			, 	
+39	10			войны		3	1	2	война			S f inan	gen norm sg			, 	
+39	10			войны		3	1	3	война			S f inan	nom norm pl			, 	
+39	11			нет		4	1	1	нет			PART	norm		, 		
+39	11			нет		4	1	2	нет			PRAEDIC	norm		, 		
+39	11			нет		4	1	3	нет			S inan m	acc norm sg		, 		
+39	11			нет		4	1	4	нет			S inan m	nom norm sg		, 		
+39	12			насилия		3	1	1	насилие			S inan n	acc norm pl			. 	eos
+39	12			насилия		3	1	2	насилие			S inan n	gen norm sg			. 	eos
+39	12			насилия		3	1	3	насилие			S inan n	nom norm pl			. 	eos
+40	1		cap	Времена		2	1	1	время			S inan n	acc norm pl				bos
+40	1		cap	Времена		2	1	2	время			S inan n	nom norm pl				bos
+40	2			где		1	1	1	где			ADVPRO	norm comparlex rel_clause				
+40	3			любовь		4	2	1	Любовь			S anim f persn	acc norm sg				
+40	3			любовь		4	2	2	Любовь			S anim f persn	nom norm sg				
+40	3			любовь		4	2	3	любовь			S f inan	acc norm sg				
+40	3			любовь		4	2	4	любовь			S f inan	nom norm sg				
+40	4			правит		1	1	1	править			V	3p act indic ipf norm praes sg tran infl				
+40	5			миром		3	3	1	Мир			S anim m persn	ins norm sg			, 	
+40	5			миром		3	3	2	мир			S inan m	ins norm sg			, 	
+40	5			миром		3	3	3	миро			S inan n	ins norm sg			, 	
+40	6			где		1	1	1	где			ADVPRO	norm		, 		
+40	7			сострадание		2	1	1	сострадание			S inan n	acc norm sg infl				
+40	7			сострадание		2	1	2	сострадание			S inan n	nom norm sg infl				
+40	8			и		2	1	1	и			CONJ	norm				
+40	8			и		2	1	2	и			INTJ	norm				
+40	9			нежность		2	1	1	нежность			S f inan	acc norm sg				
+40	9			нежность		2	1	2	нежность			S f inan	nom norm sg				
+40	10			–		0	0	1									
+40	11			повсеместное		2	1	1	повсеместный			A	acc n norm plen sg lex phrase				
+40	11			повсеместное		2	1	2	повсеместный			A	n nom norm plen sg lex phrase				
+40	12			явление		2	1	1	явление			S inan n	acc norm sg			, 	
+40	12			явление		2	1	2	явление			S inan n	nom norm sg			, 	
+40	13			а		0	0	1							, 		
+40	14			не		1	1	1	не			PART	norm				
+40	15			единичный		2	1	1	единичный			A	acc inan m norm plen sg				
+40	15			единичный		2	1	2	единичный			A	m nom norm plen sg				
+40	16			случай		2	1	1	случай			S inan m	acc norm sg			. 	eos
+40	16			случай		2	1	2	случай			S inan m	nom norm sg			. 	eos
+41	1		cap	Где		1	1	1	где			ADVPRO	norm				bos
+41	2			человек		3	1	1	человек			S anim m	acc norm pl				
+41	2			человек		3	1	2	человек			S anim m	gen norm pl				
+41	2			человек		3	1	3	человек			S anim m	nom norm sg				
+41	3			спасает		1	1	1	спасать			V	3p act indic ipf norm praes sg tran infl				
+41	4			человека		2	1	1	человек			S anim m	acc norm sg			, 	
+41	4			человека		2	1	2	человек			S anim m	gen norm sg			, 	
+41	5			а		0	0	1							, 		
+41	6			не		1	1	1	не			PART	norm				
+41	7			убивает		1	1	1	убивать			V	3p act indic ipf norm praes sg tran			. 	eos
+42	1		caps	И		2	1	1	и			CONJ	norm				bos
+42	1		caps	И		2	1	2	и			INTJ	norm				bos
+42	2			самое		3	2	1	сам			APRO	acc f norm sg				
+42	2			самое		3	2	2	самый			APRO	acc n norm sg				
+42	2			самое		3	2	3	самый			APRO	n nom norm sg				
+42	3			главное		5	2	1	главное			PARENTH	norm			, 	
+42	3			главное		5	2	2	главное			S inan n	acc norm sg			, 	
+42	3			главное		5	2	3	главное			S inan n	nom norm sg			, 	
+42	3			главное		5	2	4	главный			A	acc n norm plen sg			, 	
+42	3			главное		5	2	5	главный			A	n nom norm plen sg			, 	
+42	4			где		1	1	1	где			ADVPRO	norm comparlex rel_clause		, 		
+42	5			нет		4	1	1	нет			PART	norm				
+42	5			нет		4	1	2	нет			PRAEDIC	norm				
+42	5			нет		4	1	3	нет			S inan m	acc norm sg				
+42	5			нет		4	1	4	нет			S inan m	nom norm sg				
+42	6			места		3	1	1	место			S inan n	acc norm pl				
+42	6			места		3	1	2	место			S inan n	gen norm sg				
+42	6			места		3	1	3	место			S inan n	nom norm pl				
+42	7			злу		1	1	1	зло			S inan n	dat norm sg			. 	eos
+43	1		cap	Война		1	1	1	война			S f inan	nom norm sg				bos
+43	2			–		0	0	1									
+43	3			геноцид		2	1	1	геноцид			S inan m	acc norm sg				
+43	3			геноцид		2	1	2	геноцид			S inan m	nom norm sg				
+43	4			человечества		3	1	1	человечество			S inan n	acc norm pl			, 	
+43	4			человечества		3	1	2	человечество			S inan n	gen norm sg			, 	
+43	4			человечества		3	1	3	человечество			S inan n	nom norm pl			, 	
+43	5			любовь		4	2	1	Любовь			S anim f persn	acc norm sg		, 		
+43	5			любовь		4	2	2	Любовь			S anim f persn	nom norm sg		, 		
+43	5			любовь		4	2	3	любовь			S f inan	acc norm sg		, 		
+43	5			любовь		4	2	4	любовь			S f inan	nom norm sg		, 		
+43	6			и		2	1	1	и			CONJ	norm				
+43	6			и		2	1	2	и			INTJ	norm				
+43	7			сострадание		2	1	1	сострадание			S inan n	acc norm sg				
+43	7			сострадание		2	1	2	сострадание			S inan n	nom norm sg				
+43	8			–		0	0	1									
+43	9			его		5	3	1	его			APRO	norm ref pron				
+43	9			его		5	3	2	он			SPRO	3p acc m norm sg ref pron				
+43	9			его		5	3	3	он			SPRO	3p gen m norm sg ref pron				
+43	9			его		5	3	4	оно			SPRO	3p acc n norm sg ref pron				
+43	9			его		5	3	5	оно			SPRO	3p gen n norm sg ref pron				
+43	10			спасение		2	1	1	спасение			S inan n	acc norm sg			.	
+43	10			спасение		2	1	2	спасение			S inan n	nom norm sg			.	

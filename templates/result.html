@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% load annotator_tags %}
+{% block title %}{% trans 'CoRST Result' %}{% endblock %}
+{% block meta_content %}{% trans 'Result' %}{% endblock %}
+
+{% block scripts %}
+{% for i in j %}
+     <script>
+    {{ i|safe }}
+    </script>
+{% endfor %}
+{% endblock %}
+    {% block upper-row %}
+            {% endblock %}
+
+    {% block other %}
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.token').tooltip({
+    placement : 'top',
+    trigger: 'hover',
+      delay: { "show": 500, "hide": 0 },
+      html: true
+  });
+});
+</script>
+    {% endblock %}
+
+{% block content_header %}{% trans 'Result' %}{% endblock content_header %}
+
+{% block content %}
+    <h1> {{ query }} </h1>
+    <h4><span  class="label label-default">{% trans 'Corpus total' %}: {{ numbers.total_docs }} documents, {{ numbers.total_sents }} sentences, {{ numbers.total_tokens }} words.</span></h4>
+    <h4><span  class="label label-default">{% trans 'Search executed in a user-defined subcorpus of' %} {{ numbers.subcorpus_docs }} documents, {{ numbers.subcorpus_sents }} sentences, {{ numbers.subcorpus_words }} words.</span></h4>
+    <h4><span  class="label label-default">{% trans 'Found' %}: {{ total_docs }} documents, {{ total }} contexts.</span></h4>
+    <ol start="{{olstart}}">
+
+    {% for sent in result %}
+        <li><div class="doctitle">{{ sent.doc_id }}</div>
+            <span id="{{ sent.id }}" contenteditable="false"> <!-- onmouseup="snapSelectionToWord()"> -->
+                {{sent.tagged|safe|linebreaksbr}}
+            </span>
+        </li>
+		{% endfor %}
+    </ol>
+
+
+    <nav>
+        <ul class="pagination pagination-sm">
+       {% if pages.has_previous %}
+       <li>
+          <a href="{{ path }}&page={{ pages.previous_page_number }}" aria-label="Previous">
+            <span aria-hidden="true">{% trans 'previous page' %}</span>
+          </a>
+       </li>
+        {% endif %}
+        {% for i in pages.paginator.page_range2 %}
+        <li {% if pages.number == i %} class="active" {% endif %}>
+            <a href="{{ path }}&page={{ i }}">{{ i }}</a>
+        </li>
+        {% endfor %}
+        {% if pages.has_next %}
+        <li>
+          <a href="{{ path }}&page={{ pages.next_page_number }}" aria-label="Next">
+            <span aria-hidden="true">{% trans 'next page' %}</span>
+          </a>
+        </li>
+        {% endif %}
+
+  </ul>
+    </nav>
+{% endblock content %}

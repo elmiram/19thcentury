@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block title %}
+    CoRST Documents
+
+{% endblock %}
+{% block meta_content %}
+    Documents
+{% endblock %}
+
+{% block upper-row %}
+{% endblock %}
+
+{% block content %}
+    <h3>List of documents for annotation</h3>
+
+    <div class="row">
+    <form method="get">
+    <p>Выбрать разметчика:
+        {% for u in users %}
+        <label class="radio-inline">
+          <input type="radio" name="{{ u.username }}" value=""> {{ u.first_name }} {{ u.last_name }}
+        </label>
+        {% endfor %}
+        <input type="submit" class="btn btn-xs btn-primary" value="Filter"></p>
+
+    </form>
+
+    </div>
+
+<div class="row">
+<div class="col-md-4">
+    <div class="panel panel-primary">
+    <div class="panel-heading">Not annotated</div>
+      <div class="panel-body" style="min-height: 450px; max-height: 450px; overflow-y: scroll;">
+          <ol>
+    {% for doc in docs %}
+        {% if not doc.annotated %}
+    <li>
+        <a href="document/{{ doc.id }}/edittest"> {{ doc }} </a>
+    </li>
+        {% endif %}
+    {% endfor %}
+    </ol>
+      </div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="panel panel-primary">
+    <div class="panel-heading">Annotated, not checked</div>
+      <div class="panel-body" style="min-height: 450px; max-height: 450px; overflow-y: scroll;">
+          <ol>
+    {% for doc in docs %}
+        {% if doc.annotated and not doc.checked %}
+    <li>
+        <a href="document/{{ doc.id }}/edittest"> {{ doc }}</a>
+    </li>
+        {% endif %}
+    {% endfor %}
+    </ol>
+      </div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="panel panel-primary">
+    <div class="panel-heading">Annotated, checked</div>
+      <div class="panel-body" style="min-height: 450px; max-height: 450px; overflow-y: scroll;">
+          <ol>
+    {% for doc in docs %}
+        {% if doc.checked %}
+    <li>
+        <a href="document/{{ doc.id }}/edittest"> {{ doc }} </a>
+    </li>
+        {% endif %}
+    {% endfor %}
+    </ol>
+      </div>
+</div>
+</div>
+</div>
+
+
+
+{% endblock content %}

@@ -1,0 +1,396 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% block title %}CoRST Search{% endblock %}
+{% block meta_content %}Search{% endblock %}
+{% block links %}
+
+          <link href="{% static "css/style.css" %}" rel="stylesheet">
+          <link href="{% static "css/styles.css" %}" rel="stylesheet">
+	<script language="JavaScript" src="{% static "js/gramsel.js" %}"></script>
+	<script language="JavaScript" src="{% static "js/urlprocessor.js" %}"></script>
+    <script language="JavaScript" src="{% static "js/mainform.js" %}"></script>
+<script language="JavaScript">
+
+$(function()
+{
+    var forms = 0;
+    $(document).on('click', '.btn-add', function(e)
+    {
+        forms = forms + 1;
+        e.preventDefault();
+
+        var controlForm = $('.controls div:first'),
+            currentEntry = $(this).parents('.entry:first');
+        var newEntry = $(currentEntry.clone()).appendTo(controlForm);
+
+        newEntry.find('input').val('');
+        newEntry.find("#lex"+(forms+1)).attr('id', "lex"+(forms+2));
+        newEntry.find('#getlex').attr('onclick', "getLex("+(forms+2)+")");
+        newEntry.find("#gr"+(forms+1)).attr('id', "gr"+(forms+2));
+        newEntry.find('#getgrm').attr('onclick', "getGrm("+(forms+2)+")");
+        newEntry.find("#err"+(forms+1)).attr('id', "err"+(forms+2));
+        newEntry.find('#geterr').attr('onclick', "getErr("+(forms+2)+")");
+        controlForm.find('.entry:not(:last) .btn-add')
+            .removeClass('btn-add').addClass('btn-remove')
+            .removeClass('btn-info').addClass('btn-primary')
+            .html('<span class="glyphicon glyphicon-minus"></span>');
+        //controlForm.find('#lex2').id = "lex"+(forms+2);
+        //alert(controlForm.getElementById('lex2'));
+        //controlForm.find('#getlex').onclick = "getLex("+(forms+2)+")";
+    }).on('click', '.btn-remove', function(e)
+    {
+		$(this).parents('.entry:first').remove();
+
+		e.preventDefault();
+		return false;
+	});
+});
+
+$( document ).ready(function() {
+    $("#checkAll").click(function () {
+    $(".check").prop('checked', $(this).prop('checked'));
+});
+    $("#checkAllMajor").click(function () {
+    $(".major").prop('checked', $(this).prop('checked'));
+});
+    $("#checkAllDomain").click(function () {
+    $(".domain").prop('checked', $(this).prop('checked'));
+});
+    $("#checkAllCourse").click(function () {
+    $(".course").prop('checked', $(this).prop('checked'));
+});
+});
+
+
+</script>
+
+
+{% endblock %}
+
+
+{% block modals %}
+{% endblock %}
+
+{% block upper-row %}
+    <div id="masthead">
+  <div class="container">
+      <form method="get" target="_blank">
+      <div class="row">
+        <div class="col-sm-6">
+          <h4>Поиск точных форм</h4>
+
+        <label>
+            <input class="form-control input-sm" type="text" name="exact_word" placeholder="Введите ключевые слова: " size="100%">
+        </label>
+        <p id="search"><input type="submit" class="btn btn-xs btn-primary" value="Искать"></p>
+
+    <!--</form>-->
+        </div>
+        <div class="col-sm-6">
+                <div class="row">
+        	      	    <div class="btn-group pull-right">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subcorpus">Specify Subcorpus</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#preferences">Display Options</button>
+                            <a class="btn btn btn-primary" href="/19thcentury/search/" target="_blank">Search in New Window</a>
+                        </div>
+                </div>
+              </div>
+        </div>
+    </div>
+        </div>
+            {% endblock %}
+
+<div class="row">
+{% block content %}
+
+
+
+    <h4>Лексико-грамматический поиск</h4>
+<div class="controls">
+    <form role="form" autocomplete="off" method="get">
+        <div class="wrapper">
+            <div class="well">
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>
+                            Wordform<input class="form-control input-sm" type="text" name="wordform[]" placeholder="Словоформа" size="100%"></label>
+                    </div>
+                    <div class="col-sm-2">
+                        <label>
+                            <a onclick="getLex(1)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+                            Lex<input class="form-control input-sm" type="text" id='lex1' name="lex[]" placeholder="Лексические характеристики" size="100%"></label>
+                    </div>
+                    <div class="col-sm-2">
+                        <label>
+                            <a onclick="getGrm(1)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+                            Gram<input class="form-control input-sm" type="text"  id='gr1' name="grammar[]" placeholder="Грамматические характеристики" size="100%"></label>
+                    </div>
+                    <div class="col-sm-2">
+                        <label>
+                            <a onclick="getErr(1)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+                            Errors<input class="form-control input-sm" type="text" id='err1' name="errors[]" placeholder="Тэги ошибок" size="100%"></label>
+                    </div>
+                    <div class="col-sm-2">
+                        <label>
+                            <a onclick=""><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+                            Additional<input class="form-control input-sm" type="text" name="additional[]" placeholder="Дополнительно" size="100%"></label>
+                    </div>
+                </div>
+            </div>
+        <div class="entry">
+            <div class="row">
+                <div class="col-xs-3">
+                <div class="form-group">
+                    <label class="sr-only" for="from">From</label>
+                    <label class="sr-only" for="to">to</label>
+                    <div class="input-group input-group-sm">
+                      <div class="input-group-addon">From</div>
+                      <input type="text" class="form-control" id="from" placeholder="1" name="from[]">
+                      <div class="input-group-addon">to</div>
+                        <input type="text" class="form-control" id="to" placeholder="1" name="to[]">
+                    </div>
+                  </div>
+                    </div>
+                </div>
+            <div class="well">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>Wordform<input class="form-control input-sm" type="text" name="wordform[]" placeholder="Словоформа" size="100%"></label>
+                    </div>
+                    <div class="col-sm-2">
+                        <label>
+                            <a id="getlex" onclick="getLex(2)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+                            Lex<input class="form-control input-sm" type="text" id="lex2" name="lex[]" placeholder="Лексические характеристики" size="100%"></label>
+                    </div>
+                    <div class="col-sm-2">
+                        <label>
+                            <a id="getgrm" onclick="getGrm(2)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+                            Gram<input class="form-control input-sm" type="text" id="gr2" name="grammar[]" placeholder="Грамматические характеристики" size="100%"></label>
+                    </div>
+                    <div class="col-sm-2">
+                        <label>
+                            <a id="geterr" onclick="getErr(2)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+                            Errors<input class="form-control input-sm" type="text" id="err2" name="errors[]" placeholder="Тэги ошибок" size="100%"></label>
+                    </div>
+                    <div class="col-sm-2">
+                        <label>
+                            <a id="getadd" onclick=""><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+                            Additional<input class="form-control input-sm" type="text" name="additional[]" placeholder="Дополнительно" size="100%"></label>
+                    </div>
+                    <div class="col-sm-1">
+                        <br><button id="b1" class="btn btn-primary btn-add btn-sm" type="button"><span class="glyphicon glyphicon-plus"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+
+        <div class="modal fade" id="subcorpus" tabindex="-1" role="dialog" aria-labelledby="subcorpusLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="subcorpusLabel">Subcorpus</h4>
+      </div>
+      <div class="modal-body">
+
+          <div class="row">
+              <div class="col-sm-3">
+                  <div class="row">
+                      <div class="col-sm-12">
+                          <div class="panel panel-primary">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">Period</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                  <label for="ex1">from</label>
+                                </div>
+                                    <div class="col-xs-8">
+                                        <input class="form-control" name="date1" id="ex1" type="text" placeholder="2014">
+                                        </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                  <label for="ex2">to</label>
+                                </div>
+                                    <div class="col-xs-8">
+                                        <input class="form-control" name="date2" id="ex2" type="text" placeholder="2015">
+                                        </div>
+                                </div>
+
+
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-12">
+                          <div class="panel panel-primary">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">Sex of author</h3>
+                            </div>
+                            <div class="panel-body">
+                              <div class="radio">
+                                  <label class="radio-inline"><input type="radio" name="gender" value="м">m</label>
+                                  <label class="radio-inline"><input type="radio" name="gender" value="ж">f</label>
+                                  <label class="radio-inline"><input type="radio" name="gender" value="any" checked>any</label>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-12">
+                          <div class="panel panel-primary">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">Course</h3>
+                            </div>
+                            <div class="panel-body">
+                              <div class="checkbox"><label><input type="checkbox" class="check" id="checkAllCourse"> Check All</label></div>
+                                {% for c in d.course %}
+                                    <div class="checkbox"><label><input type="checkbox" name="course[]" class="course" value="{{ c }}">{{ c }}</label></div>
+                                {% endfor %}
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-9">
+              <div class="row">
+              <div class="col-sm-12">
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Text features</h3>
+                    </div>
+                    <div class="panel-body">
+                      <div class="row">
+                            <div class="col-sm-4">
+                                Type of assignment
+                                <div class="checkbox"><label><input type="checkbox" class="check" id="checkAll"> Check All</label></div>
+                                {% for g in d.genres %}
+                                    <div class="checkbox"><label><input type="checkbox" name="genre[]" class="check" value="{{ g }}">{{ g }}</label></div>
+                                {% endfor %}
+                            </div>
+                            <div class="col-sm-4">
+                                Academic major
+                                <div class="checkbox"><label><input type="checkbox" class="major[]" id="checkAllMajor"> Check All</label></div>
+                                {% for m in d.major %}
+                                    <div class="checkbox"><label><input type="checkbox" name="major[]" class="major" value="{{ m }}">{{ m }}</label></div>
+                                {% endfor %}
+                            </div>
+                      <div class="col-sm-4">
+                                Domain
+                                <div class="checkbox"><label><input type="checkbox" class="domain[]" id="checkAllDomain"> Check All</label></div>
+                                {% for do in d.domain %}
+                                    <div class="checkbox"><label><input type="checkbox" name="domain[]" class="domain" value="{{ do }}">{{ do }}</label></div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-12">
+                  <div class="panel panel-primary">
+                  <div class="panel-heading">
+                      <h3 class="panel-title">Annotation</h3>
+                    </div>
+                    <div class="panel-body">
+                      <div class="row">
+                            <div class="col-sm-6">
+                                <div class="checkbox"><label><input type="checkbox" name="checked"> Only checked</label></div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="checkbox"><label><input type="checkbox" name="annotated"> Only with finished annotation</label></div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+                  </div>
+                      </div>
+          </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="preferences" tabindex="-1" role="dialog" aria-labelledby="prefsLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="prefsLabel">Preferences</h4>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-6"><label for="sel1">Output layout<br><br></label></div>
+            <div class="col-sm-6">
+                <select class="form-control" name="format" id="sel1">
+                    <option>full</option>
+                    <option>KWIC</option>
+                </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6"><label for="sel2">Matches per page<br><br></label></div>
+            <div class="col-sm-6">
+                <select class="form-control"  name="per_page" id="sel2">
+                    <option>10</option>
+                    <option>20</option>
+                    <option selected="selected">30</option>
+                    <option>40</option>
+                    <option >50</option>
+                    <option>100</option>
+                </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6"><label for="sel3">Sentences in expanded context<br><br></label></div>
+            <div class="col-sm-6">
+                <select class="form-control"  name="expand" id="sel3">
+                    <option>+-1</option>
+                    <option>+-2</option>
+                    <option>+-3</option>
+                </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6"><label for="sel4">Sort by<br></label></div>
+            <div class="col-sm-6">
+                <select class="form-control"  name="sort_by" id="sel4">
+                    <option>wordform</option>
+                    <option>lexeme</option>
+                    <option>left wordform</option>
+                    <option>distance</option>
+                    <option>year descending</option>
+                    <option>student code</option>
+                </select>
+            </div>
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <input id="search" type="submit" class="btn btn-xs btn-primary" value="Искать" />
+        </form>
+            </div>
+
+{% endblock content %}
+</div>

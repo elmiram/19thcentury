@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<h1>{{ doc.title }}, {{ doc.author }}</h1>
+{% for sent in doc.sentence_set.all %}
+    <p>{{ sent.text }}</p>
+{% endfor %}
+</body>
+</html>
