@@ -10,7 +10,7 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Q
 
 # todo make this into a neat one-line js-function
-jquery = """jQuery(function ($) {$('#***').annotator().annotator('addPlugin', 'Tags').annotator('addPlugin', 'ReadOnlyAnnotations').annotator('addPlugin', 'Store', {prefix: '/RLC/document-annotations',annotationData: {'document': ***},loadFromSearch: {'document': ***}});});"""
+jquery = """jQuery(function ($) {$('#***').annotator().annotator('addPlugin', 'Tags').annotator('addPlugin', 'ReadOnlyAnnotations').annotator('addPlugin', 'Store', {prefix: '/19thcentury/document-annotations',annotationData: {'document': ***},loadFromSearch: {'document': ***}});});"""
 reg = re.compile(',| ')
 regToken= re.compile('">(.*?)</span>', flags=re.U | re.DOTALL)
 regSpans = re.compile('[.?,!:«(;#№–/...)»-]*<span .*?</span>[.?,!:«(;#№–/...)»-]*', flags=re.U | re.DOTALL)
@@ -280,8 +280,12 @@ def lex_search(query, docs, flag, expand, page, per_page):
             for i, j, k in rows:
                 for n in range(j, k+1):
                     e[i].append(n)
+
     sent_list = [ShowSentence(i, e[i], expand) for i in sorted(e)]
     ShowSentence.empty()
+    # f = codecs.open('/home/elmira/heritage_corpus/tempfiles/s.txt', 'w')
+    # f.write(str(query))
+    # f.close()
     for sent in sent_list:
         jq.append(jquery.replace('***', str(sent.id)))
     return jq, sent_list, ' '.join([word, lex, gram, err, comment]), d_num, sent_num

@@ -194,6 +194,7 @@ class EditorView(TemplateView):
 		context['j'].append(self.jquery.replace('***', str(context['document'].id)).replace('{{storage_api_base_url}}', context['storage_api_base_url']))
 		return context
 
+
 class EditorView2(TemplateView):
 	template_name = 'annotator/viewtest.html'
 	jquery = """jQuery(function ($) {
