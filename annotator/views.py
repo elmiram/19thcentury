@@ -226,7 +226,7 @@ class EditorView2(TemplateView):
 			else:
 				if tag[0].lower() in arr:
 					arr.append(tag[0].lower())
-		return arr
+		return sorted(set(arr))
 
 	def get_context_data(self, **kwargs):
 		context = super(EditorView2, self).get_context_data(**kwargs)

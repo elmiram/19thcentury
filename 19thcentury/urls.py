@@ -17,4 +17,5 @@ urlpatterns = patterns('',
     url(r'^search/(gramsel|lex|errsel)$', PopUp.as_view(), name='popup'),
     url(r'^(stats)/$', Statistics.as_view(), name='main.stats'),
     url(r'^document-annotations', include('annotator.urls')),
+    (r'^i18n/', include('django.conf.urls.i18n')),
     )

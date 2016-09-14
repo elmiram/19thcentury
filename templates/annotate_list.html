@@ -1,22 +1,24 @@
 {% extends "base.html" %}
+{% load staticfiles %}
+{% load i18n %}
 
 {% block title %}
-    CoRST Documents
-
+    {% trans "Documents" %}
 {% endblock %}
+
 {% block meta_content %}
-    Documents
+    {% trans "Search" %}
 {% endblock %}
 
 {% block upper-row %}
 {% endblock %}
 
 {% block content %}
-    <h3>List of documents for annotation</h3>
+    <h3>{% trans "List of documents for annotation" %}</h3>
 
     <div class="row">
     <form method="get">
-    <p>Выбрать разметчика:
+    <p>{% trans "Choose an annotator" %}:
         {% for u in users %}
         <label class="radio-inline">
           <input type="radio" name="{{ u.username }}" value=""> {{ u.first_name }} {{ u.last_name }}
@@ -31,7 +33,7 @@
 <div class="row">
 <div class="col-md-4">
     <div class="panel panel-primary">
-    <div class="panel-heading">Not annotated</div>
+    <div class="panel-heading">{% trans "Not annotated" %}</div>
       <div class="panel-body" style="min-height: 450px; max-height: 450px; overflow-y: scroll;">
           <ol>
     {% for doc in docs %}
@@ -47,7 +49,7 @@
 </div>
 <div class="col-md-4">
 <div class="panel panel-primary">
-    <div class="panel-heading">Annotated, not checked</div>
+    <div class="panel-heading">{% trans "Annotated, not checked" %}</div>
       <div class="panel-body" style="min-height: 450px; max-height: 450px; overflow-y: scroll;">
           <ol>
     {% for doc in docs %}
@@ -63,7 +65,7 @@
 </div>
 <div class="col-md-4">
 <div class="panel panel-primary">
-    <div class="panel-heading">Annotated, checked</div>
+    <div class="panel-heading">{% trans "Annotated, checked" %}</div>
       <div class="panel-body" style="min-height: 450px; max-height: 450px; overflow-y: scroll;">
           <ol>
     {% for doc in docs %}

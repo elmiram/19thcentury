@@ -58,7 +58,6 @@ class Search(Index):
             return render_to_response('search.html',
                                       context_instance=RequestContext(request))
         else:
-            # print request.GET
             query = request.GET
             subcorpus, subcorpus_sents, subcorpus_words, flag = get_subcorpus(query)
             # print subcorpus.count()
@@ -73,9 +72,8 @@ class Search(Index):
             page = request.GET.get('page')
             page = int(page) if page else 1
             expand = int(query.get(u'expand')[-1])
-            if "exact_search" in query:
-                jq, sent_list, word, res_docs, res_num = exact_full_search(
-                    request.GET["exact_word"].lower().encode('utf-8'), subcorpus, flag, expand, page, per_page)
+            if query["exact_word"] != '':
+                jq, sent_list, word, res_docs, res_num = exact_search(request.GET["exact_word"].lower().encode('utf-8'), subcorpus, flag, expand, page, per_page)
 
             else:
                 # todo rewrite this part of search
@@ -101,7 +99,6 @@ class Search(Index):
                                        'path': full_path, 'j': jq, 'olstart': (page - 1) * per_page + 1},
                                       context_instance=RequestContext(request))
 
-
 class Statistics(Index):
 
     def get(self, request, page):
@@ -114,7 +111,7 @@ class Statistics(Index):
         words = Token.objects.count()
         annotations = Annotation.objects.count()
         gender = dict(Counter([i.gender for i in Document.objects.all()]))
-        # genres = dict(Counter([i.genre for i in Document.objects.all()]))
+        genres = dict(Counter([i.genre for i in Document.objects.all()]))
         # course = dict(Counter([i.course for i in Document.objects.all()]))
         # major = dict(Counter([i.major for i in Document.objects.all()]))
         # domain = dict(Counter([i.domain for i in Document.objects.all()]))
@@ -126,7 +123,7 @@ class Statistics(Index):
                                                  'words':words,
                                                  'annot':annotations,
                                                  'gender':gender,
-                                                 # 'genres':genres,
+                                                 'genres':genres,
                                                  # 'course': course,
                                                  # 'major': major,
                                                  # 'domain': domain

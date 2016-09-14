@@ -2,8 +2,8 @@
 <html lang="en">
 {% load staticfiles %}
 {% load i18n %}
-{% trans "CoRST" as CoRST %}
-{% trans "Corpus of Russian Student Texts" as corst_full %}
+{% trans "19thcentury" as 19thcentury %}
+{% trans "Corpus of 19th century texts" as corpus_full %}
 	  <head>
 {% block head %}
     {% block meta %}
@@ -18,7 +18,7 @@
     {% endblock %}
 
     <title>
-        {% block title %}{{ corst_full }}{% endblock %}
+        {% block title %}{{ corpus_full }}{% endblock %}
     </title>
 
      <!-- Bootstrap-->
@@ -165,19 +165,28 @@ $(document).on('click','.navbar-toggle',function(e) {
         <ul class="nav navbar-nav navbar-right">
         <li><a href="/19thcentury/admin/login/?next={{ request.get_full_path }}">{% trans "Log in" %}</a></li>
         </ul>
-        <!--
-        <form class="navbar-form navbar-right" role="form" method="post" action="???">
-            {% csrf_token %}
-            <div class="form-group">
-                <input type="text" class="form-control input-sm" name="username" placeholder="Username">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control input-sm" name="password" placeholder="Password">
-            </div>
-            <input type="hidden" name="next" value="{{ request.get_full_path }}" />
-            <button type="submit" class="btn btn-sm btn-default">Sign In</button>
-        </form> -->
+
     {% endif %}
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+                <form class="form-inline" action="{% url 'set_language' %}" method="post" style="padding-top: 15px">
+{% csrf_token %}
+                <div class="input-group">
+      <input name="next" type="hidden" value="{{ redirect_to }}" />
+                    <select class="form-control input-sm" name="language">
+{% get_language_info_list for LANGUAGES as languages %}
+{% for language in languages %}
+<option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected="selected"{% endif %}>{{ language.code }}
+</option>
+{% endfor %}
+</select>
+      <span class="input-group-btn">
+         <button type="submit" class="btn btn-secondary btn-sm"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></button>
+      </span>
+    </div>
+
+</form></li>
+    </ul>
     </nav>
       {% endblock %}
   </div>
@@ -190,9 +199,9 @@ $(document).on('click','.navbar-toggle',function(e) {
       <div class="row">
         <div class="col-md-7">
           <h1 id="top">{% block top-name %}
-          {{ CoRST }}
+          {{ 19thcentury }}
           {% endblock %}
-            <p class="lead">{{ corst_full }}</p>
+            <p class="lead">{{ corpus_full }}</p>
           </h1>
         </div>
         <div class="col-md-5">
@@ -209,7 +218,6 @@ $(document).on('click','.navbar-toggle',function(e) {
             </div>
         </div>
       </div>
-
   </div><!--/container-->
 </div><!--/masthead-->
 {% endblock %}

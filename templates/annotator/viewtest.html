@@ -2,8 +2,14 @@
 {% load staticfiles %}
 {% load i18n %}
 {% load annotator_tags %}
-{% block title %}{% trans '19th century Annotation' %}{% endblock %}
-{% block meta_content %}{% trans 'Annotation' %}{% endblock %}
+
+{% block title %}
+	{% trans 'Annotation' %}
+{% endblock %}
+
+{% block meta_content %}
+	{% trans 'Annotation' %}
+{% endblock %}
 
 {% block scripts %}
 {% for i in j %}
@@ -16,15 +22,6 @@
             {% endblock %}
 
     {% block other %}
-	
-	     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
-
-  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-        <style>
-        .ui-autocomplete { position: absolute; cursor: default;z-index:30000 !important;}
-        </style>
-		
-		
 <script type="text/javascript">
 $(document).ready(function(){
   $('.token').tooltip({
@@ -101,15 +98,26 @@ $(document).ready(function(){
 		{% endfor %}
 		</div>
 		
-				<div class="col-md-2" style="float: right">
+				<div class="col-md-2" style="float: right;">
     <div class="row" style="padding-top:20px; line-height: 1; font-size:80%">
-<h4 class="well well-sm">Error tags</h4>
-  <ul class="nav nav-stacked well well-sm">
-    {% for tag in tags %} 
-<li> 
-{{tag}} 
-</li> 
+<h4 class="well well-sm" style="border-color: #e74944;">{% trans "Error tags" %}</h4>
+  <ul class="nav nav-stacked well well-sm" style="border-color: #e74944;">
+
+<b>{% trans "Service tags" %}</b><br><br>
+{% for tag in tags %}
+{% if '?' in tag or '!' in tag%}
+<li> {{tag}} </li> 
+{% endif %}
 {% endfor %} 
+<hr style='background: #e74944'>
+
+<b>{% trans "Basic tags" %}</b><br><br>
+{% for tag in tags %}
+{% if '!' not in tag and '?' not in tag %}
+<li> {{tag}} </li>
+{% endif %}
+{% endfor %} 
+
   </ul>
     </div>
     </div>
@@ -119,6 +127,7 @@ $(document).ready(function(){
         {% if sents.paginator.num_pages > 1 %}
 
     <nav>
+	
   <ul class="pagination pagination-sm">
        {% if sents.has_previous %}
            <li>
@@ -127,6 +136,7 @@ $(document).ready(function(){
       </a>
     </li>
             {% endif %}
+
 {% for i in sents.paginator.page_range %}
     <li
     {% if sents.number == i %}

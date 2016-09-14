@@ -281,12 +281,8 @@ def lex_search(query, docs, flag, expand, page, per_page):
             for i, j, k in rows:
                 for n in range(j, k+1):
                     e[i].append(n)
-
     sent_list = [ShowSentence(i, e[i], expand) for i in sorted(e)]
     ShowSentence.empty()
-    # f = codecs.open('/home/elmira/heritage_corpus/tempfiles/s.txt', 'w')
-    # f.write(str(query))
-    # f.close()
     for sent in sent_list:
         jq.append(jquery.replace('***', str(sent.id)))
     return jq, sent_list, ' '.join([word, lex, gram, err, comment]), d_num, sent_num
@@ -534,7 +530,7 @@ def collect_data(arr):
 
 def parse_lex(lex):
     req = ''
-    arr = ['lex LIKE "' + gr.strip() + '"' for gr in lex.replace(')', '').replace('(', '').split('|')]
+    arr = ['lex LIKE"' + gr.strip() + '"' for gr in lex.replace(')', '').replace('(', '').split('|')]
     if len(arr) == 1:
         req += 'AND '+ arr[0] + ' '
     else:
@@ -543,6 +539,9 @@ def parse_lex(lex):
 
 
 def parse_gram(gram, t):
+    if t == 'tag' and gram == 'any':
+        req = " AND tag IS NOT NULL"
+        return req
     req = ''
     arr = gram.split(',')
     for gr in arr:
@@ -571,7 +570,7 @@ def collect_full_data(arr):
     elif s == '0001':
         req_template = ''' FROM annotator_annotation
                  LEFT JOIN annotator_sentence
-                 ON annotator_annotation.document_id = annotator_sentence.id WHERE 1 '''
+                 ON annotator_annotation.document_id = annotator_sentence.id WHERE '''
         req_template += parse_gram(err, 'tag')
         if flag:
             req_template += 'AND doc_id_id IN ('+','.join(docs)+')'

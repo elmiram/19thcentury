@@ -1,11 +1,13 @@
 {% extends "base.html" %}
+{% load i18n %}
+{% load staticfiles %}
 
 {% block title %}
-     Help
-
+    {% trans 'Help' %}
 {% endblock %}
+
 {% block meta_content %}
-    Help
+    {% trans 'Help' %}
 {% endblock %}
 
 {% block upper-row %}
@@ -13,19 +15,15 @@
   <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 id="top">Help
-            <p class="lead">19th Century Corpus</p>
+          <h1 id="top">{% trans 'Help' %}
+            <p class="lead">{% trans '19th century corpus' %}</p>
           </h1>
         </div>
       </div>
-
-  </div><!--/container-->
-</div><!--/masthead-->
+  </div>
+</div>
 {% endblock %}
 
 {% block content %}
-
     This is help page.
-
-
 {% endblock content %}

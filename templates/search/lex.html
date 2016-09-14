@@ -1,9 +1,10 @@
 {% load staticfiles %}
+{% load i18n %}
 <!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>POS TAGS</title>
+    <title>{% trans 'POS TAGS' %}</title>
     <script src="{% static "js/jquery.js" %}"></script>
     <link href="{% static "css/bootstrap.flatly.css" %}" rel="stylesheet">
     <script src="{% static "js/bootstrap.min.js" %}"></script>
@@ -16,35 +17,35 @@
 </head>
 <body onLoad="InitWindow()">
 <div class="container">
-<div class="row">
+<div class="row" style="font-size: smaller">
   <div class="col-sm-12">
   <form name="gramForm" id="gramForm" action="">
-      <div class="panel panel-success">
+      <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 title="Invert" class="panel-title gr_inv  activeA grammar" onClick="inverse('pos')">Parts of Speech</h3>
+          <h3 title="Invert" class="panel-title gr_inv  activeA grammar" onClick="inverse('pos')">{% trans 'Parts of Speech' %}</h3>
         </div>
         <div class="panel-body">
                 <div class="gr_group">
                     <div class="col-sm-12">
                     <div class="row">
                         <div class="col-sm-6">
-                    <input type="checkbox" name="pos" value="S" id="posS">&nbsp;<label for="posS">существительное</label><br/>
-                    <input type="checkbox" name="pos" value="A" id="posA">&nbsp;<label for="posA">прилагательное</label><br/>
-                    <input type="checkbox" name="pos" value="NUM" id="posNUM">&nbsp;<label for="posNUM">числительное</label><br/>
-                    <input type="checkbox" name="pos" value="ANUM" id="posANUM">&nbsp;<label for="posANUM">числ-прил</label><br/>
-                    <input type="checkbox" name="pos" value="V" id="posV">&nbsp;<label for="posV">глагол</label><br/>
-                    <input type="checkbox" name="pos" value="ADV" id="posADV">&nbsp;<label for="posADV">наречие</label><br/>
-                    <input type="checkbox" name="pos" value="PARENTH" id="posPARENTH">&nbsp;<label for="posPARENTH">вводное слово</label><br/>
-                    <input type="checkbox" name="pos" value="PRAEDIC" id="posPRAED">&nbsp;<label for="posPRAED">предикатив</label><br/>
+                    <input type="checkbox" name="pos" value="S" id="posS">&nbsp;<label for="posS">{% trans 'noun' %}</label><br/>
+                    <input type="checkbox" name="pos" value="A" id="posA">&nbsp;<label for="posA">{% trans 'adjective' %}</label><br/>
+                    <input type="checkbox" name="pos" value="NUM" id="posNUM">&nbsp;<label for="posNUM">{% trans 'numeral' %}</label><br/>
+                    <input type="checkbox" name="pos" value="ANUM" id="posANUM">&nbsp;<label for="posANUM">{% trans 'numeral adjective' %}</label><br/>
+                    <input type="checkbox" name="pos" value="V" id="posV">&nbsp;<label for="posV">{% trans 'verb' %}</label><br/>
+                    <input type="checkbox" name="pos" value="ADV" id="posADV">&nbsp;<label for="posADV">{% trans 'adverb' %}</label><br/>
+                    <input type="checkbox" name="pos" value="PARENTH" id="posPARENTH">&nbsp;<label for="posPARENTH">{% trans 'parenthesis' %}</label><br/>
+                    <input type="checkbox" name="pos" value="PRAEDIC" id="posPRAED">&nbsp;<label for="posPRAED">{% trans 'predicative' %}</label><br/>
                         </div>
                         <div class="col-sm-6">
-                    <input type="checkbox" name="pos" value="ADVPRO" id="posADVPRO">&nbsp;<label for="posADVPRO">мест-наречие</label><br/>
-                    <input type="checkbox" name="pos" value="SPRO" id="posSPRO">&nbsp;<label for="posSPRO">мест-сущ</label><br/>
-                    <input type="checkbox" name="pos" value="APRO" id="posAPRO">&nbsp;<label for="posAPRO">мест-прил</label><br/>
-                    <input type="checkbox" name="pos" value="PR" id="posPREP">&nbsp;<label for="posPREP">предлог</label><br/>
-                    <input type="checkbox" name="pos" value="CONJ" id="posCONJ">&nbsp;<label for="posCONJ">союз</label><br/>
-                    <input type="checkbox" name="pos" value="PART" id="posPART">&nbsp;<label for="posPART">частица</label><br/>
-                    <input type="checkbox" name="pos" value="INTJ" id="posINTJ">&nbsp;<label for="posINTJ">междометие</label><br/>
+                    <input type="checkbox" name="pos" value="ADVPRO" id="posADVPRO">&nbsp;<label for="posADVPRO">{% trans 'adverbial pronoun' %}</label><br/>
+                    <input type="checkbox" name="pos" value="SPRO" id="posSPRO">&nbsp;<label for="posSPRO">{% trans 'pronoun' %}</label><br/>
+                    <input type="checkbox" name="pos" value="APRO" id="posAPRO">&nbsp;<label for="posAPRO">{% trans 'adjective pronoun' %}</label><br/>
+                    <input type="checkbox" name="pos" value="PR" id="posPREP">&nbsp;<label for="posPREP">{% trans 'preposition' %}</label><br/>
+                    <input type="checkbox" name="pos" value="CONJ" id="posCONJ">&nbsp;<label for="posCONJ">{% trans 'conjunction' %}</label><br/>
+                    <input type="checkbox" name="pos" value="PART" id="posPART">&nbsp;<label for="posPART">{% trans 'particle' %}</label><br/>
+                    <input type="checkbox" name="pos" value="INTJ" id="posINTJ">&nbsp;<label for="posINTJ">{% trans 'interjection' %}</label><br/>
                         </div>
                     </div>
                         </div>
@@ -52,9 +53,9 @@
             </div>
         </div>
           <div class="panel-footer">
-              <input type="button" class="button" onClick="collect();return false;" value="OK">
-		<input type="button" class="button" onClick="document.all.gramForm.reset();return false;" value="CLEAR">
-		<input type="button" class="button" onClick="window.close();return false;" value="CANCEL">
+              <input type="button" class="btn btn-default" onClick="collect();return false;" value="{% trans 'OK' %}">
+<input type="button" class="btn btn-default" onClick="document.all.gramForm.reset();return false;" value="{% trans 'Clear' %}">
+<input type="button" class="btn btn-default" onClick="window.close();return false;" value="{% trans 'Cancel' %}">
           </div>
 
       </div>

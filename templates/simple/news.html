@@ -1,25 +1,27 @@
 {% extends "base.html" %}
+{% load i18n %}
+{% load staticfiles %}
 
-{% block title %} News{% endblock %}
-{% block meta_content %}News{% endblock %}
+{% block title %}
+    {% trans 'News' %}
+{% endblock %}
 
-{% block content_header %}News{% endblock content_header %}
-{% block top-name %}
-          Corpus News
-          {% endblock %}
+{% block meta_content %}
+    {% trans 'News' %}
+{% endblock %}
+
 {% block upper-row %}
 <div id="masthead">
   <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 id="top">News
-            <p class="lead">19th Century Corpus</p>
+          <h1 id="top">{% trans 'News' %}
+            <p class="lead">{% trans '19th century corpus' %}</p>
           </h1>
         </div>
       </div>
-
-  </div><!--/container-->
-</div><!--/masthead-->
+  </div>
+</div>
 {% endblock %}
 
 {% block content %}
@@ -27,5 +29,4 @@
      <strong>{{ article.date }}</strong>
     <p>{{ article.text_eng }} </p>
     {% endfor %}
-
 {% endblock content %}
