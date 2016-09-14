@@ -1,16 +1,32 @@
 {% extends "base.html" %}
 {% load staticfiles %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
 {% block links %}
-          <link href="{% static "css/style.css" %}" rel="stylesheet">
+    <link href="{% static "css/style.css" %}" rel="stylesheet">
     <link href="{% static "css/styles.css" %}" rel="stylesheet">
   {% endblock %}
+
+{% block scripts %}
+{% for i in j %}
+     <script>
+    {{ i|safe }}
+    </script>
+{% endfor %}
+{% endblock %}
+
 {% block upper-row %}
 <div id="masthead">
   <div class="container">
       <div class="row">
         <div class="col-md-5">
-          <h1 id="top">19th Century Corpus
-          </h1>
+		{% if LANGUAGE_CODE == 'en' %}
+			<h1 id="top">19<sup>th</sup> Century Corpus</h1>
+        {% endif %}
+        {% if LANGUAGE_CODE == 'ru' %}
+            <h1 id="top" style="width: 900px;">Корпус текстов 19 века</h1>
+        {% endif %}
         </div>
           <div class="col-md-7" align="right"><h1><span  class="lead">19th Century Corpus</span></h1>
         </div>
@@ -19,76 +35,65 @@
   </div><!--/container-->
 </div><!--/masthead-->
 {% endblock %}
-<!--main-->
+
+    {% block other %}
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.token').tooltip({
+    placement : 'top',
+      delay: { "show": 500, "hide": 0 },
+    trigger: 'hover',
+      html: true
+  });
+});
+</script>
+    {% endblock %}
+
+
 <div class="container">
     {% block content %}
 	<div class="row">
-      <!--left-->
       <div class="col-md-3" id="leftCol">
-        <ul class="nav nav-stacked" id="sidebar">
-          <li><a href="#sec0">About</a></li>
-          <li><a href="#sec1">Texts</a></li>
-          <li><a href="#sec2">Authors of texts</a></li>
-          <li><a href="#sec3">Annotation</a></li>
-          <li><a href="#sec4">Corpus users</a></li>
-            <li><a href="#sec5">Team</a></li>
-            <li><a href="#sec6">Publications</a>
-            <ul>
-            <li><a href="#sec61">Projects</a></li>
-            <li><a href="#sec62">Publications</a></li>
-            <li><a href="#sec63">Presentations</a></li>
-                </ul></li>
-            <li><a href="#sec7">Links</a></li>
-            <li><a href="#top">Back to top</a></li>
+		<ul class="nav nav-stacked" id="sidebar">
+          <li><a href="#sec0">О проекте</a></li>
+          <li><a href="#sec1">Тексты</a></li>
+          <li><a href="#sec2">Авторы текстов</a></li>
+		  <li><a href="#sec3">Пользователи корпуса</a></li>
+		  <li><a href="#sec4">Эксперименты</a></li>
+          <li><a href="#sec5">Команда</a></li>
+          <li><a href="#top">Наверх</a></li>
         </ul>
-      </div><!--/left-->
+      </div>
 
-      <!--right-->
       <div class="col-md-9">
-          <hr id="sec0">
-        <h2 >About</h2>
-        <p>About the corpus</p>
+        <hr id="sec0">
+        <h2>О проекте</h2>
+        <p>Проект «Тамань сегодня» был запущен в магистратуре Школы лингвистики НИУ ВШЭ в сентябре 2016 года. Основной задачей проекта является поиск и описание устаревших конструкций в текстах XIX века, составление базы данных и разметка представленного корпуса. Важной частью работы является составление пилотного списка устаревших конструкций, которые не были описаны или не ощущались таковыми в предшествующих исследованиях. Конструкции из пилотного списка могут стать основой словаря устаревших конструкций XIX века, а также служить материалом для лингвистического описания исторических процессов в русском языке.</p>
+		<p>В долгосрочной перспективе ставится и более прикладная задача – помочь современному читателю понимать тексты, написанные два века назад. Для этого будет необходимо оценить readability русской литературы первой половины XIX в. Проект «Тамань сегодня» будет базой для серии экспериментальных исследований русского языка на материале русской классики.</p>
+		<p>Поскольку исследование конструкций требует внимания ко всем языковым особенностям лексики, морфологии и грамматики, в корпусе отмечены не только собственно конструкционные, но и морфологические и лексические расхождения с современной нормой</p>
+        
+		<hr id="sec1">
+        <h2 >Тексты</h2>
+        <p>В пилотной версии представлен размеченный роман М.Ю. Лермонтова «Герой нашего времени» 1840 г.; в работе роман И.А. Гончарова «Обыкновенная история» 1846 г. Однако проект не будет ограничен только художественными текстами классической русской литературы, планируется разметка писем, статей, заметок и других текстов нон-фикшн.</p>
 
-          <hr id="sec1">
-        <h2 >Types of texts</h2>
-        <p>Texts written by ...</p>
+		<hr id="sec2">
+        <h2>Авторы текстов</h2>
+        <p>Великий русский поэт и прозаик М.Ю. Лермонтов (1814-1841) опубликовал свой главный роман «Герой нашего времени» в 1840 году. До настоящего времени это произведение считается одним из ключевых текстов русской литературы и входит во все школьные и университетские программы. О языке Лермонтова написано множество работ, например: Виноградов В.В. Стиль прозы Лермонтова, 1941; Качурин М.Г., Шнеерсон М.А. Изучение языка писателя. Пушкин, Лермонтов, Гоголь, 1961; Перльмуттер Л.Б. Язык прозы М.Ю. Лермонтова. Часть 3: Язык «Героя нашего времени», 1989.</p>
+		
+		<hr id="sec3">
+        <h2>Пользователи корпуса</h2>
+		<p>Корпус предназначен для широкого круга специалистов – исследователей истории русского языка, преподавателей, студентов-филологов и лингвистов, а также для всех, кто интересуется русской литературой соответствующего периода.</p>
 
-        <hr id="sec2">
-
-
-        <h2 >Authors of texts</h2>
-        <p>19th Century Corpus</p>
-
-        <hr id="sec3">
-
-        <h2 >Annotation</h2>
-        <p>As in any other corpus intended for linguistic and sociological research, the texts of the Corpus are supplemented with <i>linguistic </i> and <i>metalinguistic information</i>, or <i>markup</i>. Linguistic markup includes <i>morphological markup</i> and <i>error markup</i>. Currently, the texts of the corpus contain <i>metatextual markup</i> and <i>morphological markup</i>. </p>
-<p>Below is more information about the layers of markup.</p>
-
-
-
-
-
-        <hr id="sec4">
-        <h2 >Corpus users</h2>
-       <p>The Corpus is intended for linguists - researchers, teachers and students.</p>
-
-<hr id="sec5">
-          <h2 >Team</h2>
-<p>The corpus was created by <a href='http://philology.hse.ru/ling_main' target='_blank'>the Linguistic Laboratory of Corpus Technologies of National Research University Higher School of Economics</a>:</p>
-<p><u>Chief</u>: Ekaterina Rakhilina</p>
-<p><u>Developer</u>: Elmira Mustakimova</p>
-<p><u>Team</u>: Marina Borodina
-
-          <hr id="sec6">
-          <h2 >Publications</h2>
-
-
-          <hr id="sec7">
-          <h2 >Links</h2>
-
-
-        </div><!--/right-->
-  	</div><!--/row-->
+		<hr id="sec4">		
+        <h2>Эксперименты</h2>
+		
+		<hr id="sec5">
+        <h2>Команда</h2>
+		<p>Корпус создан <a href='http://philology.hse.ru/ling_main' target='_blank'>Лабороторией корпусных технологий НИУ ВШЭ</a>:</p>
+		<p><u>Руководитель проекта</u>: д.ф.н., руководитель Школы лингвистики Рахилина Е.В.</p>
+		<p><u>Разметчики корпуса</u>: Рахилина Е.В., Бородина М.</p>
+		<p><u>Разработчики</u>: Mустакимова Э., Объедкова М.</p>
+		</div>
+    </div>
     {% endblock content%}
-</div><!--/container-->
+</div>

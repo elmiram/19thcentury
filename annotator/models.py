@@ -198,7 +198,6 @@ class Annotation(models.Model):
                 print (q_enc.split(' ')[-1]), endOffset
         return start, end, startOffset, endOffset
 
-
     def update_from_json(self, new_data):
         d = json.loads(self.data)
 

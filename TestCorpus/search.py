@@ -9,6 +9,7 @@ from annotator.models import Document, Sentence, Annotation, Token, Morphology
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Q
 
+
 # todo make this into a neat one-line js-function
 jquery = """jQuery(function ($) {$('#***').annotator().annotator('addPlugin', 'Tags').annotator('addPlugin', 'ReadOnlyAnnotations').annotator('addPlugin', 'Store', {prefix: '/19thcentury/document-annotations',annotationData: {'document': ***},loadFromSearch: {'document': ***}});});"""
 reg = re.compile(',| ')

@@ -35,4 +35,3 @@ class PopUp(View):
     def get(self, request, page):
         page = 'search/' + page + '.html'
         return render_to_response(page, context_instance=RequestContext(request))
-

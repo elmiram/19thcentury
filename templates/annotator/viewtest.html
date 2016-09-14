@@ -2,7 +2,7 @@
 {% load staticfiles %}
 {% load i18n %}
 {% load annotator_tags %}
-{% block title %}{% trans 'CoRST Annotation' %}{% endblock %}
+{% block title %}{% trans '19th century Annotation' %}{% endblock %}
 {% block meta_content %}{% trans 'Annotation' %}{% endblock %}
 
 {% block scripts %}
@@ -16,6 +16,15 @@
             {% endblock %}
 
     {% block other %}
+	
+	     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <style>
+        .ui-autocomplete { position: absolute; cursor: default;z-index:30000 !important;}
+        </style>
+		
+		
 <script type="text/javascript">
 $(document).ready(function(){
   $('.token').tooltip({
@@ -82,8 +91,6 @@ $(document).ready(function(){
 
       </div>
       </div>
-	  
-	  
 
 	<div class="row" style="display: flex">
 		<div>
@@ -112,10 +119,6 @@ $(document).ready(function(){
         {% if sents.paginator.num_pages > 1 %}
 
     <nav>
-	
-
-	
-	
   <ul class="pagination pagination-sm">
        {% if sents.has_previous %}
            <li>
@@ -124,9 +127,6 @@ $(document).ready(function(){
       </a>
     </li>
             {% endif %}
-			
-
-			
 {% for i in sents.paginator.page_range %}
     <li
     {% if sents.number == i %}

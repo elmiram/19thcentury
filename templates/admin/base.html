@@ -27,7 +27,7 @@
 
         {% if user.is_active and user.is_staff %}
         <div id="user-tools">
-        <a href="{% url 'main.static' "" %} ">{% trans "Main" %}</a>  |
+        <a href="{% url 'main.static' %} ">{% trans "Main" %}</a>  |
         <a href="{% url 'main.search' "search" %} ">{% trans "Search" %}</a> |
         <a href="{% url 'annotator.root'%} ">{% trans "Annotate" %}</a> |
             {% block welcome-msg %}
