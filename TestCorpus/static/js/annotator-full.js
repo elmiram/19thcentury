@@ -9,7 +9,6 @@
 ** Built at: 2013-06-27 21:49:35Z
 */
 
-
 (function() {
   var $, Annotator, Delegator, LinkParser, Range, Util, base64Decode, base64UrlDecode, createDateFromISO8601, findChild, fn, functions, g, getNodeName, getNodePosition, gettext, parseToken, simpleXPathJQuery, simpleXPathPure, _Annotator, _gettext, _i, _j, _len, _len1, _ref, _ref1, _ref2, _ref3, _ref4, _t,
     __slice = [].slice,
@@ -1129,6 +1128,7 @@
       save = function() {
         cleanup();
         $(annotation.highlights).removeClass('annotator-hl-temporary');
+
         return _this.publish('annotationCreated', [annotation]);
       };
       cancel = function() {
@@ -1321,6 +1321,7 @@
 
   Annotator.Editor = (function(_super) {
     __extends(Editor, _super);
+      var parent_id = $(this).closest().attr('class');
 
     Editor.prototype.events = {
       "form submit": "submit",
@@ -1335,7 +1336,7 @@
       focus: 'annotator-focus'
     };
 
-    Editor.prototype.html = "<div class=\"annotator-outer annotator-editor\">\n  <form class=\"annotator-widget\">\n    <ul class=\"annotator-listing\"></ul>\n    <div class=\"annotator-controls\">\n      <a href=\"#cancel\" class=\"annotator-cancel\">" + _t('Cancel') + "</a>\n<a href=\"#save\" class=\"annotator-save annotator-focus\">" + _t('Save') + "</a>\n    </div>\n  </form>\n</div>";
+    Editor.prototype.html = "<div class=\"annotator-outer annotator-editor\">\n  <form class=\"annotator-widget\">\n    <ul class=\"annotator-listing\"></ul>\n    <div class=\"annotator-controls\">\n      <a href=\"#cancel\" class=\"annotator-cancel\">" + _t('Cancel') + "</a>\n<a href=\"#save\" class=\"annotator-save annotator-focus\"\">" + _t('Save') + "</a>\n    </div>\n  </form>\n</div>";
 
     Editor.prototype.options = {};
 
@@ -1391,6 +1392,15 @@
       return this.hide();
     };
 
+              var items = [ "Graph", "Hyphen", "Space", "Ortho", "Translit", "Misspell", "Deriv", "Infl", "Num", "Gender", "Morph", "Asp", "ArgStr", "Passive", "Refl", "AgrNum", "AgrCase", "AgrGender", "AgrPers", "AgrGerund", "Gov", "Ref", "Conj", "WO", "Neg", "Aux", "Brev", "Syntax", "Constr", "Lex", "CS", "Par", "Idiom", "Transfer", "Not-clear", "Del", "Insert", "Transp", "Subst", "Altern", "Tense", "Mode"];
+
+    function split( val ) {
+      return val.split( /\s+/ );
+    }
+    function extractLast( term ) {
+      return split( term ).pop();
+    }
+
     Editor.prototype.addField = function(options) {
       var element, field, input;
       field = $.extend({
@@ -1419,6 +1429,31 @@
         id: field.id,
         placeholder: field.label
       });
+        if(field.label == 'Add some tags here…')
+        {$(document).on('focus', '#'+field.id, function() {
+    $( "#" + field.id )
+      .autocomplete({
+        minLength: 1,
+        source: function( request, response ) {
+          response( $.ui.autocomplete.filter(
+            items, extractLast( request.term ) ) );
+        },
+        focus: function() {
+          return false;
+        },
+        select: function( event, ui ) {
+          var terms = split( this.value );
+          // remove the current input
+          terms.pop();
+          // add the selected item
+          terms.push( ui.item.value );
+          // add placeholder to get the comma-and-space at the end
+          terms.push( "" );
+          this.value = terms.join( " " );
+          return false;
+        }
+      });
+        })}
       if (field.type === 'checkbox') {
         input[0].type = 'checkbox';
         element.addClass('annotator-checkbox');
@@ -2065,17 +2100,23 @@
           if (data.id == null) {
             console.warn(Annotator._t("Warning: No ID returned from server for annotation "), annotation);
           }
+        //console.log(annotation.highlights[0].parentNode.parentNode.parentNode.id);
+          search(annotation.highlights[0].parentNode.parentNode.parentNode.id);
           return _this.updateAnnotation(annotation, data);
         });
       } else {
+          //console.log(annotation.highlights[0].parentNode.parentNode.parentNode.id);
+          search(annotation.highlights[0].parentNode.parentNode.parentNode.id);
         return this.updateAnnotation(annotation, {});
       }
     };
 
     Store.prototype.annotationUpdated = function(annotation) {
       var _this = this;
+        var sentid = this.annotations[0].document;
       if (__indexOf.call(this.annotations, annotation) >= 0) {
         return this._apiRequest('update', annotation, (function(data) {
+          search(sentid);
           return _this.updateAnnotation(annotation, data);
         }));
       }
@@ -2084,7 +2125,9 @@
     Store.prototype.annotationDeleted = function(annotation) {
       var _this = this;
       if (__indexOf.call(this.annotations, annotation) >= 0) {
+          var sentid = this.annotations[0].document;
         return this._apiRequest('destroy', annotation, (function() {
+            search(sentid);
           return _this.unregisterAnnotation(annotation);
         }));
       }
@@ -2980,6 +3023,140 @@
     }
     return matches === keywords.length;
   };
+
+  Annotator.Plugin.Correction = function (element, corr) {
+  var plugin = {};
+
+  plugin.pluginInit = function () {
+      this.annotator.viewer.addField({
+        load: function (field, annotation) {
+          field.innerHTML = "hello";
+        }
+      })
+  };
+
+  return plugin;
+};
+
+  Annotator.Plugin.Corr = (function(_super) {
+    __extends(Corr, _super);
+
+    function Corr() {
+      this.setCorr = __bind(this.setCorr, this);
+      this.updateField = __bind(this.updateField, this);
+      _ref4 = Corr.__super__.constructor.apply(this, arguments);
+      return _ref4;
+    }
+
+    Corr.prototype.options = {};
+
+    Corr.prototype.field = null;
+
+    Corr.prototype.input = null;
+
+    Corr.prototype.pluginInit = function() {
+      if (!Annotator.supported()) {
+        return;
+      }
+      this.field = this.annotator.editor.addField({
+        label: Annotator._t('Add correction') + '\u2026',
+        load: this.updateField,
+        submit: this.setCorr
+      });
+      this.annotator.viewer.addField({
+        load: this.updateViewer
+      });
+      return this.input = $(this.field).find(':input');
+    };
+
+    Corr.prototype.updateField = function(field, annotation) {
+      var value;
+      value = '';
+      if (annotation.corrs) {
+        value = annotation.corrs;
+      }
+      return this.input.val(value);
+    };
+
+    Corr.prototype.setCorr = function(field, annotation) {
+      return annotation.corrs = this.input.val();
+    };
+
+    Corr.prototype.updateViewer = function(field, annotation) {
+      field = $(field);
+      if (annotation.corrs) {
+        return field.addClass('annotator-corrs').html(function() {
+          var string;
+          return string = '<span class="annotator-corr">' + Annotator.Util.escape(annotation.corrs) + '</span>';
+        });
+      } else {
+        return field.remove();
+      }
+    };
+
+    return Corr;
+
+  })(Annotator.Plugin);
+
+    Annotator.Plugin.UserView = (function(_super) {
+    __extends(Corr, _super);
+
+    function Corr() {
+      this.setCorr = __bind(this.setCorr, this);
+      this.updateField = __bind(this.updateField, this);
+      _ref4 = Corr.__super__.constructor.apply(this, arguments);
+      return _ref4;
+    }
+
+    Corr.prototype.options = {};
+
+    Corr.prototype.field = null;
+
+    Corr.prototype.input = null;
+
+    Corr.prototype.pluginInit = function() {
+      if (!Annotator.supported()) {
+        return;
+      }
+      this.field = this.annotator.editor.addField({
+        label: Annotator._t('Add correction') + '\u2026',
+        load: this.updateField,
+        submit: this.setCorr
+      });
+      this.annotator.viewer.addField({
+        load: this.updateViewer
+      });
+      return this.input = $(this.field).find(':input');
+    };
+
+    Corr.prototype.updateField = function(field, annotation) {
+      var value;
+      value = '';
+      if (annotation.corrs) {
+        value = annotation.corrs;
+      }
+      return this.input.val(value);
+    };
+
+    Corr.prototype.setCorr = function(field, annotation) {
+      return annotation.corrs = this.input.val();
+    };
+
+    Corr.prototype.updateViewer = function(field, annotation) {
+      field = $(field);
+      if (annotation.corrs) {
+        return field.addClass('annotator-corrs').html(function() {
+          var string;
+          return string = '<span class="annotator-corr">' + Annotator.Util.escape(annotation.corrs) + '</span>';
+        });
+      } else {
+        return field.remove();
+      }
+    };
+
+    return Corr;
+
+  })(Annotator.Plugin);
 
   Annotator.prototype.setupPlugins = function(config, options) {
     var name, opts, pluginConfig, plugins, uri, win, _k, _len2, _results;

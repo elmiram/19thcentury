@@ -200,6 +200,8 @@ class EditorView2(TemplateView):
 				$('#***').annotator()
 					.annotator('addPlugin', 'Tags')
 					.annotator('addPlugin', 'ReadOnlyAnnotations')
+					.annotator('addPlugin', 'Correction')
+					.annotator('addPlugin', 'Corr')
 					.annotator('addPlugin', 'Store', {
 						  prefix: '{{storage_api_base_url}}',
 						  annotationData: {
