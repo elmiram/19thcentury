@@ -155,10 +155,10 @@ class Annotation(models.Model):
              "created": self.created.isoformat(),
              "updated": self.updated.isoformat(),
              "readonly": not self.can_edit(user),
+             "owner": self.owner,
              }
 
         d.update(json.loads(self.data))
-
         return d
 
     def check_fields(self, start, end, startOffset, endOffset, quote, sent):
@@ -220,6 +220,13 @@ class Annotation(models.Model):
         print self.data
         self.tag = ', '.join(d["tags"])
         print self.start, self.end
+
+    def try_func(self):
+        d = json.loads(self.data)
+        #d['owner'] = self.owner
+        #self.data = json.dumps(d)
+        return d
+
     @staticmethod
     def as_list(qs=None, user=None):
         if qs is None:
