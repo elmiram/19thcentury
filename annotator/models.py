@@ -223,8 +223,9 @@ class Annotation(models.Model):
 
     def try_func(self):
         d = json.loads(self.data)
-        #d['owner'] = self.owner
+        d['owner'] = self.owner.username
         #self.data = json.dumps(d)
+        Annotation.save(self)
         return d
 
     @staticmethod
