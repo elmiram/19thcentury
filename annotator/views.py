@@ -198,14 +198,14 @@ class EditorView2(TemplateView):
 	template_name = 'annotator/viewtest.html'
 	jquery = """jQuery(function ($) {
 				var optionstags = {
-            			tag:{lex:"red",constr:"green"}
+            			owner:"emurzinova:fuchsia,marina:lime,kbagdasaryan:maroon,ekaterina:teal"
         			};
 				$('#***').annotator()
+					.annotator('addPlugin','HighlightTags',optionstags)
 					.annotator('addPlugin', 'Tags')
 					.annotator('addPlugin', 'ReadOnlyAnnotations')
-					.annotator('addPlugin', 'Correction')
 					.annotator('addPlugin', 'Corr')
-					.annotator('addPlugin','HighlightTags',optionstags)
+					.annotator('addPlugin', 'Correction')
 					.annotator('addPlugin', 'Store', {
 						  prefix: '{{storage_api_base_url}}',
 						  annotationData: {
