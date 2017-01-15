@@ -16,7 +16,6 @@ reg = re.compile(',| ')
 regToken= re.compile('">(.*?)</span>', flags=re.U | re.DOTALL)
 regSpans = re.compile('[.?,!:«(;#№–/...)»-]*<span .*?</span>[.?,!:«(;#№–/...)»-]*', flags=re.U | re.DOTALL)
 
-
 class ShowSentence:
     sents = []
 
@@ -544,6 +543,14 @@ def parse_gram(gram, t):
         return req
     req = ''
     arr = gram.split(',')
+    if t == 'tag':
+        for gr in arr:
+            one = [t + ' = "' + i.strip() + '"' for i in gr.replace(')', '').replace('(', '').split('|')]
+            if len(one) == 1:
+                req += 'AND ' + one[0] + ' '
+            else:
+                req += 'AND (' + ' OR '.join(one) + ') '
+        return req
     for gr in arr:
         one = [t + ' LIKE "%' + i.strip() + '%"' for i in gr.replace(')', '').replace('(', '').split('|')]
         if len(one) == 1:

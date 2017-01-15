@@ -88,7 +88,7 @@ $( document ).ready(function() {
           <h4>{% trans "Exact search" %}</h4>
 
         <label>
-            <input class="form-control input-sm" type="text" name="exact_word" placeholder="{% trans "Input key words: " %}" size="100%">
+            <input class="form-control input-sm" type="text" name="exact_word" size="100%">
         </label>
         <p id="search"><input type="submit" class="btn btn-xs btn-primary" value="{% trans "Search" %}"></p>
 
@@ -120,22 +120,22 @@ $( document ).ready(function() {
                 <div class="row">
                     <div class="col-sm-3">
                         <label>
-                            {% trans "Wordform" %}<input class="form-control input-sm" type="text" name="wordform[]" placeholder="{% trans "Wordform" %}" size="100%"></label>
+                            {% trans "Wordform" %}<input class="form-control input-sm" type="text" name="wordform[]" size="100%"></label>
                     </div>
                     <div class="col-sm-2">
                         <label>
                             <a onclick="getLex(1)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
-                            {% trans "PoS" %}<input class="form-control input-sm" type="text" id='lex1' name="lex[]" placeholder="{% trans "Part of Speech" %}" size="100%"></label>
+                            {% trans "PoS" %}<input class="form-control input-sm" type="text" id='lex1' name="lex[]" size="100%"></label>
                     </div>
                     <div class="col-sm-2">
                         <label>
                             <a onclick="getGrm(1)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
-                            {% trans "Gram" %}<input class="form-control input-sm" type="text"  id='gr1' name="grammar[]" placeholder="{% trans "Grammatical features" %}" size="100%"></label>
+                            {% trans "Gram" %}<input class="form-control input-sm" type="text"  id='gr1' name="grammar[]" size="100%"></label>
                     </div>
                     <div class="col-sm-2">
                         <label>
                             <a onclick="getErr(1)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
-                            {% trans "Error" %}<input class="form-control input-sm" type="text" id='err1' name="errors[]" placeholder="{% trans "Error tags" %}" size="100%"></label>
+                            {% trans "Variance" %}<input class="form-control input-sm" type="text" id='err1' name="errors[]" size="100%"></label>
                     </div>
                 </div>
             </div>
@@ -157,22 +157,22 @@ $( document ).ready(function() {
             <div class="well">
                 <div class="row">
                     <div class="col-sm-3">
-                        <label>{% trans "Wordform" %}<input class="form-control input-sm" type="text" name="wordform[]" placeholder="{% trans "Wordform" %}" size="100%"></label>
+                        <label>{% trans "Wordform" %}<input class="form-control input-sm" type="text" name="wordform[]" size="100%"></label>
                     </div>
                     <div class="col-sm-2">
                         <label>
                             <a id="getlex" onclick="getLex(2)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
-                            {% trans "PoS" %}<input class="form-control input-sm" type="text" id="lex2" name="lex[]" placeholder="{% trans "Part of Speech" %}" size="100%"></label>
+                            {% trans "PoS" %}<input class="form-control input-sm" type="text" id="lex2" name="lex[]" size="100%"></label>
                     </div>
                     <div class="col-sm-2">
                         <label>
                             <a id="getgrm" onclick="getGrm(2)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
-                            {% trans "Gram" %}<input class="form-control input-sm" type="text" id="gr2" name="grammar[]" placeholder="{% trans "Grammatical features" %}" size="100%"></label>
+                            {% trans "Gram" %}<input class="form-control input-sm" type="text" id="gr2" name="grammar[]" size="100%"></label>
                     </div>
                     <div class="col-sm-2">
                         <label>
                             <a id="geterr" onclick="getErr(2)"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
-                            {% trans "Error" %}<input class="form-control input-sm" type="text" id="err2" name="errors[]" placeholder="{% trans "Error tags" %}" size="100%"></label>
+                            {% trans "Variance" %}<input class="form-control input-sm" type="text" id="err2" name="errors[]" size="100%"></label>
                     </div>
                     <div class="col-sm-1">
                         <br><button id="b1" class="btn btn-primary btn-add btn-sm" type="button"><span class="glyphicon glyphicon-plus"></span></button>
