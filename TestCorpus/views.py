@@ -74,11 +74,9 @@ class Search(Index):
             expand = int(query.get(u'expand')[-1])
             if query["exact_word"] != '':
                 jq, sent_list, word, res_docs, res_num = exact_search(request.GET["exact_word"].lower().encode('utf-8'), subcorpus, flag, expand, page, per_page)
-
             else:
                 # todo rewrite this part of search
                 jq, sent_list, word, res_docs, res_num = lex_search(query, subcorpus, flag, expand, page, per_page)
-
             paginator = Paginator([''] * res_num, per_page)
             start = page - 10 if page > 10 else 1
             end = page + 10 if page + 10 <= paginator.num_pages else paginator.num_pages
@@ -92,6 +90,7 @@ class Search(Index):
                 # If page is out of range (e.g. 9999), deliver last page of results.
                 sents = paginator.page(paginator.num_pages)
             full_path = rePage.sub('', request.get_full_path())
+            word = re.sub('\s', '_', word)
             return render_to_response('result.html',
                                       {'query': word, 'result': sent_list, 'pages': sents,
                                        'numbers': count_data,

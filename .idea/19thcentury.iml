@@ -5,5 +5,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="heritage_corpus" />
     <orderEntry type="module" module-name="heritage_corpus" />
+    <orderEntry type="module" module-name="NLP" />
+    <orderEntry type="module" module-name="IR" />
+    <orderEntry type="module" module-name="Amharic_corpus" />
   </component>
 </module>

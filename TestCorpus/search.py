@@ -8,6 +8,7 @@ from db_utils import Database
 from annotator.models import Document, Sentence, Annotation, Token, Morphology
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Q
+from django.http import HttpResponse, HttpResponseServerError, HttpResponseBadRequest, HttpResponseNotFound, HttpResponseForbidden
 
 
 # todo make this into a neat one-line js-function
@@ -754,3 +755,11 @@ def collect_full_data(arr):
     # sent_num = int(db.execute(n_req)[0][0])
     # d_num = int(db.execute(d_req)[0][0])
     return rows, 0,0
+
+
+def download_file(request, sth, query):
+    response = HttpResponse(query, content_type='text/csv')
+    response['Content-Disposition'] = 'attachment; filename="save.txt"'
+    return response
+
+
