@@ -3,6 +3,7 @@ __author__ = 'elmira'
 
 import re
 import codecs
+import json
 from collections import defaultdict
 from db_utils import Database
 from annotator.models import Document, Sentence, Annotation, Token, Morphology
@@ -758,8 +759,19 @@ def collect_full_data(arr):
 
 
 def download_file(request, sth, query):
-    response = HttpResponse(query, content_type='text/csv')
-    response['Content-Disposition'] = 'attachment; filename="save.txt"'
+    db = Database()
+    query_parts = query.split('_')
+    req = 'SELECT u.tag, u.data, d.text FROM annotator_annotation u JOIN annotator_sentence d ON u.document_id = d.id WHERE u.tag LIKE  "%' + query_parts[3] + '%"'
+    rows = db.execute(req)
+    string = u'Тег\tЧто исправили\tНа что исправили\tКомментарий\tКто исправил\tПредложение\r\n'
+    for row in rows:
+        j = json.loads(row[1])
+        try:
+            string += '\t'.join([row[0], j['quote'], j['text'], j['corrs'], j['owner'][0], row[2]]) + '\r\n'
+        except:
+            string += '\t'.join([row[0], j['quote'], j['text'], '', j['owner'][0], row[2]]) + '\r\n'
+    response = HttpResponse(string, content_type='text/csv; charset="cp1251"')
+    response['Content-Disposition'] = 'attachment; filename="tags.csv"'
     return response
 
 
