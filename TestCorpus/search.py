@@ -3,18 +3,20 @@ __author__ = 'elmira'
 
 import re
 import codecs
+import json
 from collections import defaultdict
 from db_utils import Database
 from annotator.models import Document, Sentence, Annotation, Token, Morphology
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Q
+from django.http import HttpResponse, HttpResponseServerError, HttpResponseBadRequest, HttpResponseNotFound, HttpResponseForbidden
+
 
 # todo make this into a neat one-line js-function
 jquery = """jQuery(function ($) {$('#***').annotator().annotator('addPlugin', 'Tags').annotator('addPlugin', 'ReadOnlyAnnotations').annotator('addPlugin', 'Store', {prefix: '/19thcentury/document-annotations',annotationData: {'document': ***},loadFromSearch: {'document': ***}});});"""
 reg = re.compile(',| ')
 regToken= re.compile('">(.*?)</span>', flags=re.U | re.DOTALL)
 regSpans = re.compile('[.?,!:«(;#№–/...)»-]*<span .*?</span>[.?,!:«(;#№–/...)»-]*', flags=re.U | re.DOTALL)
-
 
 class ShowSentence:
     sents = []
@@ -280,12 +282,8 @@ def lex_search(query, docs, flag, expand, page, per_page):
             for i, j, k in rows:
                 for n in range(j, k+1):
                     e[i].append(n)
-
     sent_list = [ShowSentence(i, e[i], expand) for i in sorted(e)]
     ShowSentence.empty()
-    # f = codecs.open('/home/elmira/heritage_corpus/tempfiles/s.txt', 'w')
-    # f.write(str(query))
-    # f.close()
     for sent in sent_list:
         jq.append(jquery.replace('***', str(sent.id)))
     return jq, sent_list, ' '.join([word, lex, gram, err, comment]), d_num, sent_num
@@ -533,7 +531,7 @@ def collect_data(arr):
 
 def parse_lex(lex):
     req = ''
-    arr = ['lex LIKE "' + gr.strip() + '"' for gr in lex.replace(')', '').replace('(', '').split('|')]
+    arr = ['lex LIKE"' + gr.strip() + '"' for gr in lex.replace(')', '').replace('(', '').split('|')]
     if len(arr) == 1:
         req += 'AND '+ arr[0] + ' '
     else:
@@ -542,8 +540,19 @@ def parse_lex(lex):
 
 
 def parse_gram(gram, t):
+    if t == 'tag' and gram == 'any':
+        req = " AND tag IS NOT NULL"
+        return req
     req = ''
     arr = gram.split(',')
+    if t == 'tag':
+        for gr in arr:
+            one = [t + ' = "' + i.strip() + '"' for i in gr.replace(')', '').replace('(', '').split('|')]
+            if len(one) == 1:
+                req += 'AND ' + one[0] + ' '
+            else:
+                req += 'AND (' + ' OR '.join(one) + ') '
+        return req
     for gr in arr:
         one = [t + ' LIKE "%' + i.strip() + '%"' for i in gr.replace(')', '').replace('(', '').split('|')]
         if len(one) == 1:
@@ -570,7 +579,7 @@ def collect_full_data(arr):
     elif s == '0001':
         req_template = ''' FROM annotator_annotation
                  LEFT JOIN annotator_sentence
-                 ON annotator_annotation.document_id = annotator_sentence.id WHERE 1 '''
+                 ON annotator_annotation.document_id = annotator_sentence.id WHERE '''
         req_template += parse_gram(err, 'tag')
         if flag:
             req_template += 'AND doc_id_id IN ('+','.join(docs)+')'
@@ -747,3 +756,22 @@ def collect_full_data(arr):
     # sent_num = int(db.execute(n_req)[0][0])
     # d_num = int(db.execute(d_req)[0][0])
     return rows, 0,0
+
+
+def download_file(request, sth, query):
+    db = Database()
+    query_parts = query.split('_')
+    req = 'SELECT u.tag, u.data, d.text FROM annotator_annotation u JOIN annotator_sentence d ON u.document_id = d.id WHERE u.tag LIKE  "%' + query_parts[3] + '%"'
+    rows = db.execute(req)
+    string = u'Тег\tЧто исправили\tНа что исправили\tКомментарий\tКто исправил\tПредложение\r\n'
+    for row in rows:
+        j = json.loads(row[1])
+        try:
+            string += '\t'.join([row[0], j['quote'], j['text'], j['corrs'], j['owner'][0], row[2]]) + '\r\n'
+        except:
+            string += '\t'.join([row[0], j['quote'], j['text'], '', j['owner'][0], row[2]]) + '\r\n'
+    response = HttpResponse(string, content_type='text/csv; charset="cp1251"')
+    response['Content-Disposition'] = 'attachment; filename="tags.csv"'
+    return response
+
+

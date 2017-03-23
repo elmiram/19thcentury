@@ -1,11 +1,13 @@
 {% extends "base.html" %}
+{% load i18n %}
+{% load staticfiles %}
 
 {% block title %}
-    CoRST Statistics
-
+    {% trans 'Statistics' %}
 {% endblock %}
+
 {% block meta_content %}
-    Statistics
+    {% trans 'Statistics' %}
 {% endblock %}
 
 {% block upper-row %}
@@ -13,14 +15,13 @@
   <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 id="top">CoRST
-            <p class="lead">Corpus of Russian Student Texts</p>
-          </h2>
+          <h1 id="top">{% trans 'Statistics' %}
+            <p class="lead">{% trans '19th century corpus' %}</p>
+          </h1>
         </div>
       </div>
-
-  </div><!--/container-->
-</div><!--/masthead-->
+  </div>
+</div>
 {% endblock %}
 
 {% block content %}
@@ -92,6 +93,7 @@
  {% endfor %}
 </table>
 
+<!--
      <h2>Major counts</h2>
     <table class="table table-condensed table-hover table-bordered">
     {% for key, value in major.iteritems %}
@@ -137,6 +139,7 @@
   </tr>
  {% endfor %}
 </table>
+-->
     </div>
 
 </div>

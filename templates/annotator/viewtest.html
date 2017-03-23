@@ -2,8 +2,14 @@
 {% load staticfiles %}
 {% load i18n %}
 {% load annotator_tags %}
-{% block title %}{% trans 'CoRST Annotation' %}{% endblock %}
-{% block meta_content %}{% trans 'Annotation' %}{% endblock %}
+
+{% block title %}
+	{% trans 'Annotation' %}
+{% endblock %}
+
+{% block meta_content %}
+	{% trans 'Annotation' %}
+{% endblock %}
 
 {% block scripts %}
 {% for i in j %}
@@ -82,8 +88,6 @@ $(document).ready(function(){
 
       </div>
       </div>
-	  
-	  
 
 	<div class="row" style="display: flex">
 		<div>
@@ -94,15 +98,26 @@ $(document).ready(function(){
 		{% endfor %}
 		</div>
 		
-				<div class="col-md-2" style="float: right">
+				<div class="col-md-2" style="float: right;">
     <div class="row" style="padding-top:20px; line-height: 1; font-size:80%">
-<h4 class="well well-sm">Error tags</h4>
-  <ul class="nav nav-stacked well well-sm">
-    {% for tag in tags %} 
-<li> 
-{{tag}} 
-</li> 
+<h4 class="well well-sm" style="border-color: #e74944;">{% trans "Error tags" %}</h4>
+  <ul class="nav nav-stacked well well-sm" style="border-color: #e74944;">
+
+<b>{% trans "Service tags" %}</b><br><br>
+{% for tag in tags %}
+{% if '?' in tag or '!' in tag%}
+<li> {{tag}} </li> 
+{% endif %}
 {% endfor %} 
+<hr style='background: #e74944'>
+
+<b>{% trans "Basic tags" %}</b><br><br>
+{% for tag in tags %}
+{% if '!' not in tag and '?' not in tag %}
+<li> {{tag}} </li>
+{% endif %}
+{% endfor %} 
+
   </ul>
     </div>
     </div>
@@ -113,9 +128,6 @@ $(document).ready(function(){
 
     <nav>
 	
-
-	
-	
   <ul class="pagination pagination-sm">
        {% if sents.has_previous %}
            <li>
@@ -124,9 +136,7 @@ $(document).ready(function(){
       </a>
     </li>
             {% endif %}
-			
 
-			
 {% for i in sents.paginator.page_range %}
     <li
     {% if sents.number == i %}

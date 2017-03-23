@@ -2,8 +2,9 @@
 <html lang="en">
 {% load staticfiles %}
 {% load i18n %}
-{% trans "CoRST" as CoRST %}
-{% trans "Corpus of Russian Student Texts" as corst_full %}
+{% trans "19thcentury" as 19thcentury %}
+{% trans "Corpus of 19th century texts" as corpus_full %}
+{% get_current_language as LANGUAGE_CODE %}
 	  <head>
 {% block head %}
     {% block meta %}
@@ -18,7 +19,7 @@
     {% endblock %}
 
     <title>
-        {% block title %}{{ corst_full }}{% endblock %}
+        {% block title %}{{ corpus_full }}{% endblock %}
     </title>
 
      <!-- Bootstrap-->
@@ -36,26 +37,27 @@
   <script>$('html').ajaxSend(function(event, xhr, settings) { if (!/^https?:.*/.test(settings.url)) xhr.setRequestHeader("X-CSRFToken", "{{csrf_token|escapejs}}"); });</script> <!-- {% csrf_token %} -->
     <script src="{% static "js/annotator-full.js" %}"></script>
     <link rel="stylesheet" href="{% static "css/annotator.css" %}">
-              <script>
-Annotator.Plugin.ReadOnlyAnnotations = function (element) {
-  return {
-    pluginInit: function () {
-      this.annotator
-          .subscribe("annotationViewerShown", function (viewer) {
-            for (var i in viewer.annotations) {
-            	if (viewer.annotations[i].readonly) {
-            		$(viewer.element).find(".annotator-edit").remove();
-            		$(viewer.element).find(".annotator-delete").remove();
-				}
-			}
-            console.info("The annotation: %o has just been created!", viewer)
-          })
-    }
-  };
-};
-</script>
-
-
+    <script src="{% static "js/tags-annotator.js" %}"></script>
+          <link href="{% static "css/tags-annotator.css" %}" rel="stylesheet">
+    <script>
+    <!-- tags Pluging -->
+    Annotator.Plugin.ReadOnlyAnnotations = function (element) {
+      return {
+        pluginInit: function () {
+          this.annotator
+              .subscribe("annotationViewerShown", function (viewer) {
+                for (var i in viewer.annotations) {
+                    if (viewer.annotations[i].readonly) {
+                        $(viewer.element).find(".annotator-edit").remove();
+                        $(viewer.element).find(".annotator-delete").remove();
+                    }
+                }
+                console.info("The annotation: %o has just been created!", viewer)
+              })
+        }
+      };
+    };
+    </script>
     {% endblock %}
 
 
@@ -109,6 +111,7 @@ $(document).on('click','.navbar-toggle',function(e) {
       </button>
     </div>
       {% block navbarline %}
+	  
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li>
@@ -165,19 +168,28 @@ $(document).on('click','.navbar-toggle',function(e) {
         <ul class="nav navbar-nav navbar-right">
         <li><a href="/19thcentury/admin/login/?next={{ request.get_full_path }}">{% trans "Log in" %}</a></li>
         </ul>
-        <!--
-        <form class="navbar-form navbar-right" role="form" method="post" action="???">
-            {% csrf_token %}
-            <div class="form-group">
-                <input type="text" class="form-control input-sm" name="username" placeholder="Username">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control input-sm" name="password" placeholder="Password">
-            </div>
-            <input type="hidden" name="next" value="{{ request.get_full_path }}" />
-            <button type="submit" class="btn btn-sm btn-default">Sign In</button>
-        </form> -->
+
     {% endif %}
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+                <form class="form-inline" action="{% url 'set_language' %}" method="post" style="padding-top: 15px">
+{% csrf_token %}
+                <div class="input-group">
+      <input name="next" type="hidden" value="{{ redirect_to }}" />
+                    <select class="form-control input-sm" name="language">
+{% get_language_info_list for LANGUAGES as languages %}
+{% for language in languages %}
+<option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected="selected"{% endif %}>{{ language.code }}
+</option>
+{% endfor %}
+</select>
+      <span class="input-group-btn">
+         <button type="submit" class="btn btn-secondary btn-sm"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></button>
+      </span>
+    </div>
+
+</form></li>
+    </ul>
     </nav>
       {% endblock %}
   </div>
@@ -190,9 +202,9 @@ $(document).on('click','.navbar-toggle',function(e) {
       <div class="row">
         <div class="col-md-7">
           <h1 id="top">{% block top-name %}
-          {{ CoRST }}
+          {{ 19thcentury }}
           {% endblock %}
-            <p class="lead">{{ corst_full }}</p>
+            <p class="lead">{{ corpus_full }}</p>
           </h1>
         </div>
         <div class="col-md-5">
@@ -209,7 +221,6 @@ $(document).on('click','.navbar-toggle',function(e) {
             </div>
         </div>
       </div>
-
   </div><!--/container-->
 </div><!--/masthead-->
 {% endblock %}
@@ -220,17 +231,17 @@ $(document).on('click','.navbar-toggle',function(e) {
       <!--left-->
       <div class="col-md-3" id="leftCol">
         <ul class="nav nav-stacked" id="sidebar">
-          <li><a href="#sec0">About</a></li>
+          <li><a href="#sec0">{% trans "About"%}</a></li>
         </ul>
       </div><!--/left-->
 
       <!--right-->
       <div class="col-md-9">
           <hr id="sec0">
-        <h2 >About</h2>
-        <p>Corpus of Russian Student Texts (CoRST) is a collection of Russian texts written by students of different universities. Currently, the size of the corpus is about 2.5 million tokens. The texts are annotated in several  ways (metatextual annotation, morphological annotation and error markup), which enables users to perform many types of search in the corpus.</p>
-<p>The corpus was created on the platform of the Eastern Armenian National Corpus (<a href="http://eanc.net/" target="_blank">EANC</a>); to learn more about how to use the corpus and the search request language, please, consult the <a href="http://eanc.net/en/help/" target="_blank" >help page</a> of EANC.</p>
-<p>Corpus of Russian Student Texts is a comprehensive reference system intended for researchers, teachers, students, as well as everyone interested in the problems of modern Russian grammar, current processes in lexis, morphology and syntax of modern Russian.</p>
+          <h2 >{% trans "About"%}</h2>
+          <p>Corpus of Russian Student Texts (CoRST) is a collection of Russian texts written by students of different universities. Currently, the size of the corpus is about 2.5 million tokens. The texts are annotated in several  ways (metatextual annotation, morphological annotation and error markup), which enables users to perform many types of search in the corpus.</p>
+          <p>The corpus was created on the platform of the Eastern Armenian National Corpus (<a href="http://eanc.net/" target="_blank">EANC</a>); to learn more about how to use the corpus and the search request language, please, consult the <a href="http://eanc.net/en/help/" target="_blank" >help page</a> of EANC.</p>
+          <p>Corpus of Russian Student Texts is a comprehensive reference system intended for researchers, teachers, students, as well as everyone interested in the problems of modern Russian grammar, current processes in lexis, morphology and syntax of modern Russian.</p>
 
           <hr id="sec1">
 

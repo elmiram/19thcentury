@@ -194,13 +194,18 @@ class EditorView(TemplateView):
 		context['j'].append(self.jquery.replace('***', str(context['document'].id)).replace('{{storage_api_base_url}}', context['storage_api_base_url']))
 		return context
 
-
 class EditorView2(TemplateView):
 	template_name = 'annotator/viewtest.html'
 	jquery = """jQuery(function ($) {
+				var optionstags = {
+            			owner:"emurzinova:fuchsia,marina:lime,kbagdasaryan:maroon,ekaterina:teal"
+        			};
 				$('#***').annotator()
+					.annotator('addPlugin','HighlightTags',optionstags)
 					.annotator('addPlugin', 'Tags')
 					.annotator('addPlugin', 'ReadOnlyAnnotations')
+					.annotator('addPlugin', 'Corr')
+					.annotator('addPlugin', 'Correction')
 					.annotator('addPlugin', 'Store', {
 						  prefix: '{{storage_api_base_url}}',
 						  annotationData: {
@@ -227,7 +232,7 @@ class EditorView2(TemplateView):
 			else:
 				if tag[0].lower() in arr:
 					arr.append(tag[0].lower())
-		return arr
+		return sorted(set(arr))
 
 	def get_context_data(self, **kwargs):
 		context = super(EditorView2, self).get_context_data(**kwargs)

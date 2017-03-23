@@ -1,6 +1,9 @@
+# coding: utf-8
+
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-from TestCorpus.views import Index, Search, Statistics, PopUp
+from TestCorpus.views import Index, Search, Statistics, PopUp, download
+from TestCorpus.search import download_file
 from news.views import NewsView
 from annotator.admin import learner_admin
 
@@ -17,4 +20,7 @@ urlpatterns = patterns('',
     url(r'^search/(gramsel|lex|errsel)$', PopUp.as_view(), name='popup'),
     url(r'^(stats)/$', Statistics.as_view(), name='main.stats'),
     url(r'^document-annotations', include('annotator.urls')),
+    (r'^i18n/', include('django.conf.urls.i18n')),
+    url(r'^(download_file)/([\w_\)\(\|,]+)$', download_file, name='download_file'),
+    url(r'^(download)/$', download, name='download'),
     )

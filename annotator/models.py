@@ -155,6 +155,7 @@ class Annotation(models.Model):
              "created": self.created.isoformat(),
              "updated": self.updated.isoformat(),
              "readonly": not self.can_edit(user),
+             "owner": [self.owner.username],
              }
 
         d.update(json.loads(self.data))
@@ -198,6 +199,12 @@ class Annotation(models.Model):
                 print (q_enc.split(' ')[-1]), endOffset
         return start, end, startOffset, endOffset
 
+    def owner_func(self):
+        d = json.loads(self.data)
+        d['owner'] = [self.owner.username]
+        self.data = json.dumps(d)
+        Annotation.save(self)
+        return d
 
     def update_from_json(self, new_data):
         d = json.loads(self.data)
@@ -218,9 +225,10 @@ class Annotation(models.Model):
         d["ranges"][0]["startOffset"] = startOffset
         d["ranges"][0]["endOffset"] = endOffset
         self.data = json.dumps(d)
-        print self.data
+        self.owner_func()
         self.tag = ', '.join(d["tags"])
         print self.start, self.end
+
     @staticmethod
     def as_list(qs=None, user=None):
         if qs is None:

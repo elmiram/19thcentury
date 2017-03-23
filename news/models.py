@@ -13,7 +13,7 @@ class Article(models.Model):
     text_eng = models.TextField(help_text=_("Please enter the news text in English."), verbose_name=_('text in English'))
 
     def __unicode__(self):
-        return self.text_eng
+        return self.text_rus
 
     class Meta:
         verbose_name = _('article')

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/19thcentury.iml" filepath="$PROJECT_DIR$/.idea/19thcentury.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Amharic_corpus/.idea/Amharic_corpus.iml" filepath="$PROJECT_DIR$/../Amharic_corpus/.idea/Amharic_corpus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../HSE/IR/.idea/IR.iml" filepath="$PROJECT_DIR$/../../HSE/IR/.idea/IR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../HSE/NLP/.idea/NLP.iml" filepath="$PROJECT_DIR$/../../HSE/NLP/.idea/NLP.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/heritage_corpus/.idea/heritage_corpus.iml" filepath="$USER_HOME$/Documents/heritage_corpus/.idea/heritage_corpus.iml" />
+    </modules>
+  </component>
+</project>
