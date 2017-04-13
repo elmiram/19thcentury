@@ -120,3 +120,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.i18n',
     'django.core.context_processors.media'
 )
+LOCALE_PATHS = (
+    '/home/elmira/19thcentury/locale',
+)

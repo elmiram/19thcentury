@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=News+Cycle:400,700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
 /*!
  * bootswatch v3.3.6
  * Homepage: http://bootswatch.com
@@ -1086,7 +1086,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Playfair Display", serif;
   font-size: 15px;
   line-height: 1.42857143;
   color: #777777;
@@ -1188,7 +1188,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   line-height: 1.1;
   color: #000000;
@@ -6760,7 +6760,7 @@ button.close {
 }
 .navbar {
   font-size: 18px;
-  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 700;
 }
 .navbar-default .badge {
