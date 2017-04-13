@@ -11,9 +11,25 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Q
 from django.http import HttpResponse, HttpResponseServerError, HttpResponseBadRequest, HttpResponseNotFound, HttpResponseForbidden
 
-
 # todo make this into a neat one-line js-function
-jquery = """jQuery(function ($) {$('#***').annotator().annotator('addPlugin', 'Tags').annotator('addPlugin', 'ReadOnlyAnnotations').annotator('addPlugin', 'Store', {prefix: '/19thcentury/document-annotations',annotationData: {'document': ***},loadFromSearch: {'document': ***}});});"""
+
+jquery = """jQuery(function ($) {
+			    var optionstags = {
+            			owner:"emurzinova:fuchsia,marina:lime,kbagdasaryan:maroon,ekaterina:teal"
+        			};
+            $('#***').annotator()
+            .annotator('addPlugin','HighlightTags',optionstags)
+            .annotator('addPlugin', 'Tags')
+            .annotator('addPlugin', 'ReadOnlyAnnotations')
+            .annotator('addPlugin', 'Corr')
+			.annotator('addPlugin', 'Correction')
+            .annotator('addPlugin', 'Store', {
+                prefix: '/19thcentury/document-annotations',
+                annotationData: {'document': ***},
+                loadFromSearch: {'document': ***}
+        });});"""
+
+
 reg = re.compile(',| ')
 regToken= re.compile('">(.*?)</span>', flags=re.U | re.DOTALL)
 regSpans = re.compile('[.?,!:«(;#№–/...)»-]*<span .*?</span>[.?,!:«(;#№–/...)»-]*', flags=re.U | re.DOTALL)
@@ -547,7 +563,7 @@ def parse_gram(gram, t):
     arr = gram.split(',')
     if t == 'tag':
         for gr in arr:
-            one = [t + ' = "' + i.strip() + '"' for i in gr.replace(')', '').replace('(', '').split('|')]
+            one = [t + ' LIKE "%' + i.strip() + '%"' for i in gr.replace(')', '').replace('(', '').split('|')]
             if len(one) == 1:
                 req += 'AND ' + one[0] + ' '
             else:

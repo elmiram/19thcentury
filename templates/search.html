@@ -381,11 +381,22 @@ $( document ).ready(function() {
   </div>
 </div>
         
-		
+		<div style="display: inline-flex; align-items: stretch;">
 		<input id="search" type="submit" class="btn btn-xs btn-primary" value="{% trans "Search" %}" />
-        <input id="download" type="submit" class="btn btn-xs btn-primary" formaction="/19thcentury1/download/" value="{% trans "Download" %}" />
-		<input id="clear" type="reset" style="vertical-align:bottom" class="btn btn-xs btn-primary" value="{% trans "Clear" %}" />
-		</form>
+            <input id="clear" type="reset" style="margin-left:15px" class="btn btn-xs btn-primary" value="{% trans "Clear" %}" />
+        <!--
+            <input id="download" type="submit" style="margin-left:15px; margin-right:10px" class="btn btn-xs btn-primary" formaction="/19thcentury/download/" value="{% trans "Download" %}" />
+		<a href="#" data-toggle="popover" title="
+		Если требуется работа с выгрузкой в формате Excel, то существует два способа быстро начать работу в таком формате:
+		1) Самый верный способ - открыть скачанный файл через программу NotePad;
+		в разделе /Кодировки/ нажать на /Преобразовать в ANSI/; затем открыть в программе Excel.
+		2) Открыть программу Excel; нажать открыть скачанный файл; откроется мастер текстов:
+		на шаге один выбрать /с разделителями/, на шаге два отметить /знак табуляции/, на шаге три выбрать формат /текстовый/
+		" style="color:lightgrey"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>
+-->
+        </div>
+    </form>
+
 
             </div>
 {% endblock content %}

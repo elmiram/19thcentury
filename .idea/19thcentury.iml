@@ -8,5 +8,8 @@
     <orderEntry type="module" module-name="NLP" />
     <orderEntry type="module" module-name="IR" />
     <orderEntry type="module" module-name="Amharic_corpus" />
+    <orderEntry type="module" module-name="LinkGrammar" />
+    <orderEntry type="module" module-name="Parser v.2" />
+    <orderEntry type="module" module-name="ML-scripts" />
   </component>
 </module>

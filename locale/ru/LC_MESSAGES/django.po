@@ -298,7 +298,7 @@ msgid "List of documents for annotation"
 msgstr "Список текстов для разметки"
 
 #: templates/annotate_list.html:21
-msgid "Choose annotator:"
+msgid "Choose an annotator:"
 msgstr "Выберите разметчика:"
 
 #: templates/annotate_list.html:36 templates/annotator/viewtest.html:88
@@ -424,7 +424,7 @@ msgstr "Всего в корпусе"
 
 #: templates/result.html:40
 msgid "Search executed in a user-defined subcorpus of"
-msgstr "Поиск выполнен по пользовательсокму корпусу из"
+msgstr "Поиск выполнен по пользовательскому корпусу из"
 
 #: templates/result.html:43
 msgid "Found"
@@ -1086,6 +1086,10 @@ msgstr "Количество аннотаций"
 msgid "Gender counts"
 msgstr "Пол автора"
 
+#: templates/stats.html:81
+msgid "Genre counts"
+msgstr "Жанр текста"
+
 #: templates/stats.html:71 templates/stats.html.py:108
 #: templates/stats.html:123
 msgid "unknown"
@@ -1095,3 +1099,34 @@ msgstr "неизвестно"
 msgid "Native language"
 msgstr "Доминантный язык"
 
+#: templates/search.html:387 templates/result.html:131
+msgid "Download"
+msgstr "Скачать"
+
+#: templates/annotator/viewtest.html:106
+msgid "Service tags"
+msgstr "Служебные теги"
+
+#: templates/annotator/viewtest.html:114
+msgid "Basic tags"
+msgstr "Основные теги"
+
+#: templates/annotator/viewtest.html:44
+msgid "Annotation of text:"
+msgstr "Аннотация текста:"
+
+#: templates/annotator/viewtest.html:57
+msgid "Mark as checked"
+msgstr "Отметить как проверенное"
+
+#: templates/annotator/viewtest.html:64
+msgid "Mark as not checked"
+msgstr "Отметить как непроверенное"
+
+#: templates/annotator/viewtest.html:75
+msgid "Mark as annotated"
+msgstr "Отметить как проаннотированное"
+
+#: templates/annotator/viewtest.html:83
+msgid "Mark as not annotated"
+msgstr "Отметить как не проаннотированное"

@@ -136,8 +136,8 @@ $(document).on('click','.navbar-toggle',function(e) {
         <li >{% block welcome-msg %}
             <a class="welcome">
                 <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                {% trans 'Welcome,' %}
-                <strong>{% firstof user.get_short_name user.get_username %}</strong>.
+
+                <strong>{% firstof user.get_short_name user.get_username %}</strong>
             {% endblock %}</a>
         </li>
             <li><a href="{% url 'admin:index' %}">{% trans "Admin panel" %}</a></li>

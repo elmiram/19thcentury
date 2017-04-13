@@ -5,6 +5,7 @@ from django.utils.translation import ugettext_lazy as _
 
 import uuid
 import json
+from TestCorpus.db_utils import Database
 from utils import *
 
 bold_regex = re.compile('/b\\[(\\d+)\\]')
@@ -120,6 +121,37 @@ class Sentence(models.Model):
     class Meta:
         verbose_name = _('sentence')
         verbose_name_plural = _('sentences')
+
+    @staticmethod
+    def get_annotations(sentid):
+        u"""
+        Получает из базы данных все исправления к предложению с заданным id.
+
+        :param id: номер предложения в базе данных
+        :return: массив аннотаций к предложению
+        Каждая аннотация добавляется в виде такого кортежа:
+            (начало исправления INTEGER, конец исправления INTEGER,
+            текст исправления, приписанные тэги в строку через запятую).
+        Если исправления нет (а только приписан тэг\комментарий), то аннотация в массив не добавляется.
+        Если в списке тэгов аннотации есть тэг "Del", обозначающий лишнее слово, то аннотация в массив добавляется
+        (т.е. пустая строка исправления в этом случае сама по себе является исправлением).
+
+        """
+        db = Database()
+        req = 'SELECT `tag`, `data` FROM  annotator_annotation WHERE document_id=%d' % sentid
+        arr = []
+        rows = db.execute(req)
+        for row in rows:
+            d = json.loads(row[1])
+            try:
+                corr = d['corrs']
+            except:
+                corr = ''
+            quote = d['quote']
+            comment = d['text']
+            owner = d['owner'][0]
+            arr.append({'owner': owner, 'tag': row[0], 'corr': corr, 'quote': quote, 'comment': comment})
+        return arr
 
 
 class Annotation(models.Model):

@@ -20,14 +20,15 @@
 <div class="row" style="font-size: smaller">
 
   <form name="gramForm" id="gramForm" action="">
-    <div class="row">
-        <div class="col-sm-4">
-<div class="panel panel-default">
+        <div class="panel panel-default">
           <div class="panel-heading" > 
-            <h3 title="Invert" class="panel-title gr_inv activeA grammar" onClick="inverse('spelling')">{% trans 'Errors' %}</h3>
+            <h3 title="Invert" class="panel-title gr_inv activeA grammar" onClick="inverse('spelling')">{% trans 'Variance' %}</h3>
           </div>
         <div class="panel-body">
           <div class="gr_group">
+              <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-3">
 <input type="checkbox" name="spelling" value="any" id="conany">&nbsp;<label for="conany">any tag</label><br/>
 <input type="checkbox" name="spelling" value="asp" id="conasp">&nbsp;<label for="conasp">asp</label><br/>
 <input type="checkbox" name="spelling" value="aux" id="conaux">&nbsp;<label for="conaux">aux</label><br/>
@@ -38,19 +39,23 @@
 <input type="checkbox" name="spelling" value="del" id="condel">&nbsp;<label for="condel">del</label><br/>
 <input type="checkbox" name="spelling" value="demin" id="condemin">&nbsp;<label for="condemin">demin</label><br/>
 <input type="checkbox" name="spelling" value="deriv" id="conderiv">&nbsp;<label for="conderiv">deriv</label><br/>
-<input type="checkbox" name="spelling" value="dupl" id="condupl">&nbsp;<label for="condupl">dupl</label><br/>
+                            <input type="checkbox" name="spelling" value="dupl" id="condupl">&nbsp;<label for="condupl">dupl</label><br/>
+
+</div>
+                        <div class="col-sm-3">
 <input type="checkbox" name="spelling" value="formula" id="conformula">&nbsp;<label for="conformula">formula</label><br/>
 <input type="checkbox" name="spelling" value="gen" id="congen">&nbsp;<label for="congen">gen</label><br/>
 <input type="checkbox" name="spelling" value="gen2" id="congen2">&nbsp;<label for="congen2">gen2</label><br/>
-<input type="checkbox" name="spelling" value="genneg" id="congenneg">&nbsp;<label for="congenneg">genneg</label><br/>
-<input type="checkbox" name="spelling" value="gerund" id="congerund">&nbsp;<label for="congerund">gerund</label><br/>
-<input type="checkbox" name="spelling" value="gov" id="congov">&nbsp;<label for="congov">gov</label><br/>
+                            <input type="checkbox" name="spelling" value="gerund" id="congerund">&nbsp;<label for="congerund">gerund</label><br/>
+                            <input type="checkbox" name="spelling" value="gov" id="congov">&nbsp;<label for="congov">gov</label><br/>
 <input type="checkbox" name="spelling" value="insert" id="coninsert">&nbsp;<label for="coninsert">insert</label><br/>
 <input type="checkbox" name="spelling" value="instr" id="coninstr">&nbsp;<label for="coninstr">instr</label><br/>
 <input type="checkbox" name="spelling" value="intens" id="conintense">&nbsp;<label for="conintense">intense</label><br/>
 <input type="checkbox" name="spelling" value="interrog" id="coninterrog">&nbsp;<label for="coninterrog">interrog</label><br/>
 <input type="checkbox" name="spelling" value="invers" id="coninverse">&nbsp;<label for="coninverse">invers</label><br/>
 <input type="checkbox" name="spelling" value="lerm" id="conlerm">&nbsp;<label for="conlerm">lerm</label><br/>
+                        </div>
+                        <div class="col-sm-3">
 <input type="checkbox" name="spelling" value="lex" id="conlex">&nbsp;<label for="conlex">lex</label><br/>
 <input type="checkbox" name="spelling" value="lightv" id="conlight">&nbsp;<label for="conlight">lightv</label><br/>
 <input type="checkbox" name="spelling" value="modal" id="conmodal">&nbsp;<label for="conmodal">modal</label><br/>
@@ -59,9 +64,11 @@
 <input type="checkbox" name="spelling" value="neg" id="conneg">&nbsp;<label for="conneg">neg</label><br/>
 <input type="checkbox" name="spelling" value="nominal" id="connominal">&nbsp;<label for="connominal">nominal</label><br/>
 <input type="checkbox" name="spelling" value="num" id="connum">&nbsp;<label for="connum">num</label><br/>
-<input type="checkbox" name="spelling" value="orph" id="conorph">&nbsp;<label for="conorph">orph</label><br/>
+                            <input type="checkbox" name="spelling" value="orph" id="conorph">&nbsp;<label for="conorph">orph</label><br/>
 <input type="checkbox" name="spelling" value="part" id="conpart">&nbsp;<label for="conpart">part</label><br/>
 <input type="checkbox" name="spelling" value="prep" id="conprep">&nbsp;<label for="conprep">prep</label><br/>
+                            </div>
+                        <div class="col-sm-3">
 <input type="checkbox" name="spelling" value="pron" id="conpron">&nbsp;<label for="conpron">pron</label><br/>
 <input type="checkbox" name="spelling" value="refl" id="conrefl">&nbsp;<label for="conrefl">refl</label><br/>
 <input type="checkbox" name="spelling" value="ref" id="conref">&nbsp;<label for="conref">ref</label><br/>
@@ -69,16 +76,16 @@
 <input type="checkbox" name="spelling" value="slovoer" id="conslov">&nbsp;<label for="conslov">slovoer</label><br/>
 <input type="checkbox" name="spelling" value="spec" id="conspec">&nbsp;<label for="conspec">spec</label><br/>
 <input type="checkbox" name="spelling" value="orph" id="conorph">&nbsp;<label for="conorph">orph</label><br/>
-<input type="checkbox" name="spelling" value="spell" id="conspell">&nbsp;<label for="conspell">spell</label><br/>
+                            <input type="checkbox" name="spelling" value="spell" id="conspell">&nbsp;<label for="conspell">spell</label><br/>
 <input type="checkbox" name="spelling" value="syntax" id="consyntax">&nbsp;<label for="consyntax">syntax</label><br/>
 <input type="checkbox" name="spelling" value="wo" id="conwo">&nbsp;<label for="conwo">wo</label><br/>
-
  </div>
         </div>
         </div>
+                    </div>
+        </div>
+</div>
 
-      <div class="row">
-          <div class="col-sm-12">
       <div class="panel-footer" align="center">
   <input type="button" class="btn btn-default" onClick="collect();return false;" value="OK">
 		<input type="button" class="btn btn-default" onClick="document.all.gramForm.reset();return false;" value="CLEAR">
