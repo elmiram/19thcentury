@@ -175,6 +175,8 @@ class DownloadSearch(Index):
                 jq, sent_list, word, res_docs, res_num = lex_search(query, subcorpus, flag, expand, page, per_page)
                 sents += sent_list
             page += 1
+
+            # чтобы скачивать не постранично, а всю выдачу сразу.
             while page <= math.ceil(float(res_num) / per_page):
                 if query["exact_word"] != '':
                     jq, sent_list, word, res_docs, res_num = exact_search(
@@ -186,10 +188,11 @@ class DownloadSearch(Index):
                     sents += sent_list
                 page += 1
 
+            # формирование файла
             rows = []
             rows.append(
-                [u'Номер примера', u'Название текста', u'Оригинальное предложение',
-                 u'Тег', u'Ошибка', u'Исправление', u'Комментарий', u'Разметчик'])
+                [u'Номер примера', u'Название текста', u'Предложение',
+                 u'Тег', u'Выделенный фрагмент', u'Исправление', u'Комментарий', u'Разметчик'])
             for ind, sent in enumerate(sents):
                 anns = Sentence.get_annotations(sent.id)
                 if not anns:
@@ -202,6 +205,7 @@ class DownloadSearch(Index):
                                      reSpan.sub('\\2', sent.tagged).replace('<b>', '{{').replace('</b>', '}}'),
                                      an['tag'], an['quote'], an['corr'], an['comment'], an['owner']])
 
+            # запись
             output = StringIO.StringIO()
 
             book = xlsxwriter.Workbook(output)

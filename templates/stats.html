@@ -60,6 +60,23 @@
       <td>{{ annot }}</td>
   </tr>
 </table>
+    <h2>{% trans "Genre counts" %}</h2>
+    <table class="table table-condensed table-hover table-bordered">
+    {% for key, value in genres.iteritems %}
+        <tr>
+        {% if key == '' %}
+            <td>{% trans "unknown" %} </td>
+        {% endif %}
+        {% if key != '' %}
+            <td>{{ key }} </td>
+        {% endif %}
+      <td>{{ value }}</td>
+  </tr>
+ {% endfor %}
+</table>
+    </div>
+<!--
+     <div class="col-md-4">
 <h2>{% trans "Gender counts" %}</h2>
     <table class="table table-condensed table-hover table-bordered">
     {% for key, value in gender.iteritems %}
@@ -75,23 +92,9 @@
  {% endfor %}
 </table>
 
-    </div>
+-->
 
-     <div class="col-md-4">
-    <h2>{% trans "Genre counts" %}</h2>
-    <table class="table table-condensed table-hover table-bordered">
-    {% for key, value in genres.iteritems %}
-        <tr>
-        {% if key == '' %}
-            <td>{% trans "unknown" %} </td>
-        {% endif %}
-        {% if key != '' %}
-            <td>{{ key }} </td>
-        {% endif %}
-      <td>{{ value }}</td>
-  </tr>
- {% endfor %}
-</table>
+
 
 <!--
      <h2>Major counts</h2>

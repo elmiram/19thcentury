@@ -198,7 +198,7 @@ class EditorView2(TemplateView):
 	template_name = 'annotator/viewtest.html'
 	jquery = """jQuery(function ($) {
 				var optionstags = {
-            			owner:"emurzinova:fuchsia,marina:lime,kbagdasaryan:maroon,ekaterina:teal"
+            		owner:"emurzinova:#e89717,marina:#62c63d,kbagdasaryan:#db2b25,ekaterina:#33ccc9,alena:#105dd1,danja:#751bba,dashal:#bf269e,dashap:#8c0b20,spuzhaeva:#9b4f49,tatiana:#4ad6bc,vera:#136815,Yana:#4318ba"
         			};
 				$('#***').annotator()
 					.annotator('addPlugin','HighlightTags',optionstags)
