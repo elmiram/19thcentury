@@ -15,10 +15,10 @@ from django.http import HttpResponse, HttpResponseServerError, HttpResponseBadRe
 
 jquery = """jQuery(function ($) {
 			    var optionstags = {
-            			owner:"emurzinova:fuchsia,marina:lime,kbagdasaryan:maroon,ekaterina:teal"
+            			owner:"emurzinova:#e89717,marina:#62c63d,kbagdasaryan:#db2b25,ekaterina:#33ccc9,alena:#105dd1,danja:#751bba,dashal:#bf269e,dashap:#8c0b20,spuzhaeva:#9b4f49,tatiana:#4ad6bc,vera:#136815,Yana:#4318ba"
         			};
             $('#***').annotator()
-            .annotator('addPlugin','HighlightTags',optionstags)
+            .annotator('addPlugin', 'HighlightTags',optionstags)
             .annotator('addPlugin', 'Tags')
             .annotator('addPlugin', 'ReadOnlyAnnotations')
             .annotator('addPlugin', 'Corr')
@@ -773,21 +773,21 @@ def collect_full_data(arr):
     # d_num = int(db.execute(d_req)[0][0])
     return rows, 0,0
 
-
-def download_file(request, sth, query):
-    db = Database()
-    query_parts = query.split('_')
-    req = 'SELECT u.tag, u.data, d.text FROM annotator_annotation u JOIN annotator_sentence d ON u.document_id = d.id WHERE u.tag LIKE  "%' + query_parts[3] + '%"'
-    rows = db.execute(req)
-    string = u'Тег\tЧто исправили\tНа что исправили\tКомментарий\tКто исправил\tПредложение\r\n'
-    for row in rows:
-        j = json.loads(row[1])
-        try:
-            string += '\t'.join([row[0], j['quote'], j['text'], j['corrs'], j['owner'][0], row[2]]) + '\r\n'
-        except:
-            string += '\t'.join([row[0], j['quote'], j['text'], '', j['owner'][0], row[2]]) + '\r\n'
-    response = HttpResponse(string, content_type='text/csv; charset="cp1251"')
-    response['Content-Disposition'] = 'attachment; filename="tags.csv"'
-    return response
-
+#
+# def download_file(request, sth, query):
+#     db = Database()
+#     query_parts = query.split('_')
+#     req = 'SELECT u.tag, u.data, d.text FROM annotator_annotation u JOIN annotator_sentence d ON u.document_id = d.id WHERE u.tag LIKE  "%' + query_parts[3] + '%"'
+#     rows = db.execute(req)
+#     string = u'Тег\tЧто исправили\tНа что исправили\tКомментарий\tКто исправил\tПредложение\r\n'
+#     for row in rows:
+#         j = json.loads(row[1])
+#         try:
+#             string += '\t'.join([row[0], j['quote'], j['text'], j['corrs'], j['owner'][0], row[2]]) + '\r\n'
+#         except:
+#             string += '\t'.join([row[0], j['quote'], j['text'], '', j['owner'][0], row[2]]) + '\r\n'
+#     response = HttpResponse(string, content_type='text/csv; charset="cp1251"')
+#     response['Content-Disposition'] = 'attachment; filename="tags.csv"'
+#     return response
+#
 
